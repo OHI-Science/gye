@@ -44,7 +44,18 @@ Fecha;Hora;META;SUBMETA;Consultor;targets;layer;Pendiente;Nombre Archivo;Carpeta
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_unemployment;;CAPAS PH final.xlsx;INFORMACION;la Encuesta Nacional de Empleo, Desempleo, y Subempleo (ENEMDU) del INEC. Se tiene información disponible para período 2007-2014 ;información de la Encuesta Nacional de Empleo, Desempleo, y Subempleo (ENEMDU) del INEC. Se tiene información disponible para período 2007-2014.  Las tasas disponibles son para principales ciudades en áreas rural y urbana (base incluye Guayaquil y Machala)
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_wage_sector_year;;CAPAS PH final.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\07 Subsistencia y Economias Costeras;Datos del Censo Nacional Económico (2010) elaborado por el INEC. Las proyecciones (2011-2014) están en base en estadísticas de crecimiento de economía, IDEAC (Índice de Actividad Económica Provincial) del BCE, y estadísticas de Remuneraciones (2013-2014) del INEC 
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_popn;;CAPAS PH final.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\07 Subsistencia y Economias Costeras;Proyecciones de población oficiales del INEC para el período 2010-2014 en parroquias con frente costero
-;;Sentido de Pertenencia;;;ICO;ico_spp_extinction_status;;;;;
-;;Sentido de Pertenencia;;;ICO;ico_spp_popn_trend;;;;;
-;;Sentido de Pertenencia;;;LSP;lsp_prot_area_offshore3nm;;;;;
-;;Sentido de Pertenencia;;;LSP;lsp_prot_area_inland1km;;;;;
+;;Sentido de Pertenencia;;Talita Gomes;ICO;ico_spp_extinction_status;pendiente;;;;
+;;Sentido de Pertenencia;;Talita Gomes;ICO;ico_spp_popn_trend;pendiente;;;;
+;;Sentido de Pertenencia;;Talita Gomes;LSP;lsp_prot_area_offshore3nm;pendiente;;;;
+;;Sentido de Pertenencia;;Talita Gomes;LSP;lsp_prot_area_inland1km;pendiente;;;;
+;;Aguas Limpias;;Paola Valle;;po_pathogens;;;;;
+;;Aguas Limpias;;;;cw_coastalpopn_trend;Pedir informacion años anteriores;Población Parroquias Costeras OHI.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION;Poblacion de parroquias con frente costero año 2010
+;;Aguas Limpias;;;;cw_fertilizer_trend;definir si se dividirá por región o no;FERTILIZANTES;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\09 Aguas Limpias;Uso de fertilizantes desde 2002 al 2010
+;;Aguas Limpias;;;;po_nutrients;obtener los datos solo para las regiones de estudio;1990_INEC PCAMEE;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\09 Aguas Limpias\2_patogenos;Poblacion con acceso a medios de eliminacion de excretas, para todas las provincias y ciudades de Ecuador año 1990
+;;;;;;po_nutrients;;2001_INEC PCAMEE;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\09 Aguas Limpias\2_patogenos;Poblacion con acceso a medios de eliminacion de excretas, para todas las provincias y ciudades de Ecuador año 2001
+;;;;;;po_nutrients;;2010_INEC PCAMEE;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\09 Aguas Limpias\2_patogenos;Poblacion con acceso a medios de eliminacion de excretas, para todas las provincias y ciudades de Ecuador año 2010
+;;;;;;po_nutrients;;;;;
+;;Aguas Limpias;;;;po_chemicals;;;;;
+;;Aguas Limpias;;;;cw_pesticide_trend;;;;;
+;;Aguas Limpias;;;;po_trash;;;;;
+;;Aguas Limpias;;;;cw_pathogen_trend;;;;;
