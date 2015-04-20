@@ -30,7 +30,6 @@ Fecha;Hora;META;SUBMETA;Consultor;targets;layer;Pendiente;Nombre Archivo;Carpeta
 ;;Proteccion Costera;;;HAB;hab_health;Falta establecer año de referencia;;;;
 ;;Proteccion Costera;;;HAB;hab_trend;Falta establecer la pendiente para los años de datos disponibles;;;;
 ;;;;;CP;cp_habitat_extent_rank_gl2014;Falta establecer rank para protección costera;;;;
-;;Turismo Y Recreacion;;Antonio Perrone;TR;;;poblacion economicamente activa.xlsx;;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\06 Turismo y Recreacion;
 ;;Turismo Y Recreacion;;Antonio Perrone;TR;tr_visitors_inter;;;;;
 ;;Turismo Y Recreacion;;Antonio Perrone;TR;tr_visitors_local;;;;;
 ;;Turismo Y Recreacion;;Antonio Perrone;TR;tr_percent_inter;;;;;
@@ -45,7 +44,7 @@ Fecha;Hora;META;SUBMETA;Consultor;targets;layer;Pendiente;Nombre Archivo;Carpeta
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_unemployment;;CAPAS PH final.xlsx;INFORMACION;la Encuesta Nacional de Empleo, Desempleo, y Subempleo (ENEMDU) del INEC. Se tiene información disponible para período 2007-2014 ;información de la Encuesta Nacional de Empleo, Desempleo, y Subempleo (ENEMDU) del INEC. Se tiene información disponible para período 2007-2014.  Las tasas disponibles son para principales ciudades en áreas rural y urbana (base incluye Guayaquil y Machala)
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_wage_sector_year;;CAPAS PH final.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\07 Subsistencia y Economias Costeras;Datos del Censo Nacional Económico (2010) elaborado por el INEC. Las proyecciones (2011-2014) están en base en estadísticas de crecimiento de economía, IDEAC (Índice de Actividad Económica Provincial) del BCE, y estadísticas de Remuneraciones (2013-2014) del INEC 
 ;;Subsistencias y Economias Costeras;;Paul Herrera;LE;le_popn;;CAPAS PH final.xlsx;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\07 Subsistencia y Economias Costeras;Proyecciones de población oficiales del INEC para el período 2010-2014 en parroquias con frente costero
-;;Sentido de Pertenencia;;Talita Gomes;ICO;ico_spp_extinction_status;pendiente;;;;
+;;Sentido de Pertenencia;;Talita Gomes;ICO;ico_spp_extinction_status;;especies status;INFORMACION;Google Drive\INDICE DE SALUD DEL OCEANO GG\INFORMACION\08 Sentido de Pertenencia\8.1 Especies Icónicas;Lista de especies icónicas en Ecuador con la categoría UICN Nacional
 ;;Sentido de Pertenencia;;Talita Gomes;ICO;ico_spp_popn_trend;pendiente;;;;
 ;;Sentido de Pertenencia;;Talita Gomes;LSP;lsp_prot_area_offshore3nm;pendiente;;;;
 ;;Sentido de Pertenencia;;Talita Gomes;LSP;lsp_prot_area_inland1km;pendiente;;;;
