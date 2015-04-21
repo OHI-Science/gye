@@ -1,9 +1,9 @@
 # load required libraries
-devtools::install_github('OHI-Science/ohicore') # install.packages('devtools')
+#devtools::install_github('OHI-Science/ohicore') # install.packages('devtools')
 suppressWarnings(require(ohicore))
 
 # set working directory to the scenario directory, ie containing conf and layers directories
-setwd('region2015')
+#setwd('region2015')
 
 # load scenario configuration
 conf = Conf('conf')
