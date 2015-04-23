@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Regions"
-excerpt: "OHI regions for Golfo de Guayaquil"
+excerpt: "OHI regions for Golfo"
 share: false
 ads: false
 branch_scenario: draft/region2015

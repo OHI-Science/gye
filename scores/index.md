@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Scores"
-excerpt: "OHI scores for Golfo de Guayaquil and regions contained"
+excerpt: "OHI scores for Golfo and regions contained"
 share: false
 ads: false
 branch_scenario: published/region2015
@@ -13,7 +13,7 @@ Scores displayed below are based on template data that were extracted from the g
 <nav class="navbar navbar-default" role="navigation">   <div class="container-fluid">     <div class="navbar-header">       <a class="navbar-brand" href="#">Branch/Scenario</a>     </div>     <div class="collapse navbar-collapse" id="navbar-1">       <ul class="nav navbar-nav">         <li class="dropdown">           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">published/region2015<span class="caret"></span></a>           <ul class="dropdown-menu" role="menu">                       <li><a href="{{ site.baseurl }}/draft/region2015/scores/">draft/region2015</a></li>                     </ul>         </li>       </ul>     </div>   </div> </nav> 
 
 
-## Golfo de Guayaquil
+## Golfo
   
 ![]({{ site.baseurl }}/results/published/region2015/figures/flower_GLOBAL.png)
 
