@@ -4,9 +4,9 @@ branches:
   - draft
 env:
   global:
-  - default_branch_scenario="published/region2015"
-  - study_area="Golfo de Guayaquil"
-  - secure: Ffpt6i47Z+Rbf4jn+L3Xg8ncI4Y67M1Pv4ESI0EHjginryjd+Uqh0U6SGv98tbBbJrXzu9vk5UJTi5B+k6fg9i5AC6+tMU0LexaXmnf9qIJi5bMxtRM1xz9G5DPF6q2SJoMZcWcYyOXBL8C7C2h5BxmWYVPk6OaUveH5OGRWWn8=
+    default_branch_scenario: "published/region2015"
+    study_area: "Golfo de Guayaquil"
+    secure: Ffpt6i47Z+Rbf4jn+L3Xg8ncI4Y67M1Pv4ESI0EHjginryjd+Uqh0U6SGv98tbBbJrXzu9vk5UJTi5B+k6fg9i5AC6+tMU0LexaXmnf9qIJi5bMxtRM1xz9G5DPF6q2SJoMZcWcYyOXBL8C7C2h5BxmWYVPk6OaUveH5OGRWWn8=
 matrix:
   fast_finish: true
 before_install:
