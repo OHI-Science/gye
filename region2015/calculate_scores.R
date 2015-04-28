@@ -2,7 +2,7 @@
 suppressWarnings(require(ohicore)) # assumes you have already run install_ohicore.r
 
 # set working directory to the scenario directory, ie containing conf and layers directories
-setwd('region2015') # assumes getwd() = '~/github/gye'
+setwd('~/github/gye/region2015')
 
 # load scenario configuration
 conf = Conf('conf')
