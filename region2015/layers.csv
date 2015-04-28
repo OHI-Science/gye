@@ -1,13 +1,13 @@
 targets,layer,name,description,fld_value,units,filename,clip_n_ship_disag,clip_n_ship_disag_description,layer_gl,path_in,rgns_in,fld_id_num,fld_id_chr,fld_category,fld_year,fld_val_num,fld_val_chr,file_exists,year_min,year_max,val_min,val_max,val_0to1,flds_unused,flds_missing,rows_duplicated,num_ids_unique,data_na
 AO,ao_access,Fisheries management effectiveness and opportunity,"The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres
 
-Data sources: Oportunidad de pesca artesanal (1).xlsx",value,value,ao_access_gye2015.csv,equal,global management effectiveness scores were applied equally to all regions.,ao_access,~/github/ohi-global/eez2014/layers/ao_access.csv,global,rgn_id,,,,value,,TRUE,,,0.5557719073,0.5557719073,TRUE,,,,3,FALSE
+Data sources: Oportunidad de pesca artesanal (1).xlsx",value,value,ao_access_gye2015.csv,equal,global management effectiveness scores were applied equally to all regions.,ao_access,~/github/ohi-global/eez2014/layers/ao_access.csv,global,rgn_id,,,,value,,TRUE,,,0.8912685338,1,TRUE,,,,3,FALSE
 AO,ao_need,"Purchasing power parity as a proxy for subsistence fishing need, by region","The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres
 
-Data sources: Oportunidad de pesca artesanal (1).xlsx, Oportunidad de pesca artesanal-completo.xlsx y AO_need_ts.xlsx",value,value,ao_need_gye2015.csv,equal,global purchasing power parity information was applied equally to all regions.,ao_need,~/github/ohi-global/eez2014/layers/ao_need.csv,global,rgn_id,,,year,value,,TRUE,1990,2013,0.0634670365,0.0794545095,TRUE,,,,3,FALSE
+Data sources: Oportunidad de pesca artesanal (1).xlsx, Oportunidad de pesca artesanal-completo.xlsx y AO_need_ts.xlsx",value,value,ao_need_gye2015.csv,equal,global purchasing power parity information was applied equally to all regions.,ao_need,~/github/ohi-global/eez2014/layers/ao_need.csv,global,rgn_id,,count,year,,,TRUE,2001,2010,,,FALSE,,NA value,,3,
 AO,ao_sao,Sustainability by region,"The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres
 
-Data sources: Oportunidad de pesca artesanal (1).xlsx",value,value,ao_sao_gye2015.csv,equal,global purchasing power parity information was applied equally to all regions.,ao_sao,~/github/ohi-global/eez2014/layers/ao_need.csv,global,rgn_id,,,year,value,,TRUE,2010,2010,0.4752502202,0.6902315325,TRUE,,,,3,FALSE
+Data sources: Oportunidad de pesca artesanal (1).xlsx",value,value,ao_sao_gye2015.csv,equal,global purchasing power parity information was applied equally to all regions.,ao_sao,~/github/ohi-global/eez2014/layers/ao_need.csv,global,rgn_id,,,,value,,TRUE,,,0.4752502202,0.6902315325,TRUE,,,,3,FALSE
 CW,cw_coastalpopn_trend,Coastal human population as a proxy for trend in trash,"Coastal population, defined as the total population inland of 25 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
 
 Data sources:

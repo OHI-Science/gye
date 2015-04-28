@@ -2,35 +2,31 @@
 # AM Sajo-Castelli
 # 27/04/2015
 #
-# @sorayaabadmota: Una cosa que no está en el
-# excel es que el ao_need se calculó para datos
-# del 2010, pero el ao_access se calculó con
-# datos del 2009. En esas capas de datos va el
-# año también y esos son los dos valores del año.
-#
-# @andressajo: Como hay datos solo para un año
-# especifico, este no se pone en una columna
-# adicional, sino en el nombre del archivo.
+# Salidas CSV ya fueron validadas con xlsx @andres
 library(xlsx)
 library(dplyr)
+library(plyr)
+library(reshape2)
 # library(strings)
 rm(list=ls())
 WD = '~/github/gye/region2015/pre-proc/'
 setwd(WD)
 source('boot.R')
+setwd('AO')
+YEAR = 2015
 
+#############################################################
 # ao_access ####
 # Nomenclatura archivo de salida
-YEAR = 2009
 src = 'Oportunidad de pesca artesanal (1).xlsx'
-file = paste0('ao_access_loc', YEAR, '.csv')
+file = paste0('ao_access_gye', YEAR, '.csv')
 
 # Procesamiento ####
 DF <- read.xlsx(src, sheetName = 'Base')
 # View(DF)
 # Columna de interés es [34] "OAO..ao_access."
 interest <- "OAO..ao_access."
-cat(paste('Building layer:', interest, '\n'))
+cat(paste('Building layer:', file, '\n'))
 # levels(DF[,1])
 AO = select(DF, one_of("Provincia", interest))
 AO.u = unique(AO)
@@ -49,28 +45,63 @@ write.csv(AO.u, file = file, row.names = FALSE, quote = FALSE)
 
 
 
-
+#############################################################
 # ao_need ####
+# Aquí hay que estimar un modelo de tendencia para 1990, 2001, 2010
+# y guardar los ultimos 10 años
+# Conversación con @lelys y @soraya, 28/04/2015
 # Nomenclatura archivo de salida
-YEAR = 2010
-src = 'Oportunidad de pesca artesanal (1).xlsx'
-file = paste0('ao_need_loc', YEAR, '.csv')
+# hard coded vars:
+PBIN1990 = 79.5
+PBIN2001 = 71.4
+infer_years = 2002 : 2009
+comit_years = c(2001, 2010)
+src = 'Oportunidad de pesca artesanal-completo.xlsx'
+file = paste0('ao_need_gye', YEAR, '.csv')
 
 # Procesamiento ####
 DF <- read.xlsx(src, sheetName = 'Base')
 # View(DF)
 # Columna de interés es [27] "NAO..ao_need."
-interest <- "NAO..ao_need."
-cat(paste('Building layer:', interest, '\n'))
+interest <- "Pobreza.por.NBI"
+cat(paste('Building layer:', file, '\n'))
 # levels(DF[,1])
-AO = select(DF, one_of("Provincia", interest))
+AO = select(DF, one_of("Provincia"), starts_with(interest))
 AO.u = unique(AO)
-colnames(AO.u) <- c('rgn_name', 'value')
+AO.u[, 5:7] <- cbind(PBIN1990, PBIN2001, AO.u[, 5])
+# colnames(AO.u) <- c('rgn_name', paste0('PBI', c(1990, 2001, 2010)), paste0('PBIN', c(1990, 2001, 2010)))
+colnames(AO.u) <- c('rgn_name', c(1990, 2001, 2010), c(1990, 2001, 2010))
 AO.u
-rgn_id <- rgn_id2name
-rgn_id$year <- YEAR
-rgn_id
-AO.u = merge(rgn_id, AO.u, by.x = 'name', by.y = 'rgn_name') %>% transmute(name = NULL)
+
+AO.u =  merge(AO.u %>% melt('rgn_name', colnames(AO.u)[-(1:4)]),
+              AO.u[, c(1, 5:7)] %>% melt('rgn_name'), by = c('rgn_name', 'variable'))
+colnames(AO.u) <- c('rgn_name', 'year', 'PBI', 'PBIN')
+y = as.numeric(levels(AO.u$year))
+class(AO.u$year) <- "numeric"
+AO.u$year <- y[AO.u$year]
+AO.u
+rgn_id2name
+AO.u$value = AO.u[, 3:4] %>% apply(MARGIN = 1, function(x) { (100 - x[1]) / (100 - x[2]) })
+AO.u
+# Modelo de tendencia por región ####
+predictionsSAO = split(AO.u, rep(seq(4), each=3)) %>% lapply( function(x) {L = lm(value ~ year, data = x) %>% predict(data.frame(year = infer_years)); data.frame(rgn_name = unique(x$rgn_name), year = infer_years, value = L) } )
+predictionsSAO = predictionsSAO %>% ldply()
+predictionsSAO$.id <- NULL
+predictionsSAO
+
+# Merge with available data ####
+AO.u
+SAO = merge(all = TRUE, sort = TRUE, subset(AO.u, select = c('rgn_name', 'year', 'value'), subset = AO.u$year %in% comit_years), predictionsSAO)
+SAO
+
+# Check predictions per region ####
+par(mfrow = c(2, 2))
+AO.u %>% split(AO.u$rgn_name) %>% lapply(function(x) {
+  plot(x$year, x$value, pch=16, col='red2', main=unique(x$rgn_name))
+  points(SAO$year[SAO$rgn_name == unique(x$rgn_name)], SAO$value[SAO$rgn_name == unique(x$rgn_name)], cex=1.25)
+  })
+
+AO.u = merge(rgn_id2name, SAO, by.x = 'name', by.y = 'rgn_name') %>% transmute(name = NULL)
 
 # Sanity Checks ####
 stopifnot(all(AO.u$rgn_id %in% c(1,2,6)))
@@ -82,28 +113,25 @@ write.csv(AO.u, file = file, row.names = FALSE, quote = FALSE)
 
 
 
-
+#############################################################
 # ao_sao ####
 # Nomenclatura archivo de salida
-YEAR = 2010
 src = 'Oportunidad de pesca artesanal (1).xlsx'
-file = paste0('ao_sao_loc', YEAR, '.csv')
+file = paste0('ao_sao_gye', YEAR, '.csv')
 
 # Procesamiento ####
 DF <- read.xlsx(src, sheetName = 'Base')
 # View(DF)
 # Columna de interés es [24] "SAO"
 interest <- "SAO"
-cat(paste('Building layer:', interest, '\n'))
+cat(paste('Building layer:', file, '\n'))
 # levels(DF[,1])
 AO = select(DF, one_of("Provincia", interest))
 AO.u = unique(AO)
 colnames(AO.u) <- c('rgn_name', 'value')
 AO.u
-rgn_id <- rgn_id2name
-rgn_id$year <- YEAR
-rgn_id
-AO.u = merge(rgn_id, AO.u, by.x = 'name', by.y = 'rgn_name') %>% transmute(name = NULL)
+rgn_id2name
+AO.u = merge(rgn_id2name, AO.u, by.x = 'name', by.y = 'rgn_name') %>% transmute(name = NULL)
 
 # Sanity Checks ####
 stopifnot(all(AO.u$rgn_id %in% c(1,2,6)))
