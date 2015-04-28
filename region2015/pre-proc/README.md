@@ -18,6 +18,36 @@ con información local.
 Fuente: `Oportunidad de pesca artesanal (1).xlsx@Base`, 
 `Oportunidad de pesca artesanal-completo.xlsx@Base`, `AO_need_ts.xlsx@Sheet1`.
 
+## Score AO update
+![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
+
+Scores contrast table
+
+|     |               |                 | GYE2015  | GL2014 |
+|-----|---------------|-----------------|----------|--------|
+|**goal** |   **dimension**   |     **region_id**   |    **score** |  **score** |
+|AO   |   future      |   0   |    53.85  | 64.58 |
+|AO   |   future      |   1   |    52.14  | 64.61 |
+|AO   |   future      |   2   |    51.17  | 64.55 |
+|AO   |   future      |   6   |    75.19  | 64.62 |
+|AO   |   pressures   |    1  |     35.1  |  35.1 |
+|AO   |   pressures   |    2  |     35.43 |  35.43 |
+|AO   |   pressures   |    6  |     35.08 |  35.08 |
+|AO   |   resilience  |    1  |     62.46 |  62.46 |
+|AO   |   resilience  |    2  |     62.46 |  62.46 |
+|AO   |   resilience  |    6  |     62.46 |  62.46 |
+|AO   |   score       |   0   |    51.58  | 61.84 |
+|AO   |   score       |   1   |    49.98  | 61.86 |
+|AO   |   score       |   2   |    49.03  | 61.83 |
+|AO   |   score       |   6   |    71.76  | 61.86 |
+|AO   |   status      |   0   |    49.31  | 59.11 |
+|AO   |   status      |   1   |    47.82  | 59.11 |
+|AO   |   status      |   2   |    46.89  | 59.11 |
+|AO   |   status      |   6   |    68.32  | 59.11 |
+|AO   |   trend       |   1   |    0      | 0 |
+|AO   |   trend       |   2   |    0      | 0 |
+|AO   |   trend       |   6   |    0.02   | 0 |
+
 ## Layer ao_access (reemplaza)
 ![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
@@ -52,6 +82,11 @@ The first columns (targets, layer, name, description, fld_value, units, filename
 Solo se modificaron las primeras 7 columnas.
 
 ## Actualizar `functions.R`
-![subtask:incomplete](https://img.shields.io/badge/subtask-incomplete-red.svg)
+![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
 Sustituir la constante `Sustainability=1.0` por el layer `Sustainability <- ao_sao`
+
+
+
+## Push to `OHI-Science/gye`
+![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
