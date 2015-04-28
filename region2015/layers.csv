@@ -1,14 +1,13 @@
 "targets","layer","name","description","fld_value","units","filename","clip_n_ship_disag","clip_n_ship_disag_description","layer_gl","path_in","rgns_in","fld_id_num","fld_id_chr","fld_category","fld_year","fld_val_num","fld_val_chr","file_exists","year_min","year_max","val_min","val_max","val_0to1","flds_unused","flds_missing","rows_duplicated","num_ids_unique","data_na"
-"AO","ao_access","Fisheries management effectiveness and opportunity","The opportunity for artisanal and recreational fishing based on the quality of management of the small- scale fishing sector (Mora et al 2009).
+"AO","ao_access","Fisheries management effectiveness and opportunity","The opportunity for artisanal and recreational fishing based on local data: 27/04/2009
 
-Data sources:
+Data sources: Oportunidad de pesca artesanal (1).xlsx","value","value","ao_access_gl2014.csv","equal","global management effectiveness scores were applied equally to all regions.","ao_access","~/github/ohi-global/eez2014/layers/ao_access.csv","global","rgn_id",,,,"value",,TRUE,,,0.555771907253878,0.555771907253878,TRUE,,,,3,FALSE
+"AO","ao_need","Purchasing power parity as a proxy for subsistence fishing need, by region","The opportunity for artisanal and recreational fishing based on local data: 27/04/2009
 
-- Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). **Management Effectiveness of the Worldï¿s Marine Fisheries**. _PLoS Biol_, 7(6), e1000131. [doi:10.1371/journal.pbio.1000131](http://dx.doi.org/10.1371/journal.pbio.1000131)","value","value","ao_access_gl2014.csv","equal","global management effectiveness scores were applied equally to all regions.","ao_access","~/github/ohi-global/eez2014/layers/ao_access.csv","global","rgn_id",,,,"value",,TRUE,,,0.555771907253878,0.555771907253878,TRUE,,,,3,FALSE
-"AO","ao_need","Purchasing power parity as a proxy for subsistence fishing need, by region","The per capita purchasing power parity (PPP) adjusted gross domestic product (GDP): GDPpcPPP.
+Data sources: Oportunidad de pesca artesanal (1).xlsx","value","value","ao_need_gl2014.csv","equal","global purchasing power parity information was applied equally to all regions.","ao_need","~/github/ohi-global/eez2014/layers/ao_need.csv","global","rgn_id",,,"year","value",,TRUE,1990,2013,0.0634670364988123,0.0794545094733515,TRUE,,,,3,FALSE
+"AO","ao_sao","Sustainability by region","The opportunity for artisanal and recreational fishing based on local data: 27/04/2009
 
-Data sources:
-
-- The World Bank [GDP per capita, PPP (current international $)](http://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD)","value","value","ao_need_gl2014.csv","equal","global purchasing power parity information was applied equally to all regions.","ao_need","~/github/ohi-global/eez2014/layers/ao_need.csv","global","rgn_id",,,"year","value",,TRUE,1990,2013,0.0634670364988123,0.0794545094733515,TRUE,,,,3,FALSE
+Data sources: Oportunidad de pesca artesanal (1).xlsx","value","value","ao_sao_loc2010.csv","equal","global purchasing power parity information was applied equally to all regions.","ao_need","~/github/ohi-global/eez2014/layers/ao_need.csv","global","rgn_id",,,"year","value",,TRUE,2010,2010,0.475250220249097,0.690231532543976,TRUE,,,,3,FALSE
 "CW","cw_coastalpopn_trend","Coastal human population as a proxy for trend in trash","Coastal population, defined as the total population inland of 25 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
 
 Data sources:
