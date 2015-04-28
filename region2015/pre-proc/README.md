@@ -7,7 +7,7 @@ output: html_document
 # TSK1:Make local layers ao_*
 
 ## Construcción de layers para target AO
-![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
+![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
 folder: `AO/`.
 
@@ -63,6 +63,10 @@ y dato de correo @lelys
 Las variables presentes son `rgn_id`, `year` y `value` tal como en la versión global.
 Serie de tiempo de 2001 hasta 2010, con modelo de tendencia de 1990, 2001, 2010.
 
+Ajuste de los modelos de tendencia para la variable ao_need:
+
+![modelos de tendencia](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/AO/lm.png)
+
 ## Layer ao_sao (nuevo)
 ![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
@@ -89,4 +93,4 @@ Sustituir la constante `Sustainability=1.0` por el layer `Sustainability <- ao_s
 
 
 ## Push to `OHI-Science/gye`
-![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
+![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
