@@ -57,7 +57,7 @@ Purchasing power parity as a proxy for subsistence fishing need, by region
 |-------------------|----------------------------------------------------------------------|
 | filename          | ao_need_gye2015.csv                                                   |
 | value units       | value                                                      |
-| value range       | 0.4977212 to 0.8471178                               |
+| value range       | 0.02439024 to 0.9066781                               |
 | global extraction | equal: global purchasing power parity information was applied equally to all regions. |
 
 <p>The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres</p>
