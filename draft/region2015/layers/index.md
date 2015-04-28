@@ -38,18 +38,14 @@ Fisheries management effectiveness and opportunity
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | ao_access_gl2014.csv                                                   |
+| filename          | ao_access_gye2015.csv                                                   |
 | value units       | value                                                      |
 | value range       | 0.5557719 to 0.5557719                               |
 | global extraction | equal: global management effectiveness scores were applied equally to all regions. |
 
-<p>The opportunity for artisanal and recreational fishing based on the quality of management of the small- scale fishing sector (Mora et al 2009).</p>
+<p>The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres</p>
 
-<p>Data sources:</p>
-
-<ul>
-<li>Mora, C., Myers, R.A., Coll, M., Libralato, S., Pitcher, T.J., Sumaila, R.U., Worm, B. (2009). <strong>Management Effectiveness of the Worldï¿s Marine Fisheries</strong>. <em>PLoS Biol</em>, 7(6), e1000131. <a href="http://dx.doi.org/10.1371/journal.pbio.1000131">doi:10.1371/journal.pbio.1000131</a></li>
-</ul>
+<p>Data sources: Oportunidad de pesca artesanal (1).xlsx</p>
 
 
 
@@ -59,18 +55,31 @@ Purchasing power parity as a proxy for subsistence fishing need, by region
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | ao_need_gl2014.csv                                                   |
+| filename          | ao_need_gye2015.csv                                                   |
 | value units       | value                                                      |
 | value range       | 0.06346704 to 0.07945451                               |
 | global extraction | equal: global purchasing power parity information was applied equally to all regions. |
 
-<p>The per capita purchasing power parity (PPP) adjusted gross domestic product (GDP): GDPpcPPP.</p>
+<p>The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres</p>
 
-<p>Data sources:</p>
+<p>Data sources: Oportunidad de pesca artesanal (1).xlsx, Oportunidad de pesca artesanal-completo.xlsx y AO_need_ts.xlsx</p>
 
-<ul>
-<li>The World Bank <a href="http://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD">GDP per capita, PPP (current international $)</a></li>
-</ul>
+
+
+## ao_sao
+
+Sustainability by region
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | ao_sao_gye2015.csv                                                   |
+| value units       | value                                                      |
+| value range       | 0.4752502 to 0.6902315                               |
+| global extraction | equal: global purchasing power parity information was applied equally to all regions. |
+
+<p>The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres</p>
+
+<p>Data sources: Oportunidad de pesca artesanal (1).xlsx</p>
 
 
 
