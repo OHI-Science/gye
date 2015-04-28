@@ -19,11 +19,11 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future|
 |:-------------------------------|------:|------:|------:|
-|Index                           |  72.37|     NA|  69.52|
+|Index                           |  71.23|     NA|  68.33|
 |Food Provision                  |  29.80|  28.14|  31.45|
 |. Fisheries                     |  19.53|  18.74|  20.33|
 |. Mariculture                   |  38.89|  36.47|  41.30|
-|Artisanal Fishing Opportunity   |  61.84|  59.11|  64.58|
+|Artisanal Fishing Opportunity   |  51.58|  49.31|  53.85|
 |Natural Products                |  79.71|  76.26|  83.16|
 |Carbon Storage                  |     NA|  74.14|     NA|
 |Coastal Protection              |  57.19|  79.96|  34.41|
@@ -47,11 +47,11 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  74.59|     NA|  72.03|    NA|        NA|         NA|
+|Index                           |  73.27|     NA|  70.64|    NA|        NA|         NA|
 |Food Provision                  |  45.02|  41.13|  48.91|  0.14|        NA|         NA|
 |. Fisheries                     |  14.57|  14.00|  15.13|  0.01|     37.08|      59.55|
 |. Mariculture                   |  71.98|  65.15|  78.82|  0.25|     35.95|      48.77|
-|Artisanal Fishing Opportunity   |  61.86|  59.11|  64.61|  0.00|     35.10|      62.46|
+|Artisanal Fishing Opportunity   |  49.98|  47.82|  52.14|  0.00|     35.10|      62.46|
 |Natural Products                |  84.34|  80.69|  87.99| -0.01|     33.59|      63.63|
 |Carbon Storage                  |     NA|  74.14|     NA| -1.00|        NA|      65.56|
 |Coastal Protection              |  57.25|  79.96|  34.53| -1.00|     35.47|      66.32|
@@ -75,11 +75,11 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  70.33|     NA|  67.34|    NA|        NA|         NA|
+|Index                           |  68.90|     NA|  65.85|    NA|        NA|         NA|
 |Food Provision                  |  16.69|  16.05|  17.33|  0.03|        NA|         NA|
 |. Fisheries                     |  25.04|  24.00|  26.08|  0.02|     37.33|      59.55|
 |. Mariculture                   |   9.30|   9.02|   9.58|  0.03|     35.95|      48.77|
-|Artisanal Fishing Opportunity   |  61.83|  59.11|  64.55|  0.00|     35.43|      62.46|
+|Artisanal Fishing Opportunity   |  49.03|  46.89|  51.17|  0.00|     35.43|      62.46|
 |Natural Products                |  74.56|  71.33|  77.79| -0.01|     33.59|      63.63|
 |Carbon Storage                  |     NA|  74.14|     NA| -1.00|        NA|      65.56|
 |Coastal Protection              |  57.14|  79.96|  34.31| -1.00|     36.29|      66.32|
@@ -103,11 +103,11 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  76.78|     NA|  73.85|    NA|        NA|         NA|
+|Index                           |  77.88|     NA|  75.02|    NA|        NA|         NA|
 |Food Provision                  |  54.99|  54.92|  55.06|  0.18|        NA|         NA|
 |. Fisheries                     |   4.15|   4.00|   4.30|  0.00|     37.07|      59.55|
 |. Mariculture                   | 100.00| 100.00| 100.00|  0.34|     35.95|      48.77|
-|Artisanal Fishing Opportunity   |  61.86|  59.11|  64.62|  0.00|     35.08|      62.46|
+|Artisanal Fishing Opportunity   |  71.76|  68.32|  75.19|  0.02|     35.08|      62.46|
 |Natural Products                |  94.13|  90.05|  98.20| -0.01|     33.59|      63.63|
 |Carbon Storage                  |     NA|  74.14|     NA| -1.00|        NA|      65.56|
 |Coastal Protection              |  57.25|  79.96|  34.54| -1.00|     35.42|      66.32|
