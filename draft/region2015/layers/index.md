@@ -795,18 +795,12 @@ IUCN extinction risk category for iconic species
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | ico_spp_extinction_status_gl2014.csv                                                   |
+| filename          | ico_spp_extinction_status_gye2015.csv                                                   |
 | value units       | category                                                      |
 | value range       | NA to NA                               |
 | global extraction | equal: global status was applied equally to all regions.  |
 
-<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists </p>
-
-<p>Data sources:</p>
-
-<ul>
-<li><a href="http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme">International Union for Conservation of Nature (IUCN)</a></li>
-</ul>
+<p>Updated with local layer. @andres 28/04/2015</p>
 
 
 
@@ -816,18 +810,12 @@ IUCN population trend as a proxy for iconic species trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | ico_spp_popn_trend_gl2014.csv                                                   |
+| filename          | ico_spp_popn_trend_gye2015.csv                                                   |
 | value units       | trend score                                                      |
 | value range       | NA to NA                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
-<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists </p>
-
-<p>Data sources:</p>
-
-<ul>
-<li><a href="http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme">International Union for Conservation of Nature (IUCN)</a></li>
-</ul>
+<p>Updated with local layer. @andres 28/04/2015</p>
 
 
 
@@ -984,18 +972,12 @@ Coastal protected areas inland 1km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | lsp_prot_area_inland1km_gl2014.csv                                                   |
+| filename          | lsp_prot_area_inland1km_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 1 to 1173                               |
+| value range       | 0 to 37.86                               |
 | global extraction | raster | area_inland1km:  |
 
-<p>Coastal protected areas inland to 1km from the UN WDPA. </p>
-
-<p>Data sources:</p>
-
-<ul>
-<li>United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
-</ul>
+<p>Coastal protected areas inland to 1km from the UN WDPA. Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx</p>
 
 
 
@@ -1005,18 +987,12 @@ Coastal marine protected areas offshore 3km
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | lsp_prot_area_offshore3nm_gl2014.csv                                                   |
+| filename          | lsp_prot_area_offshore3nm_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 3 to 7875                               |
+| value range       | 0 to 126.12                               |
 | global extraction | raster | area_offshore3nm:  |
 
-<p>Coastal protected areas offshore to 3nm from the UN WDPA. </p>
-
-<p>Data sources:</p>
-
-<ul>
-<li>United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through <a href="http://www.protectedplanet.net">Protected Planet</a></li>
-</ul>
+<p>Coastal protected areas offshore to 3nm from the UN WDPA.  Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx</p>
 
 
 
