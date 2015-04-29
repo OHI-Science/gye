@@ -5,8 +5,7 @@ date: "27/04/2015"
 output: html_document
 ---
 # TSK2:Build hab_trend layer
-![task:pending](https://img.shields.io/badge/task-pending-blue.svg)
-![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
 folder: `hab_trend/`.
 
