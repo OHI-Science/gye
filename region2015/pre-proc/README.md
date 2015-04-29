@@ -1,18 +1,30 @@
 ---
-title:  "TSK1:Make local layers ao_*"
+title:  "TASK LIST @talassio"
 author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK2:Build hab_trend layer
+![task:pending](https://img.shields.io/badge/task-pending-blue.svg)
+![task:incomplete](https://img.shields.io/badge/task-incomplete-red.svg)
+
+folder: `hab_trend/`.
+
+Objetivo: 
+Construir el layer
+**hab_trend**
+con información local. 
+Fuente: `tabla tendencia.xlsx@[Guaya|El Oro]`.
+
 # TSK1:Make local layers ao_*
 
 ## Construcción de layers para target AO
-![subtask:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
+![task:complete](https://img.shields.io/badge/subtask-complete-brightgreen.svg)
 
 folder: `AO/`.
 
 Objetivo: 
-Construir los layes
+Construir los layers
 **ao_need**, **ao_access** y **ao_sao**
 con información local. 
 Fuente: `Oportunidad de pesca artesanal (1).xlsx@Base`, 
