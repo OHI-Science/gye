@@ -653,12 +653,12 @@ Habitat health trend
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | hab_trend_gl2014.csv                                                   |
+| filename          | hab_trend_gye2015.csv                                                   |
 | value units       | trend score                                                      |
-| value range       | -1 to -0.03351319                               |
+| value range       | -1 to -1                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
-<p>Modeled combined habitat health trend</p>
+<p>Modeled combined habitat health trend. Update local data @andres source: hab-trend/tabla tendencias.xlsx</p>
 
 
 
