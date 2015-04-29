@@ -56,18 +56,8 @@ Data sources:
 "HAB CS CP","hab_extent","Habitat extent","Modeled combined habitat extent","km2","km^2","hab_extent_gl2014.csv","raster | area_offshore","","hab_extent","~/github/ohi-global/eez2014/layers/hab_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,71.6066,33347.7,FALSE,,,,3,FALSE
 "HAB CS CP","hab_health","Habitat health","Modeled combined habitat health condition trend","health","value","hab_health_gl2014.csv","equal","global habitat health was applied equally to all regions. ","hab_health","~/github/ohi-global/eez2014/layers/hab_health.csv","global","rgn_id",,"habitat",,"health",,TRUE,,,0.741379310344828,1,TRUE,,,,3,FALSE
 "HAB CS CP","hab_trend","Habitat health trend","Modeled combined habitat health trend. Update local data @andres source: hab-trend/tabla tendencias.xlsx","trend","trend score","hab_trend_gye2015.csv","equal","global trends were applied equally to all regions.","hab_trend","~/github/ohi-global/eez2014/layers/hab_trend.csv","global","rgn_id",,"habitat",,"trend",,TRUE,,,-1,-1,FALSE,,,,3,FALSE
-"ICO","ico_spp_extinction_status","IUCN extinction risk category for iconic species","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists 
-
-Data sources:
-
-- [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
-","category","category","ico_spp_extinction_status_gl2014.csv","equal","global status was applied equally to all regions. ","ico_spp_extinction_status","~/github/ohi-global/eez2014/layers/ico_spp_extinction_status.csv","global","rgn_id",,"sciname",,,"category",TRUE,,,,,FALSE,,,,3,
-"ICO","ico_spp_popn_trend","IUCN population trend as a proxy for iconic species trend","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists 
-
-Data sources:
-
-- [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
-","popn_trend","trend score","ico_spp_popn_trend_gl2014.csv","equal","global trends were applied equally to all regions.","ico_spp_popn_trend","~/github/ohi-global/eez2014/layers/ico_spp_popn_trend.csv","global","rgn_id",,"sciname",,,"popn_trend",TRUE,,,,,FALSE,,,,3,
+"ICO","ico_spp_extinction_status","IUCN extinction risk category for iconic species","Updated with local layer. @andres 28/04/2015","category","category","ico_spp_extinction_status_gye2015.csv","equal","global status was applied equally to all regions. ","ico_spp_extinction_status","~/github/ohi-global/eez2014/layers/ico_spp_extinction_status.csv","global","rgn_id",,"sciname",,,"category",TRUE,,,,,FALSE,,,,3,
+"ICO","ico_spp_popn_trend","IUCN population trend as a proxy for iconic species trend","Updated with local layer. @andres 28/04/2015","popn_trend","trend score","ico_spp_popn_trend_gye2015.csv","equal","global trends were applied equally to all regions.","ico_spp_popn_trend","~/github/ohi-global/eez2014/layers/ico_spp_popn_trend.csv","global","rgn_id",,"sciname",,,"popn_trend",TRUE,,,,,FALSE,,,,3,
 "LE","le_gdp","GDP","Gross Domestic Product (GDP) data (reported in 2012 US dollars) from The World Bank.
 
 Data sources:

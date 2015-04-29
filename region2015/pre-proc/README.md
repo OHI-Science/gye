@@ -4,6 +4,23 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK3:SP Sence Place Goal
+
+## Fix ico_spp_popn_trend_gye2015 layer
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+folder: `SP/`.
+
+Objetivo: 
+Acomodar el layer
+**ico_spp_popn_trend_gye2015**
+y actualizar layers.csv para usar información local.
+
+Con respecto a ICO, tiene solo dos capas, y sus datos están allí listos. El único caveat es que en la capa `ico_spp_popn_trend_gye2015_TG.csv` la tendencia de la población es un valor categórico, con tres valores posibles: decreasing, increasing y stable, sin embargo en un par de especies el valor es Unknown, sin embargo, eso debería sustituirse por NA que es el valor nulo para la plataforma.
+Del resto, estos dos archivos si están correctamente separados por comas.
+
+
+
+
 # TSK2:Build hab_trend layer
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
