@@ -6,17 +6,34 @@ output: html_document
 ---
 # TSK3:SP Sence Place Goal
 
-## Fix ico_spp_popn_trend_gye2015 layer
+## LSP GOAL: Fix ico_spp_popn_trend_gye2015 layer
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+**folder:** `SP/`.
+
+**Fuente:** `AMCPs 3MN Y 1 KM INCREMENTO.csv` Archivo de LSP están en 8.2_LSP en prep
+
+**Description:** Ahora en LSP, verás que hay un solo archivo (y para colmo le pusieron en el nombre espacios en blanco, no respetaron la convención que habíamos acordado, de llamarlo con el nombre de la capa y las iniciales del consultor, pero bueno). Ese archivo es lo único que se necesita, son dos capas que indican el incremento en km^2 de las áreas protegidas, una para las áreas 1 km tierra adentro (inland_1km) y 3millas náuticas costa afuera (offshore_3nm) y esos valores están mezclados en un solo archivo, entonces hay que separar los valores de uno y otro para crear las dos capas necesarias que se deben llamar:
+`lsp_prot_area_inland1km_gye2015.csv` y  `lsp_prot_area_offshore3nm_gye2015.csv`
+
+Ahora el archivo csv que está allí es un híbrido pues en lugar de , para separar los campos, tiene ; pero el punto decimal si es un punto y no una coma! Hoy cuando lo estaba revisando, no me fijé que Mario habia usado el punto decimal y lo cambié y aparecían más valores de los que eran, pero ya restauramos el archivo original, que tiene esa particularidad. Te lo cuento para que nada más cambies los ;
+
+**Objetivo:**
+Construir los layers
+**lsp_prot_area_inland1km_gye2015.csv**  y  **lsp_prot_area_offshore3nm_gye2015.csv**
+y actualizar layers.csv para usar información local.
+
+
+
+
+## ICO GOAL: build lsp_prot_area_inland1km_gye2015.csv  and  lsp_prot_area_offshore3nm_gye2015.csv layers
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 folder: `SP/`.
 
-Objetivo: 
-Acomodar el layer
-**ico_spp_popn_trend_gye2015**
-y actualizar layers.csv para usar información local.
+Fuente: `ico_spp_popn_trend_gye2015_TG.csv` Los dos archivos de ICO están en el directorio 8.1_ICO de prep
 
-Con respecto a ICO, tiene solo dos capas, y sus datos están allí listos. El único caveat es que en la capa `ico_spp_popn_trend_gye2015_TG.csv` la tendencia de la población es un valor categórico, con tres valores posibles: decreasing, increasing y stable, sin embargo en un par de especies el valor es Unknown, sin embargo, eso debería sustituirse por NA que es el valor nulo para la plataforma.
-Del resto, estos dos archivos si están correctamente separados por comas.
+Objetivo: 
+Arreglar el layer `ico_spp_popn_trend_gye2015.csv`, y copiar este y `ico_spp_extinction_status_gye2015.csv` para `layers/`
+y actualizar layers.csv para usar información local.
 
 
 
@@ -30,7 +47,7 @@ Objetivo:
 Construir el layer
 **hab_trend**
 con información local. 
-Fuente: `tabla tendencia.xlsx@[Guaya|El Oro]`.
+Fuente:  `tabla tendencia.xlsx@[Guaya|El Oro]`.
 
 # TSK1:Make local layers ao_*
 

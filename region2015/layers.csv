@@ -70,16 +70,8 @@ Data sources:
 "LE","le_workforcesize_adj","Modeled Livelihoods & Economies data","adjusted workforce size","jobs","jobs","le_workforcesize_adj_sc2014-popn-inland25km.csv","population_inland25km","global workforce data were applied to each region after weighting by each region's coastal population.","le_workforcesize_adj","~/github/ohi-global/eez2014/layers/le_workforcesize_adj.csv","global","rgn_id",,,"year","jobs",,TRUE,1990,2012,261151.276133334,6026014.22595137,FALSE,,,,3,FALSE
 "LE pressures","le_sector_weight","Jobs weighting","Jobs weighting by sector (defaulting to 1)","weight","value","le_sector_weight_gl2014.csv","equal","","le_sector_weight","~/github/ohi-global/eez2014/layers/le_sector_weight.csv","global","rgn_id",,"sector",,"weight",,TRUE,,,1,1,TRUE,,,,3,FALSE
 "LIV ECO","le_popn","Total population by subregion","Population data from The World Bank","count","count","le_popn_gl2014.csv","equal","","le_popn","~/github/ohi-global/eez2014/layers/le_popn.csv","global","rgn_id",,,"year","count",,TRUE,1960,2012,4514593,15492264,FALSE,,,,3,FALSE
-"LSP","lsp_prot_area_inland1km","Coastal protected areas inland 1km","Coastal protected areas inland to 1km from the UN WDPA. 
-
-Data sources:
-
-- United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through [Protected Planet](http://www.protectedplanet.net)","area_km2","km^2","lsp_prot_area_inland1km_gl2014.csv","raster | area_inland1km","","lsp_prot_area_inland1km","~/github/ohi-global/eez2014/layers/lsp_prot_area_inland1km.csv","global","rgn_id",,,"year","area_km2",,TRUE,1959,2007,1,1173,FALSE,,,,3,FALSE
-"LSP","lsp_prot_area_offshore3nm","Coastal marine protected areas offshore 3km","Coastal protected areas offshore to 3nm from the UN WDPA. 
-
-Data sources:
-
-- United Nations - World Conservation Monitoring Centreâs World Database on Protected Areas (WDPA) through [Protected Planet](http://www.protectedplanet.net)","area_km2","km^2","lsp_prot_area_offshore3nm_gl2014.csv","raster | area_offshore3nm","","lsp_prot_area_offshore3nm","~/github/ohi-global/eez2014/layers/lsp_prot_area_offshore3nm.csv","global","rgn_id",,,"year","area_km2",,TRUE,1959,2007,3,7875,FALSE,,,,3,FALSE
+"LSP","lsp_prot_area_inland1km","Coastal protected areas inland 1km","Coastal protected areas inland to 1km from the UN WDPA. Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx","area_km2","km^2","lsp_prot_area_inland1km_gye2015.csv","raster | area_inland1km","","lsp_prot_area_inland1km","~/github/ohi-global/eez2014/layers/lsp_prot_area_inland1km.csv","global","rgn_id",,,"year","area_km2",,TRUE,1979,2011,0,37.86,FALSE,,,,3,FALSE
+"LSP","lsp_prot_area_offshore3nm","Coastal marine protected areas offshore 3km","Coastal protected areas offshore to 3nm from the UN WDPA.  Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx","area_km2","km^2","lsp_prot_area_offshore3nm_gye2015.csv","raster | area_offshore3nm","","lsp_prot_area_offshore3nm","~/github/ohi-global/eez2014/layers/lsp_prot_area_offshore3nm.csv","global","rgn_id",,,"year","area_km2",,TRUE,1979,2011,0,126.12,FALSE,,,,3,FALSE
 "MAR","mar_coastalpopn_inland25km","Coastal population inland 25 kilometers","Coastal population, defined as the total population inland of 25 kilometers, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
 
 Data sources:
