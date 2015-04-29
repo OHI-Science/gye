@@ -1,0 +1,13 @@
+NUM,Meta,Capas Datos,Procedimiento,Cálculo Indice,Completa,Complejidad
+1,Provisión de Alimentos            (FP),meta = 1 FIS = 3 MAR=5 ,Rutinas complejas para el cálculo de B-BMSY y MSI,,Junio 2015,5
+2,"Pesca Artesanal (oportunidades de, AO)","2 (calculadas, scores)",,,Abril 2015,3
+3,Productos Naturales     (NP),,,,Junio 2015,2
+4,Almacenamiento de carbono                (CS),"4 (1 calculada, score)",,,Abril 2015,3?
+5,Protección Costera (CP),,,,Abril 2015,3
+6,Economías y Medios de Subsistencia          (LE),,,,Mayo 2015,5
+7,Turismo y Recreación (TR),,,,Mayo 2015,5
+8,Sentido de Lugar         (SP),ICO=2 LPP=2,,,Abril 2015,3
+9,Aguas limpias       (CW),,,,Jun o Julio?,4
+10,Biodiversidad       (BD),HAB=4 SPP=2(scores),,,Jun o Julio?,5
+,,,,,,
+,,,,,,5 es lo mas complejo
