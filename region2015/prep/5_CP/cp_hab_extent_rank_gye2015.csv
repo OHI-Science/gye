@@ -1,7 +1,7 @@
-"rgn_id,""category"",""value"""
-"1,""mangrove_offshore1km"",11.25"
-"2,""mangrove_offshore1km"",7.743"
-"6,""mangrove_offshore1km"",NA"
-"1,""mangrove_inland1km"",63.62"
-"2,""mangrove_inland1km"",141.91"
-"6,""mangrove_inland1km"",NA"
+"rgn_id","category","value"
+1,"mangrove_offshore1km",11.25
+2,"mangrove_offshore1km",7.743
+6,"mangrove_offshore1km",NA
+1,"mangrove_inland1km",63.62
+2,"mangrove_inland1km",141.91
+6,"mangrove_inland1km",NA
