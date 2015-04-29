@@ -6,7 +6,7 @@ output: html_document
 ---
 # TSK3:SP Sence Place Goal
 
-## LSP GOAL: Fix ico_spp_popn_trend_gye2015 layer
+## LSP GOAL layers 1km and 3nm
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 **folder:** `SP/`.
 
