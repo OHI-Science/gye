@@ -4,6 +4,21 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK4:Goal CS Carbon Storage
+ (1) `hab_extent`: La capa de datos correcta es:
+https://github.com/OHI-Science/gye/blob/draft/region2015/prep/4_CS/hab_extent_gye2015_TG.csv
+
+ (2) `hab_health`: La capa de datos correcta es:
+https://github.com/OHI-Science/gye/blob/draft/region2015/prep/4_CS/hab_health_gye2015_TG.csv
+
+ (3) `hab_trend`: La caoa de datos correcta es:
+https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/hab_trend/hab_trend_gye2015.csv.
+
+ (4) Por favor agregar un ReadMe para explicar muy brevemente como se calculó esta capa y/o documentar el código:
+https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/hab_trend/mklayer.R
+
+ (5) `cs_habitat_extent`: Igual que `hab_extent`
+
 # TSK3:SP Sence Place Goal
 
 ## LSP GOAL layers 1km and 3nm

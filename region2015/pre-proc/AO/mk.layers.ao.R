@@ -54,7 +54,7 @@ write.csv(AO.u, file = file, row.names = FALSE, quote = FALSE)
 # hard coded vars:
 PBIN1990 = 79.5
 PBIN2001 = 71.4
-infer_years = c(1991 : 2000, 2002 : 2009, 2011 : 2013)
+infer_years = c(1991 : 2000, 2002 : 2009)
 # Note: calculate_scores() produces NAs if last year is NOT 2013 == max_year
 comit_years = c(1990,        2001,        2010)
 src = 'Oportunidad de pesca artesanal-completo.xlsx'
