@@ -37,5 +37,5 @@ rgn_id | habitat | trend
 
 The following two graphs show the tendencies for El Oro and Guayas.
 
-![tendencies](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/hab_trend/lms.png)
+![tendencies](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/hab_trend/lms12.png)
 
