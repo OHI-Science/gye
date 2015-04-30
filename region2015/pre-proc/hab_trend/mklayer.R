@@ -19,7 +19,7 @@ cat(paste('Building layer:', file, '\n'))
 hab_trend <- data.frame()
 
 # load table ####
-
+par(mfrow=c(1,2))
 # Magrove for El Oro ####
 Region = 'El Oro'
 DF <- read.xlsx('tabla tendencia.xlsx', sheetName = Region, stringsAsFactors = FALSE)
