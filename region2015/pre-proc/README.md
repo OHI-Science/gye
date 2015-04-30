@@ -5,6 +5,7 @@ date: "27/04/2015"
 output: html_document
 ---
 # TSK4:Goal CS Carbon Storage
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
  (1) `hab_extent`: La capa de datos correcta es:
 https://github.com/OHI-Science/gye/blob/draft/region2015/prep/4_CS/hab_extent_gye2015_TG.csv
 
