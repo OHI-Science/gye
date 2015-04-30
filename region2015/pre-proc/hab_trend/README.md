@@ -7,7 +7,9 @@ output: html_document
 # hab_trend layer
 
 The layer is essentially build with `mklayer.R`. 
+
 Steps
+
 `for rgn_id in c('El Oro', 'Guayas') do`
 
  (1) load `tabla tendencia.xlsx`@`rgn_id` sheet
