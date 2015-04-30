@@ -57,7 +57,7 @@ Purchasing power parity as a proxy for subsistence fishing need, by region
 |-------------------|----------------------------------------------------------------------|
 | filename          | ao_need_gye2015.csv                                                   |
 | value units       | value                                                      |
-| value range       | 0.02439024 to 0.9066781                               |
+| value range       | 0.02439024 to 0.8471178                               |
 | global extraction | equal: global purchasing power parity information was applied equally to all regions. |
 
 <p>The opportunity for artisanal and recreational fishing based on local data: 27/04/2009, @andres</p>
@@ -198,12 +198,12 @@ Habitat extent * rank, per Coastal Protection habitats
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | cp_habitat_extent_rank_gl2014.csv                                                   |
+| filename          | cp_habitat_extent_rank_gye2015.csv                                                   |
 | value units       | rank                                                      |
-| value range       | 286.4264 to 985.0252                               |
+| value range       | 1.8269 to 6269.924                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass</p>
+<p>Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass. Updated with local data. Duplicate from hab_extent_gye2015.csv layer. @andres.</p>
 
 
 
@@ -213,12 +213,12 @@ Habitat extent * rank, per Carbon Storage habitats
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | cs_habitat_extent_gl2014.csv                                                   |
+| filename          | cs_habitat_extent_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 1409.424 to 1409.424                               |
+| value range       | 1.8269 to 6269.924                               |
 | global extraction | area_offshore_3nm: global habitat extent was applied to each region after weighting by each region's offshore area to 3nm.  |
 
-<p>Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass</p>
+<p>Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass. @andres: updated with local data. Src: pre-proc/CS/</p>
 
 
 
@@ -608,12 +608,12 @@ Habitat extent
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | hab_extent_gl2014.csv                                                   |
+| filename          | hab_extent_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 71.6066 to 33347.7                               |
+| value range       | 1.8269 to 6269.924                               |
 | global extraction | raster | area_offshore:  |
 
-<p>Modeled combined habitat extent</p>
+<p>Modeled combined habitat extent. @andres: updated with local data. Src: pre-proc/CS/</p>
 
 
 
@@ -623,12 +623,12 @@ Habitat health
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | hab_health_gl2014.csv                                                   |
+| filename          | hab_health_gye2015.csv                                                   |
 | value units       | value                                                      |
-| value range       | 0.7413793 to 1                               |
+| value range       | 0.77 to 0.95                               |
 | global extraction | equal: global habitat health was applied equally to all regions.  |
 
-<p>Modeled combined habitat health condition trend</p>
+<p>Modeled combined habitat health condition trend. @andres: updated with local data. Src: pre-proc/CS/</p>
 
 
 

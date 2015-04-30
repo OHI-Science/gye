@@ -1,12 +1,12 @@
 " ","score","status","future","trend","pressures","resilience"
-"Index",67.66,,64.38,,,
+"Index",68.99,,62.87,,,
 "Food Provision",45.02,41.13,48.91,0.14,,
 ". Fisheries",14.57,14,15.13,0.01,37.08,59.55
 ". Mariculture",71.98,65.15,78.82,0.25,35.95,48.77
 "Artisanal Fishing Opportunity",49.98,47.82,52.14,0,35.1,62.46
-"Natural Products",84.34,80.69,87.99,-0.01,33.59,63.63
-"Carbon Storage",,74.14,,-1,,65.56
-"Coastal Protection",57.25,79.96,34.53,-1,35.47,66.32
+"Natural Products",84.31,80.58,88.05,-0.01,33.59,63.63
+"Carbon Storage",68.36,95,41.72,-1,33.25,66.32
+"Coastal Protection",68.01,95,41.02,-1,35.47,66.32
 "Tourism & Recreation",100,100,100,0,62.16,67.84
 "Coastal Livelihoods & Economies",99.47,98.93,100,0.78,,
 ". Livelihoods",98.93,97.87,100,0.56,39.07,57.42
@@ -15,6 +15,6 @@
 ". Iconic Species",68.67,69.52,67.81,-0.14,40.13,60.85
 ". Lasting Special Places",1.57,1.52,1.62,0,47.24,65.56
 "Clean Waters",66.96,68.33,65.58,0.01,82.16,67.84
-"Biodiversity",70.83,86.13,55.52,-0.62,,
-". Habitats",63.07,89.82,36.32,-1,36.26,58.81
+"Biodiversity",72.65,88.73,56.57,-0.62,,
+". Habitats",66.71,95,38.42,-1,36.26,58.81
 ". Species",78.59,82.45,74.72,-0.23,40.95,59.58
