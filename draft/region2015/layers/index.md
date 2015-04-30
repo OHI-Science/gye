@@ -983,7 +983,7 @@ Coastal protected areas inland 1km
 
 ## lsp_prot_area_offshore3nm
 
-Coastal marine protected areas offshore 3km
+Coastal marine protected areas offshore 3nm
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
