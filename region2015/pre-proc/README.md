@@ -4,8 +4,14 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK5:Goal CP Coastal Protection
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+Add `cp_habitat_extent_rank_gye2015` layer. Duplicate from `hab_extent`.
+
 # TSK4:Goal CS Carbon Storage
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
  (1) `hab_extent`: La capa de datos correcta es:
 https://github.com/OHI-Science/gye/blob/draft/region2015/prep/4_CS/hab_extent_gye2015_TG.csv
 
