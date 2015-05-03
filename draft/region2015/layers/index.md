@@ -1443,7 +1443,7 @@ Region area 1 km inland
 | value range       | 361.11 to 2187.63                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
-<p>inland area 1 km from shore. @andres: updated with local data.</p>
+<p>inland area 1 km from shore. @andres: updated with local data. 03/05/2015</p>
 
 
 
