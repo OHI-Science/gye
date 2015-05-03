@@ -1438,12 +1438,12 @@ Region area 1 km inland
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_inland1km_gl2014.csv                                                   |
+| filename          | rgn_area_inland1km_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 2281.804 to 2281.804                               |
+| value range       | 361.11 to 2187.63                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
-<p>inland area 1 km from shore.</p>
+<p>inland area 1 km from shore. @andres: updated with local data.</p>
 
 
 
@@ -1453,12 +1453,12 @@ Region area offshore 3nm
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_offshore3nm_gl2014.csv                                                   |
+| filename          | rgn_area_offshore3nm_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 13765.05 to 13765.05                               |
+| value range       | 65.67 to 236.39                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
-<p>Area of Ocean Health Index regions to 3nm (VLIZ 2012). </p>
+<p>Area of Ocean Health Index regions to 3nm (VLIZ 2012). @andres: updated with local data.</p>
 
 <p>Data sources:</p>
 

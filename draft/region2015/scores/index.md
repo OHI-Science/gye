@@ -19,7 +19,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future|
 |:-------------------------------|------:|------:|------:|
-|Index                           |  65.93|     NA|  60.99|
+|Index                           |  68.49|     NA|  63.62|
 |Food Provision                  |  29.80|  28.14|  31.45|
 |. Fisheries                     |  19.53|  18.74|  20.33|
 |. Mariculture                   |  38.89|  36.47|  41.30|
@@ -31,9 +31,9 @@ Scores displayed below are based on template data that were extracted from the g
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|
 |. Livelihoods                   |  98.93|  97.87| 100.00|
 |. Economies                     | 100.00| 100.00| 100.00|
-|Sense of Place                  |  36.60|  36.99|  36.21|
+|Sense of Place                  |  61.62|  61.28|  61.95|
 |. Iconic Species                |  68.61|  69.52|  67.71|
-|. Lasting Special Places        |   4.58|   4.45|   4.72|
+|. Lasting Special Places        |  54.62|  53.04|  56.19|
 |Clean Waters                    |  66.96|  68.33|  65.58|
 |Biodiversity                    |  69.59|  82.96|  56.22|
 |. Habitats                      |  58.68|  83.58|  33.78|
@@ -47,7 +47,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  69.03|     NA|  62.95|    NA|        NA|         NA|
+|Index                           |  71.62|     NA|  65.61|    NA|        NA|         NA|
 |Food Provision                  |  45.02|  41.13|  48.91|  0.14|        NA|         NA|
 |. Fisheries                     |  14.57|  14.00|  15.13|  0.01|     37.08|      59.55|
 |. Mariculture                   |  71.98|  65.15|  78.82|  0.25|     35.95|      48.77|
@@ -59,9 +59,9 @@ Scores displayed below are based on template data that were extracted from the g
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.07|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.64|      47.69|
-|Sense of Place                  |  35.12|  35.52|  34.71| -0.07|        NA|         NA|
+|Sense of Place                  |  61.05|  60.70|  61.41| -0.07|        NA|         NA|
 |. Iconic Species                |  68.67|  69.52|  67.81| -0.14|     40.13|      60.85|
-|. Lasting Special Places        |   1.57|   1.52|   1.62|  0.00|     47.24|      65.56|
+|. Lasting Special Places        |  53.44|  51.87|  55.01|  0.00|     47.24|      65.56|
 |Clean Waters                    |  66.96|  68.33|  65.58|  0.01|     82.16|      67.84|
 |Biodiversity                    |  72.65|  88.73|  56.57| -0.62|        NA|         NA|
 |. Habitats                      |  66.71|  95.00|  38.42| -1.00|     36.26|      58.81|
@@ -75,7 +75,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  62.54|     NA|  57.36|    NA|        NA|         NA|
+|Index                           |  64.98|     NA|  59.87|    NA|        NA|         NA|
 |Food Provision                  |  16.69|  16.05|  17.33|  0.03|        NA|         NA|
 |. Fisheries                     |  25.04|  24.00|  26.08|  0.02|     37.33|      59.55|
 |. Mariculture                   |   9.30|   9.02|   9.58|  0.03|     35.95|      48.77|
@@ -87,9 +87,9 @@ Scores displayed below are based on template data that were extracted from the g
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.09|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.67|      47.69|
-|Sense of Place                  |  37.69|  38.07|  37.32| -0.07|        NA|         NA|
+|Sense of Place                  |  62.10|  61.78|  62.42| -0.07|        NA|         NA|
 |. Iconic Species                |  68.58|  69.52|  67.63| -0.14|     40.92|      60.85|
-|. Lasting Special Places        |   6.81|   6.61|   7.01|  0.01|     48.23|      65.56|
+|. Lasting Special Places        |  55.62|  54.03|  57.21|  0.00|     48.23|      65.56|
 |Clean Waters                    |  66.96|  68.33|  65.58|  0.01|     82.16|      67.84|
 |Biodiversity                    |  66.29|  79.73|  52.84| -0.62|        NA|         NA|
 |. Habitats                      |  54.05|  77.00|  31.10| -1.00|     36.42|      58.81|
@@ -103,7 +103,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  75.24|     NA|  75.50|    NA|        NA|         NA|
+|Index                           |  78.42|     NA|  78.78|    NA|        NA|         NA|
 |Food Provision                  |  54.99|  54.92|  55.06|  0.18|        NA|         NA|
 |. Fisheries                     |   4.15|   4.00|   4.30|  0.00|     37.07|      59.55|
 |. Mariculture                   | 100.00| 100.00| 100.00|  0.34|     35.95|      48.77|
@@ -115,9 +115,9 @@ Scores displayed below are based on template data that were extracted from the g
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.07|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.64|      47.69|
-|Sense of Place                  |  35.21|  35.61|  34.81| -0.07|        NA|         NA|
+|Sense of Place                  |  60.69|  60.34|  61.04| -0.07|        NA|         NA|
 |. Iconic Species                |  68.67|  69.52|  67.82| -0.14|     40.08|      60.85|
-|. Lasting Special Places        |   1.75|   1.69|   1.80|  0.00|     47.18|      65.56|
+|. Lasting Special Places        |  52.70|  51.15|  54.25|  0.00|     47.18|      65.56|
 |Clean Waters                    |  66.96|  68.33|  65.58|  0.01|     82.16|      67.84|
 |Biodiversity                    |  78.59|  82.45|  74.73| -0.23|        NA|         NA|
 |. Habitats                      |     NA|     NA|     NA|    NA|     36.25|      58.81|
