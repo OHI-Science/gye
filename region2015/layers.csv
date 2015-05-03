@@ -404,13 +404,13 @@ Data sources:
 
 - [VLIZ Maritime Boundaries Geodatabase, version 7](http://www.marineregions.org/)
 ","area_km2","km^2","rgn_area_sc2014-area.csv","raster","spatial data was extracted for each region.","rgn_area","/Volumes/data_edit/git-annex/clip-n-ship/gye/spatial/rgn_offshore_data.csv","subcountry","rgn_id",,"rgn_name",,"area_km2",,TRUE,,,2643.545,15384.928,FALSE,,,,3,FALSE
-"spatial","rgn_area_inland1km","Region area 1 km inland","inland area 1 km from shore.","area_km2","km^2","rgn_area_inland1km_gl2014.csv","raster","spatial data was extracted for each region.","rgn_area_inland1km","~/github/ohi-global/eez2014/layers/rgn_area_inland1km.csv","global","rgn_id",,,,"area_km2",,TRUE,,,2281.80426613893,2281.80426613893,FALSE,,,,3,FALSE
-"spatial","rgn_area_offshore3nm","Region area offshore 3nm","Area of Ocean Health Index regions to 3nm (VLIZ 2012). 
+"spatial","rgn_area_inland1km","Region area 1 km inland","inland area 1 km from shore. @andres: updated with local data.","area_km2","km^2","rgn_area_inland1km_gye2015.csv","raster","spatial data was extracted for each region.","rgn_area_inland1km","~/github/ohi-global/eez2014/layers/rgn_area_inland1km.csv","global","rgn_id",,,,"area_km2",,TRUE,,,361.11,2187.63,FALSE,,,,3,FALSE
+"spatial","rgn_area_offshore3nm","Region area offshore 3nm","Area of Ocean Health Index regions to 3nm (VLIZ 2012). @andres: updated with local data.
 
 Data sources:
 
 - [VLIZ Maritime Boundaries Geodatabase, version 7](http://www.marineregions.org/)
-","area_km2","km^2","rgn_area_offshore3nm_gl2014.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","~/github/ohi-global/eez2014/layers/rgn_area_offshore3nm.csv","global","rgn_id",,,,"area_km2",,TRUE,,,13765.0519124179,13765.0519124179,FALSE,,,,3,FALSE
+","area_km2","km^2","rgn_area_offshore3nm_gye2015.csv","raster","spatial data was extracted for each region.","rgn_area_offshore3nm","~/github/ohi-global/eez2014/layers/rgn_area_offshore3nm.csv","global","rgn_id",,,,"area_km2",,TRUE,,,65.67,236.39,FALSE,,,,3,FALSE
 "spatial","rgn_georegion_labels","Georegion labels per region, at 3 georegion levels","Lookup table of Ocean Health Index regions and UN georegion names at 3 georegion levels.
 
 Data sources:
