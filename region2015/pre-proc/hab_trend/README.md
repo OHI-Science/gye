@@ -7,19 +7,23 @@ output: html_document
 # hab_trend layer
 
 The layer is essentially build with `mklayer.R`. 
+
 Steps
+
 `for rgn_id in c('El Oro', 'Guayas') do`
 
  (1) load `tabla tendencia.xlsx`@`rgn_id` sheet
+ 
  (2) fit trend model: `Total ~ years`, this is 
  
  $Total = \beta_0 + \beta_1 years$
  
  (3) trunkate $\beta_1$ in [-1, +1] and store in
 
- | rgn_id | habitat  | trend              |
- |--------|----------|--------------------|
- | 1      | mangrove | trunkate($\beta_1$)|
+
+| rgn_id | habitat  | trend              |
+|--------|----------|--------------------|
+| 1      | mangrove | trunkate($\beta_1$)|
 
 `end`
 
