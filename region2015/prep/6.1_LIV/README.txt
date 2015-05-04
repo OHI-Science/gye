@@ -20,8 +20,10 @@ Multiplicadores estimados para empleo por sector tomado de Halpern
 
 le_workforcesize_adj
 
-Personal ocupado por sectores CIIU a 4 dígitos en provincias del GG
+Personal ocupado por sectores CIIU a 4 dígitos en provincias del GG. Esta capa resulta de multiplicar le_jobs_sector_year y le_sector_weight
 
 
 
 En todas las capas no se ha modificado el separador decimal, es decir, el punto es de miles.
+
+Queda pendiente verificar si todas las capas están correctas
