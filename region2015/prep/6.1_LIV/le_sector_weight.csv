@@ -1,32 +1,32 @@
-PROVINCIA;CODIGO CIIU 4;DESCRIPCIÓN ACTIVIDAD;PESO
-El Oro;A0321;Acuicultura marina.;1,973
-El Oro;B0620;Extracción de gas natural.;1,87
-El Oro;B0893;Extracción de sal.;1,87
-El Oro;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
-El Oro;C3011;Construcción de buques y estructuras flotantes.;1,88
-El Oro;I5510;Actividades de alojamiento para estancias cortas.;1,915
-El Oro;I5590;Otras actividades de alojamiento.;1,915
-El Oro;H5012;Transporte de carga marítimo y de cabotaje.;1,88
-El Oro;N7911;Actividades de agencias de viajes.;1,915
-El Oro;N7912;Actividades de operadores turísticos.;1,915
-El Oro;A0311;Pesca marina.;1,582
-Guayas;A0311;Pesca marina.;1,582
-Guayas;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
-Guayas;A0321;Acuicultura marina.;1,973
-Guayas;B0893;Extracción de sal.;1,87
-Guayas;C3011;Construcción de buques y estructuras flotantes.;1,88
-Guayas;I5510;Actividades de alojamiento para estancias cortas.;1,915
-Guayas;I5590;Otras actividades de alojamiento.;1,915
-Guayas;H5011;Transporte de pasajeros marítimo y de cabotaje.;1,88
-Guayas;H5012;Transporte de carga marítimo y de cabotaje.;1,88
-Guayas;H5222;Actividades de servicios vinculadas al transporte acuático.;1,88
-Guayas;N7911;Actividades de agencias de viajes.;1,915
-Guayas;N7912;Actividades de operadores turísticos.;1,915
-Santa Elena;A0321;Acuicultura marina.;1,973
-Santa Elena;B0893;Extracción de sal.;1,87
-Santa Elena;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
-Santa Elena;C3011;Construcción de buques y estructuras flotantes.;1,88
-Santa Elena;A0311;Pesca marina.;1,582
-Santa Elena;I5510;Actividades de alojamiento para estancias cortas.;1,915
-Santa Elena;N7912;Actividades de operadores turísticos.;1,915
-Santa Elena;N7911;Actividades de agencias de viajes.;1,915
+;PROVINCIA;CODIGO CIIU 4;DESCRIPCIÓN ACTIVIDAD;PESO
+1;El Oro;A0321;Acuicultura marina.;1,973
+1;El Oro;B0620;Extracción de gas natural.;1,87
+1;El Oro;B0893;Extracción de sal.;1,87
+1;El Oro;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
+1;El Oro;C3011;Construcción de buques y estructuras flotantes.;1,88
+1;El Oro;I5510;Actividades de alojamiento para estancias cortas.;1,915
+1;El Oro;I5590;Otras actividades de alojamiento.;1,915
+1;El Oro;H5012;Transporte de carga marítimo y de cabotaje.;1,88
+1;El Oro;N7911;Actividades de agencias de viajes.;1,915
+1;El Oro;N7912;Actividades de operadores turísticos.;1,915
+1;El Oro;A0311;Pesca marina.;1,582
+2;Guayas;A0311;Pesca marina.;1,582
+2;Guayas;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
+2;Guayas;A0321;Acuicultura marina.;1,973
+2;Guayas;B0893;Extracción de sal.;1,87
+2;Guayas;C3011;Construcción de buques y estructuras flotantes.;1,88
+2;Guayas;I5510;Actividades de alojamiento para estancias cortas.;1,915
+2;Guayas;I5590;Otras actividades de alojamiento.;1,915
+2;Guayas;H5011;Transporte de pasajeros marítimo y de cabotaje.;1,88
+2;Guayas;H5012;Transporte de carga marítimo y de cabotaje.;1,88
+2;Guayas;H5222;Actividades de servicios vinculadas al transporte acuático.;1,88
+2;Guayas;N7911;Actividades de agencias de viajes.;1,915
+2;Guayas;N7912;Actividades de operadores turísticos.;1,915
+6;Santa Elena;A0321;Acuicultura marina.;1,973
+6;Santa Elena;B0893;Extracción de sal.;1,87
+6;Santa Elena;C1020;Elaboración y conservación de pescados, crustáceos y molusco;1,87
+6;Santa Elena;C3011;Construcción de buques y estructuras flotantes.;1,88
+6;Santa Elena;A0311;Pesca marina.;1,582
+6;Santa Elena;I5510;Actividades de alojamiento para estancias cortas.;1,915
+6;Santa Elena;N7912;Actividades de operadores turísticos.;1,915
+6;Santa Elena;N7911;Actividades de agencias de viajes.;1,915
