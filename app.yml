@@ -8,13 +8,14 @@ app_url:          http://ohi-science.nceas.ucsb.edu/gye
 default_branch:   published
 default_scenario: region2015
 debug:            False
-last_updated:     2015-03-25
+last_updated:     2015-05-07
 ohicore_app:
   git_owner: ohi-science
   git_repo: ohicore
   git_branch: dev
-  git_commit: 3881bc4775d1769b5fc6fbfb9c2127a8349f8e90
+  git_commit: 41ea1726ba08bf1727d6fca34949db12b9d9fa1c
 
 tabs_hide:        
-''
+- Calculate
+- Report
 
