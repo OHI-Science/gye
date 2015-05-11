@@ -260,7 +260,7 @@ Fertilizer consumption as a proxy for trend in nutrient pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOâs statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO̢<e5><db><e5><aa>s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -302,7 +302,7 @@ Pesticide consumption as a proxy for trend in chemical pollution
 <p>Data sources:</p>
 
 <ul>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAOâs statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO̢<e5><db><e5><aa>s statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -1076,7 +1076,7 @@ Mariculture sustainability score
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries̢<e5><db><e5><aa> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries̢<e5><db><e5><aa> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28̢<e5><db><e5><d2>56.</li>
 </ul>
 
 
@@ -1133,7 +1133,7 @@ CBD survey: mariculture
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries̢<e5><db><e5><aa> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries̢<e5><db><e5><aa> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28̢<e5><db><e5><d2>56.</li>
 </ul>
 
 
@@ -1438,9 +1438,9 @@ Region area 1 km inland
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_inland1km_gl2014.csv                                                   |
+| filename          | rgn_area_inland1km_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 2281.804 to 2281.804                               |
+| value range       | 361.11 to 2187.63                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
 <p>inland area 1 km from shore.</p>
@@ -1453,9 +1453,9 @@ Region area offshore 3nm
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | rgn_area_offshore3nm_gl2014.csv                                                   |
+| filename          | rgn_area_offshore3nm_gye2015.csv                                                   |
 | value units       | km^2                                                      |
-| value range       | 13765.05 to 13765.05                               |
+| value range       | 65.67 to 236.39                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
 <p>Area of Ocean Health Index regions to 3nm (VLIZ 2012). </p>
@@ -1577,7 +1577,7 @@ Introduced species as a proxy for genetic escapes
 <p>Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countriesâ performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28â56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries̢<e5><db><e5><aa> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries̢<e5><db><e5><aa> Exclusive Economic Zones, Alder J, Pauly D, editors. <em>Fisheries Centre Research Report</em>, vol. 16(7) p. 28̢<e5><db><e5><d2>56.</li>
 </ul>
 
 
