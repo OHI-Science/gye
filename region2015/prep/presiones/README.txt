@@ -2,11 +2,13 @@
 cc_acid_gye2015_PV Ocean acidification: Modeled distribution of the aragonite saturation state (AAS) of the ocean in pre-industrial (~1870) and modern times (2000-2009) (Halpern et al. 2008).
 Fuente: A Global Map of Human Impacts to Marine Ecosystems https://www.nceas.ucsb.edu/globalmarine/impacts, Halpern(2008).
 Se ha considerado que para el desarrollo del presente componente es pertinente adoptar la metodología que propone Halpern et al. 2008 en su estudio de “Un Mapa Global del Impacto Human en Ecosistemas Marinos”.
+Punto de Referencia: El Oro (mayor score)
 Pendiente: cambiar separador de columnas y comas
 
 cc_uv_gye2015_PV
 Modeled UV radiation (Halpern et al. 2008) based on Erythemal UV Irradiance data provided by GES DISC
 Fuente: A Global Map of Human Impacts to Marine Ecosystems https://www.nceas.ucsb.edu/globalmarine/impacts, Halpern(2008).
+Punto de Referencia: mayor nivel de contaminación (0,80)
 Pendiente: cambiar separador de columnas y comas
 
 fp_targetharvest_gl2014
@@ -42,13 +44,20 @@ fp_art_hb_gye2015:  High bycatch caused by artisanal fishing
 La presencia de explosión artesanal destructiva y veneno (cianuro), la pesca (Reefs at Risk Revisited).
 Para esta capa se procedió a revisar la información GIS sobre los mapas globales que acogen las variables recomendadas por Halpern (2012). 
 Según estos datos las provincias que acoge el Golfo de Guayaquil, no determinan datos que identifiquen artes de pesca destructivas,
-por lo tanto las calificaciones para lesta presión para las tres provincias son inexistentes.
+por lo tanto las calificaciones para esta presión para las tres provincias son inexistentes.
 Pendiente: Cambiar separador de comas y columnas.
 
 hd_subtidal_hb_gye2015: High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction. Las prácticas de pesca artesanal de alta captura incidental como un proxy para la destrucción de hábitats de fondo duro submareal
 Se procedió a revisar la información GIS sobre los mapas globales que acogen las variables recomendads por Halpern (2012). Según estos datos las provincias del Golfo de Guayaquil, 
 no poseen datos que identifiquen artes de pesca destructivas, por lo tanto las calificaciones para esta presión en las tres provincias son inexistentes.	
 Pendiente: cambiar separador de columnas ; a ,
+
+po_chemicals Ocean-based chemical pollution
+Fuente: Halpern 2008
+Pendiente: cambiar separador de comas y columnas.
+po_chemicals_3nm  Land-based chemical pollution
+Fuente: Halpern 2008
+Pendiente: cambiar separador de comas y columnas.
 
 ss_wgi_gl2014
 Weakness of governance indicated with the WGI	
