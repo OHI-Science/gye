@@ -19,7 +19,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future|
 |:-------------------------------|------:|------:|------:|
-|Index                           |  68.49|     NA|  63.62|
+|Index                           |  65.21|     NA|  60.38|
 |Food Provision                  |  29.80|  28.14|  31.45|
 |. Fisheries                     |  19.53|  18.74|  20.33|
 |. Mariculture                   |  38.89|  36.47|  41.30|
@@ -27,7 +27,7 @@ Scores displayed below are based on template data that were extracted from the g
 |Natural Products                |  82.43|  78.75|  86.11|
 |Carbon Storage                  |  60.02|  83.58|  36.45|
 |Coastal Protection              |  60.06|  83.58|  36.54|
-|Tourism & Recreation            | 100.00| 100.00| 100.00|
+|Tourism & Recreation            |  68.07|  67.76|  68.38|
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|
 |. Livelihoods                   |  98.93|  97.87| 100.00|
 |. Economies                     | 100.00| 100.00| 100.00|
@@ -47,7 +47,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  71.62|     NA|  65.61|    NA|        NA|         NA|
+|Index                           |  63.04|     NA|  57.06|    NA|        NA|         NA|
 |Food Provision                  |  45.02|  41.13|  48.91|  0.14|        NA|         NA|
 |. Fisheries                     |  14.57|  14.00|  15.13|  0.01|     37.08|      59.55|
 |. Mariculture                   |  71.98|  65.15|  78.82|  0.25|     35.95|      48.77|
@@ -55,7 +55,7 @@ Scores displayed below are based on template data that were extracted from the g
 |Natural Products                |  84.31|  80.58|  88.05| -0.01|     33.59|      63.63|
 |Carbon Storage                  |  68.36|  95.00|  41.72| -1.00|     33.25|      66.32|
 |Coastal Protection              |  68.39|  95.00|  41.77| -1.00|     33.07|      66.32|
-|Tourism & Recreation            | 100.00| 100.00| 100.00|  0.00|     62.16|      67.84|
+|Tourism & Recreation            |  14.21|  13.98|  14.44|  0.02|     62.16|      67.84|
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.07|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.64|      47.69|
@@ -83,7 +83,7 @@ Scores displayed below are based on template data that were extracted from the g
 |Natural Products                |  78.98|  75.37|  82.60|  0.00|     33.59|      63.63|
 |Carbon Storage                  |  55.21|  77.00|  33.41| -1.00|     34.83|      66.32|
 |Coastal Protection              |  55.26|  77.00|  33.52| -1.00|     34.39|      66.32|
-|Tourism & Recreation            | 100.00| 100.00| 100.00|  0.00|     62.16|      67.84|
+|Tourism & Recreation            | 100.00| 100.00| 100.00|  0.16|     62.16|      67.84|
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.09|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.67|      47.69|
@@ -103,7 +103,7 @@ Scores displayed below are based on template data that were extracted from the g
 
 |                                |  score| status| future| trend| pressures| resilience|
 |:-------------------------------|------:|------:|------:|-----:|---------:|----------:|
-|Index                           |  78.42|     NA|  78.78|    NA|        NA|         NA|
+|Index                           |  73.79|     NA|  74.45|    NA|        NA|         NA|
 |Food Provision                  |  54.99|  54.92|  55.06|  0.18|        NA|         NA|
 |. Fisheries                     |   4.15|   4.00|   4.30|  0.00|     37.07|      59.55|
 |. Mariculture                   | 100.00| 100.00| 100.00|  0.34|     35.95|      48.77|
@@ -111,7 +111,7 @@ Scores displayed below are based on template data that were extracted from the g
 |Natural Products                |  96.14|  92.28| 100.00| -0.01|     33.59|      63.63|
 |Carbon Storage                  |     NA|     NA|     NA|    NA|        NA|      66.32|
 |Coastal Protection              |     NA|     NA|     NA|    NA|        NA|      66.32|
-|Tourism & Recreation            | 100.00| 100.00| 100.00|  0.00|     62.16|      67.84|
+|Tourism & Recreation            |  62.98|  60.59|  65.38|  0.09|     62.16|      67.84|
 |Coastal Livelihoods & Economies |  99.47|  98.93| 100.00|  0.78|        NA|         NA|
 |. Livelihoods                   |  98.93|  97.87| 100.00|  0.56|     39.07|      57.42|
 |. Economies                     | 100.00| 100.00| 100.00|  1.00|     37.64|      47.69|

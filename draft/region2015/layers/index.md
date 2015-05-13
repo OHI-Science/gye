@@ -1750,6 +1750,36 @@ Direct employment in tourism
 
 
 
+## tr_percent_ext
+
+fraction of tourist census per region (alien, external)
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_percent_ext_gye2015.csv                                                   |
+| value units       | percent                                                      |
+| value range       | 7.3 to 47.5                               |
+| global extraction | :  |
+
+<p>Percent of tourist in each region</p>
+
+
+
+## tr_percent_int
+
+fraction of tourist census per region (local, internal)
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_percent_int_gye2015.csv                                                   |
+| value units       | percent                                                      |
+| value range       | 2.1 to 16.5                               |
+| global extraction | :  |
+
+<p>Percent of tourist in each region</p>
+
+
+
 ## tr_sustainability
 
 Sustainability index
@@ -1783,6 +1813,36 @@ Percent unemployment
 <ul>
 <li><a href="http://data.worldbank.org/indicator/SL.UEM.TOTL.ZS">The World Bank</a></li>
 </ul>
+
+
+
+## tr_visitors_ext
+
+International tourist census up until 2014
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_visitors_ext_gye2015.csv                                                   |
+| value units       | people                                                      |
+| value range       | 968499 to 1557006                               |
+| global extraction | :  |
+
+<p>Tourist census from alien country</p>
+
+
+
+## tr_visitors_int
+
+Local tourist census up until 2014
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_visitors_int_gye2015.csv                                                   |
+| value units       | people                                                      |
+| value range       | 4872615 to 5056227                               |
+| global extraction | :  |
+
+<p>Tourist census from same country</p>
 
 
 
