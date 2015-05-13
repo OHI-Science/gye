@@ -845,8 +845,31 @@ CP = function(layers){
 }
 
 
-TR = function(layers, year_max, debug=FALSE, pct_ref=90){
+TR = function(layers, year_max=NA, debug=FALSE, pct_ref=90, projected=list(int=NA, ext=NA, year=NA)){
 
+  # Formula:
+  # Xtr = 1/2 * [ Ti * Ri% / Pi + Te * Re% / Pe ] * Sr
+  #
+  # Ti = tourist count of national provenance (tr_visitors_int)
+  # Ri = % of local tourist count per region (tr_percent_int)
+  # Pi = projected local tourist count (target) (projected$int)
+  # Te = tourist count of international provenance (tr_visitors_ext)
+  # Re = % of alien tourist count per region (tr_percent_ext)
+  # Pe = projected alien tourist count (target) (projected$ext)
+  # S = Sustainability index (tr_sustainability)
+  #
+  # Esta fórmula representa  la suma del porcentaje de
+  # visitantes nacionales  y el porcentaje de visitantes
+  # internacionales, donde cada uno de estos porcentajes
+  # se calcula con respecto a la meta o número de
+  # visitantes de referencia que se quiere alcanzar en
+  # cada caso. Esta suma es modificada por un índice de
+  # sostenibilidad que penaliza los porcentajes obtenidos
+  # por la capacidad de mantener una actividad turística
+  # sostenible en función de la infraestructura  y otros
+  # factores locales.
+  #
+  # ============ Apocryph comments from here on ============== #
   # formula:
   #   E = Ed / (L - (L*U))
   #   Sr = (S-1)/5
@@ -867,28 +890,35 @@ TR = function(layers, year_max, debug=FALSE, pct_ref=90){
     select(rgn_id, rgn_label = label)
 
   # merge layers and calculate score
-  d = layers$data[['tr_jobs_tourism']] %>%
-    select(rgn_id, year, Ed=count) %>%
+  d = layers$data[['tr_visitors_int']] %>%
+    select(rgn_id, year, Ti=count) %>%
     arrange(rgn_id, year) %>%
     merge(
-      layers$data[['tr_jobs_total']] %>%
-        select(rgn_id, year, L=count),
-      by=c('rgn_id','year'), all=T) %>%
+      layers$data[['tr_visitors_ext']] %>%
+        select(rgn_id, year, Te=count) %>%
+        arrange(rgn_id, year), all=T) %>%
     merge(
-      layers$data[['tr_unemployment']] %>%
-        select(rgn_id, year, U=percent) %>%
-        mutate(U = U/100),
-      by=c('rgn_id','year'), all=T) %>%
+      layers$data[['tr_percent_int']] %>%
+        select(rgn_id, Ri=percent) %>%
+        mutate(Ri = Ri/100),
+      by=c('rgn_id'), all=T) %>%
+    merge(
+      layers$data[['tr_percent_int']] %>%
+        select(rgn_id, Re=percent) %>%
+        mutate(Re = Re/100),
+      by=c('rgn_id'), all=T) %>%
     merge(
       layers$data[['tr_sustainability']] %>%
         select(rgn_id, S_score=score),
       by=c('rgn_id'), all=T)  %>%
     mutate(
-      E     = Ed / (L - (L * U)),
+      I = Ti * Ri / projected$int,
+      E = Te * Re / projected$ext,
       S     = (S_score - 1) / 5,
-      Xtr   = E * S ) %>%
+      Xtr   = 0.5 * (I + E) * S ) %>%
     merge(rgns, by='rgn_id') %>%
-    select(rgn_id, rgn_label, year, Ed, L, U, S, E, Xtr)
+    select(rgn_id, rgn_label, year, I, E, S, Xtr)
+
 
   # feed NA for subcountry regions without sufficient data (vs global analysis)
   if (conf$config$layer_region_labels!='rgn_global' & sum(!is.na(d$Xtr))==0) {

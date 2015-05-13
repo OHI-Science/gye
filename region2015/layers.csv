@@ -164,6 +164,10 @@ Data sources:
 
 - [The World Bank](http://data.worldbank.org/indicator/SL.UEM.TOTL.ZS)
 ","percent","percent unemployed","tr_unemployment_gl2014.csv","equal","global unemployment percentages were applied equally to each region. ","tr_unemployment","~/github/ohi-global/eez2014/layers/tr_unemployment.csv","global","rgn_id",,,"year","percent",,TRUE,1980,2012,4.09999990463257,14,FALSE,,,,3,FALSE
+"TR","tr_visitors_int","Local tourist census up until 2014","Tourist census from same country","count","people","tr_visitors_int_gye2015.csv","","","","","","rgn_id",,,"year","count",,TRUE,2009,2014,4872615,5056227,FALSE,,,,3,FALSE
+"TR","tr_visitors_ext","International tourist census up until 2014","Tourist census from alien country","count","people","tr_visitors_ext_gye2015.csv","","","","","","rgn_id",,,"year","count",,TRUE,2009,2014,968499,1557006,FALSE,,,,3,FALSE
+"TR","tr_percent_int","fraction of tourist census per region (local, internal)","Percent of tourist in each region","percent","percent","tr_percent_int_gye2015.csv","","","","","","rgn_id",,,,"percent",,TRUE,,,2.1,16.5,FALSE,,,,3,FALSE
+"TR","tr_percent_ext","fraction of tourist census per region (alien, external)","Percent of tourist in each region","percent","percent","tr_percent_ext_gye2015.csv","","","","","","rgn_id",,,,"percent",,TRUE,,,7.3,47.5,FALSE,,,,3,FALSE
 "pressures","cc_acid","Ocean acidification","Modeled distribution of the aragonite saturation state (AAS) of the ocean in pre-industrial (~1870) and modern times (2000-2009) (Halpern et al. 2008).
 
 Data sources:
