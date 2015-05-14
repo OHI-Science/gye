@@ -1750,13 +1750,13 @@ Direct employment in tourism
 
 
 
-## tr_percent_ext
+## tr_percent_inter
 
 fraction of tourist census per region (alien, external)
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | tr_percent_ext_gye2015.csv                                                   |
+| filename          | tr_percent_inter_gye2015.csv                                                   |
 | value units       | percent                                                      |
 | value range       | 7.3 to 47.5                               |
 | global extraction | :  |
@@ -1765,13 +1765,13 @@ fraction of tourist census per region (alien, external)
 
 
 
-## tr_percent_int
+## tr_percent_local
 
 fraction of tourist census per region (local, internal)
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | tr_percent_int_gye2015.csv                                                   |
+| filename          | tr_percent_local_gye2015.csv                                                   |
 | value units       | percent                                                      |
 | value range       | 2.1 to 16.5                               |
 | global extraction | :  |
@@ -1792,6 +1792,36 @@ Sustainability index
 | global extraction | equal : global scores were applied equally to each region.  |
 
 <p>Tourism Competitiveness Index (TTCI) from the World Economic Forum</p>
+
+
+
+## tr_target_inter
+
+Alien tourist target for 2019
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_target_inter_gye2015.csv                                                   |
+| value units       | people                                                      |
+| value range       | 158673 to 1032458                               |
+| global extraction | :  |
+
+<p>Projected cound based on country total by % of each region</p>
+
+
+
+## tr_target_local
+
+Local tourist target for 2019
+
+| metadata          | value                                                                |
+|-------------------|----------------------------------------------------------------------|
+| filename          | tr_target_local_gye2015.csv                                                   |
+| value units       | people                                                      |
+| value range       | 117888 to 926259                               |
+| global extraction | :  |
+
+<p>Projected cound based on country total by % of each region</p>
 
 
 
@@ -1816,13 +1846,13 @@ Percent unemployment
 
 
 
-## tr_visitors_ext
+## tr_visitors_inter
 
 International tourist census up until 2014
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | tr_visitors_ext_gye2015.csv                                                   |
+| filename          | tr_visitors_inter_gye2015.csv                                                   |
 | value units       | people                                                      |
 | value range       | 968499 to 1557006                               |
 | global extraction | :  |
@@ -1831,13 +1861,13 @@ International tourist census up until 2014
 
 
 
-## tr_visitors_int
+## tr_visitors_local
 
 Local tourist census up until 2014
 
 | metadata          | value                                                                |
 |-------------------|----------------------------------------------------------------------|
-| filename          | tr_visitors_int_gye2015.csv                                                   |
+| filename          | tr_visitors_local_gye2015.csv                                                   |
 | value units       | people                                                      |
 | value range       | 4872615 to 5056227                               |
 | global extraction | :  |
