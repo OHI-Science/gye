@@ -850,12 +850,12 @@ TR = function(layers, year_max=NA, debug=FALSE, pct_ref=90, projected=list(int=N
   # Formula:
   # Xtr = 1/2 * [ Ti * Ri% / Pi + Te * Re% / Pe ] * Sr
   #
-  # Ti = tourist count of national provenance (tr_visitors_int)
-  # Ri = % of local tourist count per region (tr_percent_int)
-  # Pi = projected local tourist count (target) (projected$int)
-  # Te = tourist count of international provenance (tr_visitors_ext)
-  # Re = % of alien tourist count per region (tr_percent_ext)
-  # Pe = projected alien tourist count (target) (projected$ext)
+  # Ti = tourist count of national provenance (tr_visitors_local)
+  # Ri = % of local tourist count per region (tr_percent_local)
+  # Pi = projected local tourist count (target) (-----)
+  # Te = tourist count of international provenance (tr_visitors_inter)
+  # Re = % of alien tourist count per region (tr_percent_inter)
+  # Pe = projected alien tourist count (target) (------)
   # S = Sustainability index (tr_sustainability)
   #
   # Esta fórmula representa  la suma del porcentaje de
@@ -890,20 +890,20 @@ TR = function(layers, year_max=NA, debug=FALSE, pct_ref=90, projected=list(int=N
     select(rgn_id, rgn_label = label)
 
   # merge layers and calculate score
-  d = layers$data[['tr_visitors_int']] %>%
+  d = layers$data[['tr_visitors_local']] %>%
     select(rgn_id, year, Ti=count) %>%
     arrange(rgn_id, year) %>%
     merge(
-      layers$data[['tr_visitors_ext']] %>%
+      layers$data[['tr_visitors_inter']] %>%
         select(rgn_id, year, Te=count) %>%
         arrange(rgn_id, year), all=T) %>%
     merge(
-      layers$data[['tr_percent_int']] %>%
+      layers$data[['tr_percent_local']] %>%
         select(rgn_id, Ri=percent) %>%
         mutate(Ri = Ri/100),
       by=c('rgn_id'), all=T) %>%
     merge(
-      layers$data[['tr_percent_int']] %>%
+      layers$data[['tr_percent_inter']] %>%
         select(rgn_id, Re=percent) %>%
         mutate(Re = Re/100),
       by=c('rgn_id'), all=T) %>%
