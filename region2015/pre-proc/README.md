@@ -5,6 +5,58 @@ date: "27/04/2015"
 output: html_document
 ---
 
+# TSK 02052015: Roll-back TR layers names.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+
+In order to complete this task, the following steps were taken:
+ 1. Updated functions.R at lines <https://github.com/OHI-Science/gye/blob/draft/region2015/conf/functions.R#L848> to
+ <https://github.com/OHI-Science/gye/blob/draft/region2015/conf/functions.R#L920> with the formula
+```{r}
+# Formula:
+# Xtr = 1/2 * [ Ti * Ri% / Pi + Te * Re% / Pe ] * Sr
+#
+# Ti = tourist count of national provenance (tr_visitors_local)
+# Ri = % of local tourist count per region (tr_percent_local)
+# Pi = projected local tourist count (target) (tr_target_local) <- NEW LAYER
+# Te = tourist count of international provenance (tr_visitors_inter)
+# Re = % of alien tourist count per region (tr_percent_inter)
+# Pe = projected alien tourist count (target) (tr_target_inter) <- NEW LAYER
+# S = Sustainability index (tr_sustainability)
+#
+# Esta fórmula representa  la suma del porcentaje de
+# visitantes nacionales  y el porcentaje de visitantes
+# internacionales, donde cada uno de estos porcentajes
+# se calcula con respecto a la meta o número de
+# visitantes de referencia que se quiere alcanzar en
+# cada caso. Esta suma es modificada por un índice de
+# sostenibilidad que penaliza los porcentajes obtenidos
+# por la capacidad de mantener una actividad turística
+# sostenible en función de la infraestructura  y otros
+# factores locales.
+```
+ 2. Renamed `tr_visitors_int` layer  to  `tr_visitors_local`
+
+ 3. Renamed `tr_percent_int` layer to `tr_percent_local`
+
+ 4. Renamed `tr_visitors_ext` layer to `tr_visitors_inter`
+
+ 5. Renamed `tr_percent_ext` layer to `tr_percent_inter`
+ 
+ 6. Function header was rolled-back to
+ `TR = function(layers, year_max=NA, debug=FALSE, pct_ref=90)`
+ 
+ 7. File `conf/goals.csv` (<https://github.com/OHI-Science/gye/blob/draft/region2015/conf/goals.csv#L9>) was 
+ rolled-back to: 
+```r
+TR(layers, year_max=2014)
+```
+ 8. Add layers `tr_target_local` and `tr_target_inter` to layers
+ 
+ 9. `calculated_scores.R` and `compare_scores.R` were run and pusshed to repo.
+
+
+
 # TSK 01052015: Update TR score formula and associated layers.
 
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)

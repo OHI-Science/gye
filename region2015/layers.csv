@@ -168,6 +168,8 @@ Data sources:
 "TR","tr_visitors_inter","International tourist census up until 2014","Tourist census from alien country","count","people","tr_visitors_inter_gye2015.csv","","","","","","rgn_id",,,"year","count",,TRUE,2009,2014,968499,1557006,FALSE,,,,3,FALSE
 "TR","tr_percent_local","fraction of tourist census per region (local, internal)","Percent of tourist in each region","percent","percent","tr_percent_local_gye2015.csv","","","","","","rgn_id",,,,"percent",,TRUE,,,2.1,16.5,FALSE,,,,3,FALSE
 "TR","tr_percent_inter","fraction of tourist census per region (alien, external)","Percent of tourist in each region","percent","percent","tr_percent_inter_gye2015.csv","","","","","","rgn_id",,,,"percent",,TRUE,,,7.3,47.5,FALSE,,,,3,FALSE
+"TR","tr_target_local","Local tourist target for 2019","Projected cound based on country total by % of each region","count","people","tr_target_local_gye2015.csv","","","","","","rgn_id",,,,"count",,TRUE,,,117888,926259,FALSE,,,,3,FALSE
+"TR","tr_target_inter","Alien tourist target for 2019","Projected cound based on country total by % of each region","count","people","tr_target_inter_gye2015.csv","","","","","","rgn_id",,,,"count",,TRUE,,,158673,1032458,FALSE,,,,3,FALSE
 "pressures","cc_acid","Ocean acidification","Modeled distribution of the aragonite saturation state (AAS) of the ocean in pre-industrial (~1870) and modern times (2000-2009) (Halpern et al. 2008).
 
 Data sources:
