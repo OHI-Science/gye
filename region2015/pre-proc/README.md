@@ -5,7 +5,118 @@ date: "27/04/2015"
 output: html_document
 ---
 
-# TSK 02052015: Roll-back TR layers names.
+# TSK #03-052015: TR function update.
+![task:under review](https://img.shields.io/badge/task-under_review-orange.svg)
+
+Overhaul of `TR()` function:
+
+## Equation
+```r
+TR = function(layers, year_max=NA){
+
+  # Formula:
+  # Xtr = 1/2 * [ Ti * Ri% / Pi + Te * Re% / Pe ] * Sr
+  #
+  # Ti = tourist count of national provenance (tr_visitors_local)
+  # Ri = % of local tourist count per region (tr_percent_local)
+  # Pi = projected local tourist count (target) (tr_target_local)
+  # Te = tourist count of international provenance (tr_visitors_inter)
+  # Re = % of alien tourist count per region (tr_percent_inter)
+  # Pe = projected alien tourist count (target) (tr_target_inter)
+  # Sr = Sustainability index (tr_sustainability)
+  #
+  # Esta fórmula representa  la suma del porcentaje de
+  # visitantes nacionales  y el porcentaje de visitantes
+  # internacionales, donde cada uno de estos porcentajes
+  # se calcula con respecto a la meta o número de
+  # visitantes de referencia que se quiere alcanzar en
+  # cada caso. Esta suma es modificada por un índice de
+  # sostenibilidad que penaliza los porcentajes obtenidos
+  # por la capacidad de mantener una actividad turística
+  # sostenible en función de la infraestructura  y otros
+  # factores locales.
+
+  # get regions
+  rgns = layers$data[[conf$config$layer_region_labels]] %>%
+    select(rgn_id, rgn_label = label)
+
+  # merge layers and calculate score
+  d = layers$data[['tr_visitors_local']] %>%
+    select(rgn_id, year, Ti=count) %>%
+    arrange(rgn_id, year) %>%
+    merge(
+      layers$data[['tr_visitors_inter']] %>%
+        select(rgn_id, year, Te=count) %>%
+        arrange(rgn_id, year), all=T) %>%
+    merge(
+      layers$data[['tr_percent_local']] %>%
+        select(rgn_id, Ri=percent) %>%
+        mutate(Ri = Ri/100),
+      by=c('rgn_id'), all=T) %>%
+    merge(
+      layers$data[['tr_percent_inter']] %>%
+        select(rgn_id, Re=percent) %>%
+        mutate(Re = Re/100),
+      by=c('rgn_id'), all=T) %>%
+    merge(
+      layers$data[['tr_target_local']] %>%
+        select(rgn_id, Pi=count),
+        by=c('rgn_id'), all=T) %>%
+    merge(
+      layers$data[['tr_target_inter']] %>%
+        select(rgn_id, Pe=count),
+      by=c('rgn_id'), all=T) %>%
+    merge(
+      layers$data[['tr_sustainability']] %>%
+        select(rgn_id, S_score=score),
+      by=c('rgn_id'), all=T)  %>%
+    mutate(
+      TRi = Ti * Ri,
+      TRe = Te * Re,
+      I =  TRi / Pi,
+      E = TRe / Pe,
+      S     = (S_score - 1) / 5,
+      Xtr   = 0.5 * (I + E) * S ) %>%
+    merge(rgns, by='rgn_id') %>%
+    select(rgn_id, rgn_label, year, I, E, S, Xtr, TRi, TRe)
+```
+## Trend
+```r
+# calculate trend
+  # print(d_t)  %%% Example:
+  #   rgn_id dimension     score
+  # 1      1     trend 0.1632303
+  # 2      2     trend 0.1632308
+  # 3      6     trend 0.1632309
+  # Steps
+  # 1. Get I column trend
+  # 2. Get E column trend
+  # 3. Average \beta_1's
+  # 4. cap at end -/+ 1
+  d_t = d %>% filter(year %in% (year_max - 5) : year_max) %>% select(rgn_id, year, I, E) %>% group_by(rgn_id) %>%
+    do( mod.local = lm(I ~ year, data = .),
+        mod.inter = lm(E ~ year, data = .)) %>% do(data.frame(rgn_id=.$rgn_id, dimension='trends', score.local=coef(.$mod.local)[['year']], score.inter=coef(.$mod.inter)[['year']])) %>%
+    mutate(dimension='trend', score=median(t(cbind(score.local, score.inter)))) %>%
+    mutate(score=max(min(score, 1), -1)) %>% select(rgn_id, dimension, score)
+  # mutate(score=max(min(score*5, 1), -1)) %>% select(rgn_id, dimension, score) <-- why?
+  # Answer: the *5 is NOT needed here because this formula
+  #       does NOT use [S = (S_score - 1) / 5] nor [Xtr]
+```
+
+## Status
+```r
+# get status (as last year's value given by year_max)
+  d_s = d %>% filter(Xtr, year==year_max) %>% mutate(dimension='status', Xtr=100*Xtr) %>% select(rgn_id, dimension, score=Xtr)
+  # > print(d_s) %%% Example:
+  # rgn_id dimension     score
+  # 1      1    status  99.99963
+  # 2      2    status 100.00000
+  # 3      6    status 100.00000
+```
+
+Nota: `goals.csv` was update to reflect new declaration: `TR = function(layers, year_max=NA)`. 
+
+# TSK #02-052015: Roll-back TR layers names.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
 
@@ -57,7 +168,7 @@ TR(layers, year_max=2014)
 
 
 
-# TSK 01052015: Update TR score formula and associated layers.
+# TSK #01-052015: Update TR score formula and associated layers.
 
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 

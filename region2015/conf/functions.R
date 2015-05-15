@@ -856,7 +856,7 @@ TR = function(layers, year_max=NA){
   # Te = tourist count of international provenance (tr_visitors_inter)
   # Re = % of alien tourist count per region (tr_percent_inter)
   # Pe = projected alien tourist count (target) (tr_target_inter)
-  # S = Sustainability index (tr_sustainability)
+  # Sr = Sustainability index (tr_sustainability)
   #
   # Esta fórmula representa  la suma del porcentaje de
   # visitantes nacionales  y el porcentaje de visitantes
@@ -930,6 +930,8 @@ TR = function(layers, year_max=NA){
     mutate(dimension='trend', score=median(t(cbind(score.local, score.inter)))) %>%
     mutate(score=max(min(score, 1), -1)) %>% select(rgn_id, dimension, score)
   # mutate(score=max(min(score*5, 1), -1)) %>% select(rgn_id, dimension, score) <-- why?
+  # Answer: the *5 is NOT needed here because this formula
+  #       does NOT use [S = (S_score - 1) / 5] nor [Xtr]
 
   # get status (as last year's value given by year_max)
   d_s = d %>% filter(Xtr, year==year_max) %>% mutate(dimension='status', Xtr=100*Xtr) %>% select(rgn_id, dimension, score=Xtr)
