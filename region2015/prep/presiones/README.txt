@@ -54,6 +54,18 @@ Se procedió a revisar la información GIS sobre los mapas globales que acogen las
 no poseen datos que identifiquen artes de pesca destructivas, por lo tanto las calificaciones para esta presión en las tres provincias son inexistentes.	
 Pendiente: confirmar capa
 
+hd_subtidal_sb_gye2015
+Fuente: Instituto Nacional de Pesca (INP)
+•	Arrastrera camaronera (industrial)	2000-2013
+•	Camarón pomada (industrial) 2005-2014
+•	Camarón pomada/red bolso 2010-2013
+Unidad: Toneladas
+De acuerdo a Halpern (2012) la captura total arrastrera identificada a través de las diferentes capturas de camarón escogidas a través de la información del INP fue dividida por el área total de hábitat de fondos suaves para producir una medida de la intensidad de arrastre por unidad de área.
+Debido a que estos datos fueron muy sesgados, se aplicó log (X + 1) para transformarlos y luego reajustarlos al valor máximo de todas las posibilidades anuales. Entonces el estado se calculó como uno menos la densidad reajustada de capturas en el último año disponible, este valor representa el estado. 
+Luego se definió la mediana de la densidad reajustada en todos los años, cualquier valor mayor que la mediana se fijó = 1,0. La puntuación de la presión es uno menos este valor mediano-reescalado.
+Los valores son tomados para realizar una densidad con respecto al área de fondos suaves por provincias y luego desarrollar la metodología que especifica Halpern (2012) con respecto a esta capa.
+
+
 po_chemicals Ocean-based chemical pollution
 Fuente: Halpern 2008
 Pendiente: cambiar separador de comas y columnas.
@@ -74,6 +86,13 @@ po_pathogens_gye2015
 Fuente:MEDIOS DE ELIMINACIÓN DE EXCRETAS(MEE) Censo de Población y Vivienda - INECAÑO: 2010
 La información están a nivel parroquial con frente costero, área rural, y el valor es el porcentaje de viviendas con medios a eliminación de excretas relativo al punto de referencia que es 95%
 Pendiente: Pendiente: cambiar separador de comas y columnas.
+
+sp_genetic: Genetic escapes
+Los datos provienen del Índice de Sostenibilidad Maricultura (MSI) de Trujillo (2008). En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que el extranjero
+e introdujo especies reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar. Esta información es presentada por países.
+Para desagregar el indicador a nivel provincial se tomó la información de la FAO a través de SEA Around US Project con respecto a la presencia de Oreochromis (tilapia) en las provincias del país,
+después de revisar esta información se concluye que solo existe presencia de esta especie en la provincia del Guayas en relación al Golfo de Guayaquil. De esta manera, los datos presentados a nivel nacional por el artículo científico de Trujillo (2008)
+son utilizados solo para la provincia del Guayas reeescalados a un rango de 0 a 1. Para las otras dos provincias del Golfo se coloca 0 como valor para esta capa al no existir presencia de la especie en estas regiones.
 
 ss_wgi_gl2014
 Weakness of governance indicated with the WGI	
