@@ -8,7 +8,7 @@ app_url:          http://ohi-science.nceas.ucsb.edu/gye
 default_branch:   published
 default_scenario: region2015
 debug:            False
-last_updated:     2015-05-12
+last_updated:     2015-05-20
 ohicore_app:
   git_owner: ohi-science
   git_repo: ohicore
