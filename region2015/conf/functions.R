@@ -848,14 +848,13 @@ CP = function(layers){
 TR = function(layers, year_max=NA){
 
   # Formula:
-  # Xtr = 1/2 * [ Ti * Ri% / Pi + Te * Re% / Pe ] * Sr
+  # Xtr = TR2 = [ Ti * Ri% + Te * Re% ] / Pr * Sr
   #
   # Ti = tourist count of national provenance (tr_visitors_local)
   # Ri = % of local tourist count per region (tr_percent_local)
-  # Pi = projected local tourist count (target) (tr_target_local)
   # Te = tourist count of international provenance (tr_visitors_inter)
   # Re = % of alien tourist count per region (tr_percent_inter)
-  # Pe = projected alien tourist count (target) (tr_target_inter)
+  # Pr = projected national and alien national tourist count (target) (tr_target)
   # Sr = Sustainability index (tr_sustainability)
   #
   # Esta fórmula representa  la suma del porcentaje de
@@ -904,14 +903,13 @@ TR = function(layers, year_max=NA){
         select(rgn_id, S_score=score),
       by=c('rgn_id'), all=T)  %>%
     mutate(
-      TRi = Ti * Ri,
-      TRe = Te * Re,
-      I =  TRi / Pi,
-      E = TRe / Pe,
+      I =  Ti * Ri,
+      E = Te * Re,
+      Pr = Pi + Pe,
       S     = (S_score - 1) / 5,
-      Xtr   = 0.5 * (I + E) * S ) %>%
+      Xtr   = (I + E) / Pr * S ) %>%
     merge(rgns, by='rgn_id') %>%
-    select(rgn_id, rgn_label, year, I, E, S, Xtr, TRi, TRe)
+    select(rgn_id, rgn_label, year, I, E, S, Xtr)
 
   # calculate trend
   # print(d_t)  %%% Example:
@@ -928,10 +926,7 @@ TR = function(layers, year_max=NA){
     do( mod.local = lm(I ~ year, data = .),
         mod.inter = lm(E ~ year, data = .)) %>% do(data.frame(rgn_id=.$rgn_id, dimension='trends', score.local=coef(.$mod.local)[['year']], score.inter=coef(.$mod.inter)[['year']])) %>%
     mutate(dimension='trend', score=median(t(cbind(score.local, score.inter)))) %>%
-    mutate(score=max(min(score, 1), -1)) %>% select(rgn_id, dimension, score)
-  # mutate(score=max(min(score*5, 1), -1)) %>% select(rgn_id, dimension, score) <-- why?
-  # Answer: the *5 is NOT needed here because this formula
-  #       does NOT use [S = (S_score - 1) / 5] nor [Xtr]
+    mutate(score=max(min(score*5, 1), -1)) %>% select(rgn_id, dimension, score)
 
   # get status (as last year's value given by year_max)
   d_s = d %>% filter(Xtr, year==year_max) %>% mutate(dimension='status', Xtr=100*Xtr) %>% select(rgn_id, dimension, score=Xtr)
