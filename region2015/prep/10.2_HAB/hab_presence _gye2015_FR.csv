@@ -1,19 +1,19 @@
-rgn_id;Provincia;habitat;boolean
-1;El Oro;coral;0
-2;Guayas;coral;0
-6;Santa Elena;coral;0
-1;El Oro;mangrove;1
-2;Guayas;mangrove;1
-6;Santa Elena;mangrove;0
-1;El Oro;mangrove_inland1km;1
-2;Guayas;mangrove_inland1km;1
-6;Santa Elena;mangrove_inland1km;0
-1;El Oro;mangrove_offshore1km;1
-2;Guayas;mangrove_offshore1km;1
-6;Santa Elena;mangrove_offshore1km;0
-1;El Oro;rocky_reef;0
-2;Guayas;rocky_reef;0
-6;Santa Elena;rocky_reef;1
-1;El Oro;soft_bottom;1
-2;Guayas;soft_bottom;1
-6;Santa Elena;soft_bottom;1
+rgn_id;habitat;boolean
+1;coral;0
+2;coral;0
+6;coral;0
+1;mangrove;1
+2;mangrove;1
+6;mangrove;0
+1;mangrove_inland1km;1
+2;mangrove_inland1km;1
+6;mangrove_inland1km;0
+1;mangrove_offshore1km;1
+2;mangrove_offshore1km;1
+6;mangrove_offshore1km;0
+1;rocky_reef;0
+2;rocky_reef;0
+6;rocky_reef;1
+1;soft_bottom;1
+2;soft_bottom;1
+6;soft_bottom;1
