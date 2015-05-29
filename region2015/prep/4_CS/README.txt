@@ -6,7 +6,7 @@ CAPA: cs_habitat_extent
 
 En esa capa de datos se pondera un valor (rango) de la capacidad de almacenamiento de carbono entre los habitas, debido que para el estudio local solo se considero el habitat manglar, ese valor del rango será 1 porque no hay otros tipos de habitas para hacer una comparación. 
 Ese valor del rango (en este caso 1) es multiplicado por el Km2 del hábitat actual (158 Km2 para la region 1 - El Oro y 964Km2 para la region 2 - Guayas), considerado en el estudio local como el año de 2006. 
-
+Fue editada el 29/05, esta capa ahora es igual a habitat extent.
 
 
 CAPA: hab_extent
@@ -27,11 +27,11 @@ En base a esas informaciones, el último año de los datos (2006) fue considerado 
 
 Fuente: CLIRSEN Centro de Levantamientos Integrados de Recursos Naturales
 
-hab_health
+hab_health_gye2015_TG
 Esa capa de datos calcula el estado de salud del hábitat. 
 El valor de la meta es alcanzado dividiendo la cobertura del manglar en el estado actual (Año del 2006, fuente CLIRSEN) por la cobertura del manglar del año de referencia.
 Para esa meta el año de referencia fue considerado el año de 1991 de acuerdo a la base legal de la Ley Nº91 del 7 de Agosto del 1990, Artículo 1 de la Ley Forestal y de Conservación de Áreas Naturales y Vida Silvestre
 que dice "Los manglares, se consideran bienes del Estado y están fuera del  comercio, no son susceptibles de posesión o cualquier otro medio de apropiación y solamente podrán ser explotados mediante concesión otorgada, de conformidad con esta ley y su reglamento”.
- 
+Se agregó los valores para soft bottom el 29/05  
 
 
