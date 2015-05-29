@@ -1,6 +1,6 @@
 
 le_popn
 
-Población estimada (provincias, cantones y parroquias con borde costero en el golfo de guayaquil) del 2010 al 2014
+Población estimada (a nivel provincial) del 2010 al 2014
+Fuente: Instituto de Estadísticas y Censos
 
-El punto es separador de miles, esta capa no ha sido manipulada
