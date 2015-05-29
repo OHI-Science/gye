@@ -90,14 +90,17 @@ De acuerdo a la metodología antes mencionada, para la destrucción de hábitat con
 
 po_chemicals_gye2015 Ocean-based chemical pollution
 Fuente: Halpern 2008
+Esta capa sirve para el cálculo de status de Aguas Limpias.
 Pendiente: cambiar separador de comas y columnas.
 
 po_chemicals_3nm_gye2015  Land-based chemical pollution
 Fuente: Halpern 2008
+Esta capa sirve para el cálculo de status de Aguas Limpias.
 Pendiente: cambiar separador de comas y columnas.
 
 po_nutrients_gye2015
 Fuente: Halpern 2008
+Esta capa sirve para el cálculo de status de Aguas Limpias.
 Pendiente: cambiar separador de comas y columnas.
 
 po_nutrients_3nm_gye2015
@@ -107,11 +110,13 @@ Pendiente: cambiar separador de comas y columnas.
 po_pathogens_gye2015
 Fuente:MEDIOS DE ELIMINACIÓN DE EXCRETAS(MEE) Censo de Población y Vivienda - INECAÑO: 2010
 La información están a nivel parroquial con frente costero, área rural, y el valor es el porcentaje de viviendas con medios a eliminación de excretas relativo al punto de referencia que es 95%
+Esta capa sirve para el cálculo de status de Aguas Limpias.
 Pendiente: cambiar separador de comas y columnas.
 
-po_pathogens_gye2015
+po_trash_gye2015
 Medio de Eliminación de Basura año: 2010
 Fuente: Censo de población y vivienda- INEC
+Esta capa sirve para el cálculo de status de Aguas Limpias.
 FALTA README
 
 sp_genetic: Genetic escapes
