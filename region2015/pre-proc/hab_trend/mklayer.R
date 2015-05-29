@@ -1,4 +1,3 @@
-# mk.layer.ao_* ####
 # AM Sajo-Castelli
 # 28/04/2015
 #

@@ -9,8 +9,12 @@ colnames(rgn_id2name) <- c("rgn_id", "name")
 row.names(rgn_id2name) <- rgn_id2name[, 1]
 rgn_id2name
 
-get.rgn_id <- function(x) {
-        n <- rgn_id2name[rgn_id2name[2] == x, 1]
+get.rgn_id <- function(x, with.dot = FALSE) {
+        if ( with.dot == FALSE ) {
+                n <- rgn_id2name[rgn_id2name[2] == x, 1]
+        } else {
+          n <- rgn_id2name[rgn_id2name[2] == gsub("\\.", " ", x), 1]
+        }
         stopifnot(!is.na(n))
         n
 }

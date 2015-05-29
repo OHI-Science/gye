@@ -4,9 +4,23 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #04-052015: hab_trend layer update.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+The layer `hab_trend_gye2015` is updated. Now includes the trends of mangrove and soft_bottom.
+
+Notes on implementation:
+
+ 1. mangrove class trend is calculated in `hab_trend` with database `tabla tendencia.xlsx` 
+    and is truncated +/- 1. Code used is `mklayer.R`
+ 2. soft_bottom class tren is calculated in `hab_trend_2` with database `Respaldos Habitat destruction subtidal soft bottom-1.xlsx`
+    and sheet `final`. it is also truncated +/- 1. Code used is `mklayer2.R`
+ 3. The final step in `mklayer2.R` is to grab `hab_trend/hab_trend_gye2015.csv` which only contains mangrove trends and
+    bind it with soft_bottom trends to produce the final layer `hab_trend/hab_trend_gye2015.csv`.
+
 
 # TSK #03-052015: TR function update.
-![task:under review](https://img.shields.io/badge/task-under_review-orange.svg)
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
 Overhaul of `TR()` function:
 
