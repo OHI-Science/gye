@@ -9,28 +9,29 @@ Data sources: Oportunidad de pesca artesanal (1).xlsx, Oportunidad de pesca arte
 
 Data sources: Oportunidad de pesca artesanal (1).xlsx","value","value","ao_sao_gye2015.csv","equal","global purchasing power parity information was applied equally to all regions.","ao_sao","~/github/ohi-global/eez2014/layers/ao_need.csv","global","rgn_id",,,,"value",,TRUE,,,0.475250220249097,0.690231532543976,TRUE,,,,3,FALSE
 "CW","cw_coastalpopn_trend","Coastal human population as a proxy for trend in trash","Coastal population, defined as the total population inland of 25 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
-
+@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
 - Center for International Earth Science Information Network (CIESIN)/Columbia University 
-- CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)","trend","trend score","cw_coastalpopn_trend_gl2014.csv","equal","global trends were applied equally to all regions.","cw_coastalpopn_trend","~/github/ohi-global/eez2014/layers/cw_coastalpopn_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,0.0772183468722616,0.0772183468722616,TRUE,,,,3,FALSE
+- CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)
+","trend","trend score","cw_coastalpopn_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_coastalpopn_trend","~/github/ohi-global/eez2014/layers/cw_coastalpopn_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,0.448674398611417,0.99782894845958,TRUE,,,,3,FALSE
 "CW","cw_fertilizer_trend","Fertilizer consumption as a proxy for trend in nutrient pollution","Statistics on fertilizer consumption from the Food and Agricultural Organization (FAO). 
-
+@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
-- [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).","trend.score","trend score","cw_fertilizer_trend_gl2014.csv","equal","global trends were applied equally to all regions.","cw_fertilizer_trend","~/github/ohi-global/eez2014/layers/cw_fertilizer_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,-1,-1,FALSE,,,,3,FALSE
+- [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).","trend.score","trend score","cw_fertilizer_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_fertilizer_trend","~/github/ohi-global/eez2014/layers/cw_fertilizer_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,0.729996031535455,0.729996031535455,TRUE,,,,3,FALSE
 "CW","cw_pathogen_trend","Trends in access to improved sanitation as a proxy for pathogen pollution trend","Trends in percent of population with access to improved sanitation facilities.
-
+@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
 - [World Health Organization and United Nations Children's Fund's Joint Monitoring Programme (WHO/UNICEF's JMP)](http://www.wssinfo.org/data-estimates/table)
-","trend","trend score","cw_pathogen_trend_gl2014.csv","equal","global trends were applied equally to all regions.","cw_pathogen_trend","~/github/ohi-global/eez2014/layers/cw_pathogen_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,0.00229356723971744,0.00229356723971744,TRUE,,,,3,FALSE
+","trend","trend score","cw_pathogen_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pathogen_trend","~/github/ohi-global/eez2014/layers/cw_pathogen_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,0.999292629319626,0.999686770888882,TRUE,,,,3,FALSE
 "CW","cw_pesticide_trend","Pesticide consumption as a proxy for trend in chemical pollution","Statistics on pesticide consumption from the Food and Agricultural Organization (FAO). 
-
+@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
 - [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).
-","trend.score","trend score","cw_pesticide_trend_gl2014.csv","equal","global trends were applied equally to all regions.","cw_pesticide_trend","~/github/ohi-global/eez2014/layers/cw_pesticide_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,0.878752913498073,0.878752913498073,TRUE,,,,3,FALSE
+","trend.score","trend score","cw_pesticide_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pesticide_trend","~/github/ohi-global/eez2014/layers/cw_pesticide_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,0.658015794682208,0.658015794682208,TRUE,,,,3,FALSE
 "FIS","fis_b_bmsy","B/Bmsy estimates obtained using the catch-MSY method","The ratio of population abundance compared to the abundance required to deliver maximum sustainable yield, obtained from the catch-MSY model (Martell & Froese, 2013).
 
 Data sources:
@@ -55,7 +56,7 @@ Data sources:
 - [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","w_fis","value","fp_wildcaught_weight_gl2014.csv","equal","global weights were applied equally to all regions. ","fp_wildcaught_weight","~/github/ohi-global/eez2014/layers/fp_wildcaught_weight.csv","global","rgn_id",,,,"w_fis",,TRUE,,,0.469560954444571,0.469560954444571,TRUE,,,,3,FALSE
 "HAB CS CP","hab_extent","Habitat extent","Modeled combined habitat extent. @andres: updated with local data. Src: pre-proc/CS/","km2","km^2","hab_extent_gye2015.csv","raster | area_offshore","","hab_extent","~/github/ohi-global/eez2014/layers/hab_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,1.8269,6269.9242,FALSE,,,,3,FALSE
 "HAB CS CP","hab_health","Habitat health","Modeled combined habitat health condition trend. @andres: updated with local data. Src: pre-proc/CS/","health","value","hab_health_gye2015.csv","equal","global habitat health was applied equally to all regions. ","hab_health","~/github/ohi-global/eez2014/layers/hab_health.csv","global","rgn_id",,"habitat",,"health",,TRUE,,,0.77,0.95,TRUE,,,,3,FALSE
-"HAB CS CP","hab_trend","Habitat health trend","Modeled combined habitat health trend. Update local data @andres source: hab-trend/tabla tendencias.xlsx","trend","trend score","hab_trend_gye2015.csv","equal","global trends were applied equally to all regions.","hab_trend","~/github/ohi-global/eez2014/layers/hab_trend.csv","global","rgn_id",,"habitat",,"trend",,TRUE,,,-1,-0.170259840959986,FALSE,,,,3,FALSE
+"HAB CS CP","hab_trend","Habitat health trend","Modeled combined habitat health trend. Update local data @andres source: hab-trend/tabla tendencias.xlsx + soft_bottom, trend is adjusted via sd(x)/sd(y)","trend","trend score","hab_trend_gye2015.csv","equal","global trends were applied equally to all regions.","hab_trend","~/github/ohi-global/eez2014/layers/hab_trend.csv","global","rgn_id",,"habitat",,"trend",,TRUE,,,-0.950373112483085,-0.89453145615211,FALSE,,,,3,FALSE
 "ICO","ico_spp_extinction_status","IUCN extinction risk category for iconic species","Updated with local layer. @andres 28/04/2015","category","category","ico_spp_extinction_status_gye2015.csv","equal","global status was applied equally to all regions. ","ico_spp_extinction_status","~/github/ohi-global/eez2014/layers/ico_spp_extinction_status.csv","global","rgn_id",,"sciname",,,"category",TRUE,,,,,FALSE,,,,3,
 "ICO","ico_spp_popn_trend","IUCN population trend as a proxy for iconic species trend","Updated with local layer. @andres 28/04/2015","popn_trend","trend score","ico_spp_popn_trend_gye2015.csv","equal","global trends were applied equally to all regions.","ico_spp_popn_trend","~/github/ohi-global/eez2014/layers/ico_spp_popn_trend.csv","global","rgn_id",,"sciname",,,"popn_trend",TRUE,,,,,FALSE,,,,3,
 "LE","le_gdp","GDP","Gross Domestic Product (GDP) data (reported in 2012 US dollars) from The World Bank.
