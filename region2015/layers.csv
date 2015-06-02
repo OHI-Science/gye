@@ -174,14 +174,14 @@ Data sources:
 "pressures","cc_acid","Ocean acidification","Modeled distribution of the aragonite saturation state (AAS) of the ocean in pre-industrial (~1870) and modern times (2000-2009) (Halpern et al. 2008).
 
 Data sources:
-
-- Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)","pressure_score","pressure score","cc_acid_gl2014.csv","raster | equal","","cc_acid","~/github/ohi-global/eez2014/layers/cc_acid.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.662759,0.662759,TRUE,,,,3,FALSE
+- Updated with local information. @andres 1/6/2015
+- Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)","pressure_score","pressure score","cc_acid_gye2015.csv","raster | equal","","cc_acid","~/github/ohi-global/eez2014/layers/cc_acid.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.961644286,1,TRUE,,,,3,FALSE
 "pressures","cc_slr","Sea level rise","Modeled sea level rise (Nicholls and Cazenave 2010).
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Nicholls R.J. and Cazenave A. (2010). **Sea-level rise and its impact on coastal zones**. _Science_ 328: 1517-1520. [doi:10.1126/science.1185782](http://dx.doi.org/10.1126/science.1185782). 
-- [AVISO Satellite Altimetry Data](http://www.aviso.oceanobs.com/en/news/ocean-indicators/mean-sea-level/processing-corrections.html)","pressure_score","pressure score","cc_slr_gl2014.csv","raster | equal","","cc_slr","~/github/ohi-global/eez2014/layers/cc_slr.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0,0,TRUE,,,,3,FALSE
+- [AVISO Satellite Altimetry Data](http://www.aviso.oceanobs.com/en/news/ocean-indicators/mean-sea-level/processing-corrections.html)","pressure_score","pressure score","cc_slr_gye2015.csv","raster | equal","","cc_slr","~/github/ohi-global/eez2014/layers/cc_slr.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0,0,TRUE,,,,3,FALSE
 "pressures","cc_sst","Sea surface temperature (SST) anomalies","Modeled sea surface temperature (Halpern et al. 2008) based on temperature anomolies provided by GHRSST and the US National Oceanographic Data Center.
 
 Data sources:
@@ -192,10 +192,10 @@ Data sources:
 "pressures","cc_uv","UV radiation","Modeled UV radiation (Halpern et al. 2008) based on Erythemal UV Irradiance data provided by GES DISC.
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
 - [Goddard Earth Sciences Data and Information Services Center (GES DISC)](http://disc.sci.gsfc.nasa.gov/data-holdings/PIP/erythemal_uv_irradiance.shtml)
-","pressure_score","pressure score","cc_uv_gl2014.csv","raster | equal","","cc_uv","~/github/ohi-global/eez2014/layers/cc_uv.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.766922988364139,0.766922988364139,TRUE,,,,3,FALSE
+","pressure_score","pressure score","cc_uv_gye2015.csv","raster | equal","","cc_uv","~/github/ohi-global/eez2014/layers/cc_uv.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.890841161,0.922301728,TRUE,,,,3,FALSE
 "pressures","fp_art_hb","High bycatch caused by artisanal fishing ","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
@@ -204,9 +204,9 @@ Data sources:
 "pressures","fp_art_lb","Low bycatch caused by artisanal fishing ","Modeled low bycatch artisanal fishing using non-destructive practices (Halpern et al. 2008) based on FAO fisheries statistics.
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
-- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","pressure_score","pressure score","fp_art_lb_gl2014.csv","equal","global pressures data were applied equally to all regions.","fp_art_lb","~/github/ohi-global/eez2014/layers/fp_art_lb.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.0127413066006918,0.0127413066006918,TRUE,,,,3,FALSE
+- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","pressure_score","pressure score","fp_art_lb_gye2015.csv","equal","global pressures data were applied equally to all regions.","fp_art_lb","~/github/ohi-global/eez2014/layers/fp_art_lb.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.09,0.16,TRUE,,,,3,FALSE
 "pressures","fp_com_hb","High bycatch caused by commercial fishing ","Modeled destructive commercial fishing practices by 5 different gear types (Halpern et al. 2008).
 
 Data sources:
@@ -227,10 +227,10 @@ Data sources:
 "pressures","hd_intertidal","Coastal population density as a proxy for intertidal habitat destruction","Coastal population, defined as the total population inland of 10 miles, extracted from Gridded Population of the World (GPW) Population Density Grid Future Estimates.
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Center for International Earth Science Information Network (CIESIN)/Columbia University 
 - CIESIN & CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, & Centro Internacional de Agricultura Tropical (CIAT)) (2005). **Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates**. Palisades, NY. [NASA Socioeconomic Data and Applications Center (SEDAC)](http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates)
-","pressure_score","pressure score","hd_intertidal_sc2014-popn-inland25km.csv","population_inland25km","global intertidal pressures were applied to each region after weighting by each region's coastal population.","hd_intertidal","~/github/ohi-global/eez2014/layers/hd_intertidal.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.00507821596119815,0.0611715855864006,TRUE,,,,3,FALSE
+","pressure_score","pressure score","hd_intertidal_gye2015.csv","population_inland25km","global intertidal pressures were applied to each region after weighting by each region's coastal population.","hd_intertidal","~/github/ohi-global/eez2014/layers/hd_intertidal.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.049466285,0.106222338,TRUE,,,,3,FALSE
 "pressures","hd_subtidal_hb","High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 
 Data sources:
@@ -239,32 +239,32 @@ Data sources:
 "pressures","hd_subtidal_sb","High bycatch commercial fishing practices as a proxy for subtidal soft bottom habitat destruction","Spatially distributed commercial catch data by fishing gear type, developed by Sea Around Us Project.
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - [Sea Around Us Project (SAUP)](http://www.seaaroundus.org/)
-","pressures.score","pressure score","hd_subtidal_sb_gl2014.csv","equal","global pressures data were applied equally to all regions.","hd_subtidal_sb","~/github/ohi-global/eez2014/layers/hd_subtidal_sb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.040082792,0.040082792,TRUE,,,,3,FALSE
+","pressures.score","pressure score","hd_subtidal_sb_gye2015.csv","equal","global pressures data were applied equally to all regions.","hd_subtidal_sb","~/github/ohi-global/eez2014/layers/hd_subtidal_sb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.669553788,0.763752591,TRUE,,,,3,FALSE
 "pressures","po_chemicals_3nm","Land-based chemical pollution","Modeled land-based organic pollution at 1km2 resolution (Halpern et al. 2008).
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
-","pressure_score","pressure score","po_chemicals_3nm_gl2014.csv","raster | equal","","po_chemicals_3nm","~/github/ohi-global/eez2014/layers/po_chemicals_3nm.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.163320554724878,0.163320554724878,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_chemicals_3nm_gye2015.csv","raster | equal","","po_chemicals_3nm","~/github/ohi-global/eez2014/layers/po_chemicals_3nm.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.25712503,0.652036746,TRUE,,,,3,FALSE
 "pressures","po_nutrients_3nm","Coastal nutrient pollution","Modeled coastal nutrient pollution (Halpern et al. 2008).
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
-","pressure_score","pressure score","po_nutrients_3nm_gl2014.csv","raster | equal","","po_nutrients_3nm","~/github/ohi-global/eez2014/layers/po_nutrients_3nm.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.0856679,0.0856679,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_nutrients_3nm_gye2015.csv","raster | equal","","po_nutrients_3nm","~/github/ohi-global/eez2014/layers/po_nutrients_3nm.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.136962958,0.485350062,TRUE,,,,3,FALSE
 "pressures","sp_alien","Alien species","The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). 
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Molnar, J.L., Gamboa, R.L., Revenga C., Spalding, M. (2008). **Assessing the global threat of invasive species to marine biodiversity**. _Frontiers in Ecology and the Environment_ 6(485). [doi:10.1890/070064](http://dx.doi.org/10.1890/070064)
-","pressures.score","pressure score","sp_alien_gl2014.csv","equal","global pressures data were applied equally to all regions.","sp_alien","~/github/ohi-global/eez2014/layers/sp_alien.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.011915344143004,0.011915344143004,TRUE,,,,3,FALSE
+","pressures.score","pressure score","sp_alien_gye2015.csv","equal","global pressures data were applied equally to all regions.","sp_alien","~/github/ohi-global/eez2014/layers/sp_alien.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.060790274,0.060790274,TRUE,,,,3,FALSE
 "pressures","sp_genetic","Introduced species as a proxy for genetic escapes ","Statistics on native or introduced species from the Mariculture Sustainibility Index (MSI). 
 
 Data sources:
-
-- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","pressures.score","pressure score","sp_genetic_gl2014.csv","equal","global pressures data were applied equally to all regions.","sp_genetic","~/github/ohi-global/eez2014/layers/sp_genetic.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.99999226,0.99999226,TRUE,,,,3,FALSE
+- Updated with local information. @andres 1/6/2015
+- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","pressures.score","pressure score","sp_genetic_gye2015.csv","equal","global pressures data were applied equally to all regions.","sp_genetic","~/github/ohi-global/eez2014/layers/sp_genetic.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0,0.99,TRUE,,,,3,FALSE
 "pressures","ss_wgi","Weakness of governance indicated with the WGI","Inverse of World Governance Indicators (WGI) six combined scores.
 
 Data sources:
@@ -275,27 +275,27 @@ Data sources:
 "pressures CW","po_chemicals","Ocean-based chemical pollution","Modeled ocean-based chemical pollution from commercial shipping traffic and ports and harbors (Halpern et al. 2008).
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
-","pressure_score","pressure score","po_chemicals_gl2014.csv","raster","spatial data was extracted for each region. ","po_chemicals","~/github/ohi-global/eez2014/layers/po_chemicals.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.0227785499911597,0.0227785499911597,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_chemicals_gye2015.csv","raster","spatial data was extracted for each region. ","po_chemicals","~/github/ohi-global/eez2014/layers/po_chemicals.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.003390492,0.085606871,TRUE,,,,3,FALSE
 "pressures CW","po_nutrients","Ocean nutrient pollution","Modeled ocean nutrient pollution (Halpern et al. 2008).
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) **A global map of human impact on marine ecosystems**. _Science_, 3199(5865): 948-952. [doi:10.1126/science.1149345](http://dx.doi.org/10.1126/science.1149345)
-","pressure_score","pressure score","po_nutrients_gl2014.csv","raster","spatial data was extracted for each region. ","po_nutrients","~/github/ohi-global/eez2014/layers/po_nutrients.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.00194659,0.00194659,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_nutrients_gye2015.csv","raster","spatial data was extracted for each region. ","po_nutrients","~/github/ohi-global/eez2014/layers/po_nutrients.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.087726759,0.159562391,TRUE,,,,3,FALSE
 "pressures CW","po_pathogens","Access to improved sanitation as a proxy for pathogen pollution","Percent of population with access to improved sanitation facilities. 
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - [World Health Organization and United Nations Children's Fund's Joint Monitoring Programme (WHO/UNICEF's JMP)](http://www.wssinfo.org/data-estimates/table)
-","pressure_score","pressure score","po_pathogens_gl2014.csv","raster","spatial data was extracted for each region. ","po_pathogens","~/github/ohi-global/eez2014/layers/po_pathogens.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.432157556038898,0.432157556038898,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_pathogens_gye2015.csv","raster","spatial data was extracted for each region. ","po_pathogens","~/github/ohi-global/eez2014/layers/po_pathogens.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.894,0.91,TRUE,,,,3,FALSE
 "pressures CW","po_trash","Trash pollution","Density of trash from coastal land and sea (Ocean Conservancy). 
 
 Data sources:
-
+- Updated with local information. @andres 1/6/2015
 - [Ocean Conservancy International Coastal Cleanup 2012](http://www.oceanconservancy.org/our-work/international-coastal-cleanup/2012-ocean-trash-index.html)
-","pressure_score","pressure score","po_trash_gl2014.csv","equal","global pressures data were applied equally to all regions.","po_trash","~/github/ohi-global/eez2014/layers/po_trash.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.606364341429434,0.606364341429434,TRUE,,,,3,FALSE
+","pressure_score","pressure score","po_trash_gye2015.csv","equal","global pressures data were applied equally to all regions.","po_trash","~/github/ohi-global/eez2014/layers/po_trash.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.079962508,0.909090909,TRUE,,,,3,FALSE
 "pressures HAB","hab_presence","Habitat presence","Modeled combined habitat presence. Using Local information. @andres 1/6/2015","boolean","boolean","hab_presence_gye2015.csv","equal","global pressures data were applied equally to all regions.","hab_presence","~/github/ohi-global/eez2014/layers/hab_presence.csv","global","rgn_id",,"habitat",,"boolean",,TRUE,,,0,1,TRUE,,,,3,FALSE
 "resilience","alien_species","Alien species","The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). 
 
