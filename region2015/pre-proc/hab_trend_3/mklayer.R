@@ -32,7 +32,7 @@ plot(years, data, main=paste('mangrove', Region))
 lmtrend = lm(data ~ years)
 title(sub=paste(coef(lmtrend), collapse = " "))
 abline(lmtrend, lwd=3, col='red')
-trend =  (coef(lmtrend)[['years']] * sd(years) / sd(data)) %>% bound_pm1()
+trend =  (coef(lmtrend)[['years']] * 5 * sd(years) / sd(data)) %>% bound_pm1()
 hab_trend <- data.frame(rgn_id = get.rgn_id(Region), habitat = "mangrove", trend = trend, stringsAsFactors = FALSE)
 
 # Magrove for Guayas ####
@@ -45,7 +45,7 @@ plot(years, data, main=paste('mangrove', Region))
 lmtrend = lm(data ~ years)
 title(sub=paste(coef(lmtrend), collapse = " "))
 abline(lmtrend, lwd=3, col='red')
-trend =  (coef(lmtrend)[['years']] * sd(years) / sd(data)) %>% bound_pm1()
+trend =  (coef(lmtrend)[['years']] * 5 * sd(years) / sd(data)) %>% bound_pm1()
 hab_trend[2, ] <- data.frame(rgn_id = get.rgn_id(Region), habitat = "mangrove", trend = trend, stringsAsFactors = FALSE)
 
 # Mangrove for Santa Elena ####

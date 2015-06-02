@@ -26,7 +26,7 @@ data = melt(DF, id.vars = 'year') %>% group_by(variable)
 d = data %>% do( {
   mdl = lm(value ~ year, data = .)
   trend =  coef(mdl)[['year']] * sd(.$year) / sd(.$value)
-  sector_trend = pmax(-1, pmin(1, trend))
+  sector_trend = pmax(-1, pmin(1, trend * 5))
 #   sector_trend = pmax(-1, pmin(1, coef(mdl)[['year']] * 5))
   data.frame(halpern.trend = sector_trend, coef.Beta0 = coef(mdl)[['(Intercept)']],  coef.year = coef(mdl)[['year']])
 } )

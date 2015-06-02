@@ -4,6 +4,13 @@ author: "AM Sajo Castelli"
 date: "31/05/2015"
 output: html_document
 ---
+# Update 1/6/2015
+All trends were updated with 5 year projection:
+```r
+mdl = lm(value ~ year, data = .)
+trend =  coef(mdl)[['year']] * sd(.$year) / sd(.$value)
+sector_trend = pmax(-1, pmin(1, trend * 5))
+```
 
 # Trends
 Notes of layers regarding trends estimated via local information.

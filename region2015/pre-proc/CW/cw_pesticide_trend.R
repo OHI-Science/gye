@@ -21,7 +21,7 @@ DF
 attach(DF)
 mdl = lm(value ~ year)
 trend =  coef(mdl)[['year']] * sd(year) / sd(value)
-sector_trend = pmax(-1, pmin(1, trend))
+sector_trend = pmax(-1, pmin(1, trend * 5))
 d = data.frame(halpern.trend = sector_trend, coef.Beta0 = coef(mdl)[['(Intercept)']],  coef.year = coef(mdl)[['year']])
 d
 
