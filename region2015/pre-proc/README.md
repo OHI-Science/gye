@@ -4,6 +4,11 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #06-042015: LE goal update.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+Registered last `le_popn` layer with local data.
+
 # TSK #05-042015: le_* layers update.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
