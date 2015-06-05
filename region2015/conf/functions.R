@@ -952,8 +952,8 @@ LIV_ECO = function(layers, subgoal){
   ## read in all data:
 
   # gdp, wages, jobs and workforce_size data
-  le_gdp   = SelectLayersData(layers, layers='le_vab')  %>%
-    select(rgn_id = id_num, year, gdp_usd = val_num)
+  le_vab   = SelectLayersData(layers, layers='le_vab')  %>%
+    select(rgn_id = id_num, year, vab_usd = val_num)
 
   le_wages = SelectLayersData(layers, layers='le_wage_sector_year') %>%
     select(rgn_id = id_num, year, sector = category, wage_usd = val_num)
@@ -975,10 +975,17 @@ LIV_ECO = function(layers, subgoal){
   #     le_unemployment   = read.csv('eez2014/layers/le_unemployment.csv')
 
   # multipliers from Table S10 (Halpern et al 2012 SOM)
-  multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
-                                'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
+  # multipliers_jobs = data.frame('sector' = c('tour','cf', 'mmw', 'wte','mar'),
+  #                              'multiplier' = c(1, 1.582, 1.915, 1.88, 2.7)) # no multiplers for tour (=1)
   # multipliers_rev  = data.frame('sector' = c('mar', 'tour'), 'multiplier' = c(1.59, 1)) # not used because GDP data is not by sector
+  # print(multipliers_jobs)
+  multipliers_jobs = SelectLayersData(layers, layers='le_sector_weight') %>% transmute(rgn_id = id_num, sector = category, multiplier = val_num)
 
+  EQ = multipliers_jobs %>% dcast(formula =  rgn_id ~ sector, value.var = 'multiplier') %>% select(-rgn_id) %>% apply(MARGIN = 2, function(x) { all(x == x[1]) })
+  if ( any(EQ == FALSE) ) { warning('In layer `le_sector_weight` sectors do not have same weights per rgn_id, using first region\'s sector weights') }
+
+  multipliers_jobs = multipliers_jobs %>% filter(rgn_id == .$rgn_id[1]) %>% select(-rgn_id)
+  # print(multipliers_jobs)
 
   # calculate employment counts
   le_employed = le_workforce_size %>%
@@ -1112,10 +1119,10 @@ LIV_ECO = function(layers, subgoal){
 
 
   # ECO calculations ----
-  eco = le_gdp %>%
+  eco = le_vab %>%
     mutate(
-      rev_adj = gdp_usd,
-      sector = 'gdp') %>%
+      rev_adj = vab_usd,
+      sector = 'vab') %>%
     # adjust rev with national GDP rates if available. Example: (rev_adj = gdp_usd / ntl_gdp)
     select(rgn_id, year, sector, rev_adj)
 
