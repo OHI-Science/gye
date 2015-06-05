@@ -952,7 +952,7 @@ LIV_ECO = function(layers, subgoal){
   ## read in all data:
 
   # gdp, wages, jobs and workforce_size data
-  le_gdp   = SelectLayersData(layers, layers='le_gdp')  %>%
+  le_gdp   = SelectLayersData(layers, layers='le_vab')  %>%
     select(rgn_id = id_num, year, gdp_usd = val_num)
 
   le_wages = SelectLayersData(layers, layers='le_wage_sector_year') %>%
