@@ -4,6 +4,92 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #05-042015: le_* layers update.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+
+The following layers where update and registered:
+
+ 1. `le_jobs_sector_year_gye2015.csv`
+ 2. `le_sector_weight_gye2015.csv` This layer must **not** have missing values, sector that does not have weight should have a "1"
+ 3. `le_unemployment_gye2015.csv`
+ 4. `le_vab_gye2015.csv`
+ 5. `le_wage_sector_year_gye2015.csv`
+ 6. `le_workforcesize_adj_gye2015.csv`
+
+In `functions.R` the function `LIV_ECO` was modified to use `le_sector_weight_gye2015.csv` instead of hard-coded weights, also
+**GDP** was `transmuted` to **VAB** (but variable names where not changed).
+
+## Note on trend for LIV goal
+Currently the LIV trend is NA (for global data is 0.56). Cause, see columns `jobs_adj` and `wage_usd` which are used for `lm`:
+```R
+Browse[1]> liv
+    rgn_id year sector         jobs multiplier   jobs_mult  jobs_all pct_unemployed proportion_employed  employed    jobs_adj wage_usd
+1        1 2009    aqf           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+2        2 2009    aqf           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+3        6 2009    aqf           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+4        1 2009     cf  4841.000000       1.73  8374.93000        NA             NA                  NA        NA          NA       NA
+5        2 2009     cf 17432.000000       1.73 30157.36000        NA             NA                  NA        NA          NA       NA
+6        6 2009     cf  6747.000000       1.73 11672.31000        NA             NA                  NA        NA          NA       NA
+7        1 2009    mar   449.000000       1.97   884.53000        NA             NA                  NA        NA          NA       NA
+8        2 2009    mar  1125.000000       1.97  2216.25000        NA             NA                  NA        NA          NA       NA
+9        6 2009    mar    21.000000       1.97    41.37000        NA             NA                  NA        NA          NA       NA
+10       1 2009    mmw           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+11       2 2009    mmw           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+12       6 2009    mmw           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+13       1 2009     sb     9.000000       1.88    16.92000        NA             NA                  NA        NA          NA       NA
+14       2 2009     sb  1552.000000       1.88  2917.76000        NA             NA                  NA        NA          NA       NA
+15       6 2009     sb    12.000000       1.88    22.56000        NA             NA                  NA        NA          NA       NA
+16       1 2009     se    27.000000       1.00    27.00000        NA             NA                  NA        NA          NA       NA
+17       2 2009     se    52.000000       1.00    52.00000        NA             NA                  NA        NA          NA       NA
+18       6 2009     se    18.000000       1.00    18.00000        NA             NA                  NA        NA          NA       NA
+19       1 2009   tour   684.000000       1.92  1313.28000        NA             NA                  NA        NA          NA       NA
+20       2 2009   tour  4280.000000       1.92  8217.60000        NA             NA                  NA        NA          NA       NA
+21       6 2009   tour   461.000000       1.92   885.12000        NA             NA                  NA        NA          NA       NA
+22       1 2009   tran   136.000000       1.88   255.68000        NA             NA                  NA        NA          NA       NA
+23       2 2009   tran   413.000000       1.88   776.44000        NA             NA                  NA        NA          NA       NA
+24       6 2009   tran           NA       1.88          NA        NA             NA                  NA        NA          NA       NA
+25       1 2009    wte           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+26       2 2009    wte           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+27       6 2009    wte           NA       1.00          NA        NA             NA                  NA        NA          NA       NA
+28       1 2010    aqf           NA       1.00          NA  410988.0       7.140466           0.9285953  381641.5          NA       NA
+29       2 2010    aqf           NA       1.00          NA 2693314.0       7.140466           0.9285953 2500998.8          NA       NA
+30       6 2010    aqf           NA       1.00          NA  191389.0       7.140466           0.9285953  177722.9          NA       NA
+31       1 2010     cf  5391.000000       1.73  9326.43000  410988.0       7.140466           0.9285953  381641.5  8660.47939      539
+32       2 2010     cf 19415.000000       1.73 33587.95000 2693314.0       7.140466           0.9285953 2500998.8 31189.61368      539
+33       6 2010     cf  7514.000000       1.73 12999.22000  191389.0       7.140466           0.9285953  177722.9 12071.01505      539
+34       1 2010    mar   500.000000       1.97   985.00000  410988.0       7.140466           0.9285953  381641.5   914.66640      539
+35       2 2010    mar  1253.000000       1.97  2468.41000 2693314.0       7.140466           0.9285953 2500998.8  2292.15401      539
+36       6 2010    mar    23.000000       1.97    45.31000  191389.0       7.140466           0.9285953  177722.9    42.07465      539
+37       1 2010    mmw           NA       1.00          NA  410988.0       7.140466           0.9285953  381641.5          NA       NA
+38       2 2010    mmw           NA       1.00          NA 2693314.0       7.140466           0.9285953 2500998.8          NA       NA
+39       6 2010    mmw           NA       1.00          NA  191389.0       7.140466           0.9285953  177722.9          NA       NA
+40       1 2010     sb    10.000000       1.88    18.80000  410988.0       7.140466           0.9285953  381641.5    17.45759      539
+41       2 2010     sb  1728.000000       1.88  3248.64000 2693314.0       7.140466           0.9285953 2500998.8  3016.67195      539
+42       6 2010     sb    13.000000       1.88    24.44000  191389.0       7.140466           0.9285953  177722.9    22.69487      539
+43       1 2010     se    30.000000       1.00    30.00000  410988.0       7.140466           0.9285953  381641.5    27.85786      539
+44       2 2010     se    58.000000       1.00    58.00000 2693314.0       7.140466           0.9285953 2500998.8    53.85853      539
+45       6 2010     se    20.000000       1.00    20.00000  191389.0       7.140466           0.9285953  177722.9    18.57191      539
+46       1 2010   tour   762.000000       1.92  1463.04000  410988.0       7.140466           0.9285953  381641.5  1358.57212      539
+47       2 2010   tour  4767.000000       1.92  9152.64000 2693314.0       7.140466           0.9285953 2500998.8  8499.09881      539
+48       6 2010   tour   513.000000       1.92   984.96000  191389.0       7.140466           0.9285953  177722.9   914.62926      539
+49       1 2010   tran   151.000000       1.88   283.88000  410988.0       7.140466           0.9285953  381641.5   263.60964      539
+50       2 2010   tran   460.000000       1.88   864.80000 2693314.0       7.140466           0.9285953 2500998.8   803.04925      539
+51       6 2010   tran           NA       1.88          NA  191389.0       7.140466           0.9285953  177722.9          NA       NA
+52       1 2010    wte           NA       1.00          NA  410988.0       7.140466           0.9285953  381641.5          NA       NA
+53       2 2010    wte           NA       1.00          NA 2693314.0       7.140466           0.9285953 2500998.8          NA       NA
+54       6 2010    wte           NA       1.00          NA  191389.0       7.140466           0.9285953  177722.9          NA       NA
+55       1 2011    aqf           NA       1.00          NA  417635.3             NA                  NA        NA          NA       NA
+56       2 2011    aqf           NA       1.00          NA 2732915.4             NA                  NA        NA          NA       NA
+57       6 2011    aqf           NA       1.00          NA  196066.8             NA                  NA        NA          NA       NA
+58       1 2011     cf  5941.605163       1.73 10278.97693  417635.3             NA                  NA        NA          NA      561
+59       2 2011     cf 21397.934380       1.73 37018.42648 2732915.4             NA                  NA        NA          NA      561
+60       6 2011     cf  8281.435948       1.73 14326.88419  196066.8             NA                  NA        NA          NA      561
+61       1 2011    mar   551.067071       1.97  1085.60213  417635.3             NA                  NA        NA          NA      561
+62       2 2011    mar  1380.974081       1.97  
+.... cropped ....
+```
+
 # TSK #04-052015: hab_trend layer update.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
