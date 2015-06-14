@@ -4,6 +4,14 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #07-062015: ICO_SPP layersupdate.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+Updated the layers
+
+ 1. `ico_spp_extinction_status_gye2015.csv` 
+ 2. `ico_spp_popn_trend_gye2015.csv`
+
 # TSK #06-042015: LE goal update.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
