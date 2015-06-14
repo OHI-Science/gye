@@ -1410,7 +1410,7 @@ HAB = function(layers){
 
   # limit to habitats used for HAB, create extent presence as weight
   d = d %>%
-    filter(habitat %in% c('coral','mangrove','rocky_reef', 'soft_bottom')) %>%
+    filter(habitat %in% c('mangrove', 'soft_bottom')) %>% # c('coral','mangrove','rocky_reef', 'soft_bottom')) %>%
     mutate(
       w  = ifelse(!is.na(extent) & extent > 0, 1, NA)) %>%
     filter(!is.na(w)) %>%

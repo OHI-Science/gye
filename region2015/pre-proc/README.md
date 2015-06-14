@@ -4,6 +4,47 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #09: Fix up HAB
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+This task required the validation on layers and the correcto of line 1413 of `functions.R`.
+
+Sub-meta Hábitats (HAB)
+Las capas de datos correspondientes al Golfo de Guayaquil para esta sub-meta son las siguientes
+
+ - `hab_extent_gye2015.csv`
+ - `hab_health_gye2015.csv`
+ - `hab_trend_gye2015.csv`
+ - `hab_presence_gye2015.csv`
+ 
+La capa hab_extent tiene los valores de área en km2 para cada tipo de hábitat:
+ - mangrove
+ - mangrove_offshore1km
+ - mangrove_inland1km
+ - rocky_reef
+ - soft_bottom
+ 
+La capa hab_health se interpreta como la condición actual para cada tipo de hábitat, y las
+metodologías de cálculo varían según el tipo de hábitat. Se hizo el cálculo para manglar y para
+fondos suaves utilizando las metodologias propuestas por Halpern et al. 2012. Para manglar se
+calculó el porcentaje de pérdida del área del manglar utilizando como año de referencia los
+datos de 1991. Para fondos suaves se utilizan como datos la densidad de pesca de arrastre
+(captura por unidad de área) como una variable proxy para estimar la condición (status) de los
+fondos suaves presentes en el golfo.
+La capa hab_trend se calcula para manglar y fondos suaves. Para manglar se calcula a partir de
+datos históricos de área de manglar y se estandariza esta tendencia entre -1 y 1. Para fondos
+suaves se utilizan los datos de varios años del estado actual de este hábitat, a partir de los datos
+históricos de densidad de pesca de arrastre.
+La capa hab_presence es una variable Booleana que toma valores 0-1 dependiendo de si hay (1)
+o no (0) presencia de algún tipo de hábitat en el Golfo.
+Dado que se tienen datos de condición y tendencia para los hábitats de manglar y fondos suaves, solo se
+evaluarían estos dos ecosistemas para el Golfo.
+Modificaciones que hay que hacer en el código de R:
+
+
+**En la línea 1413 definir los hábitat que se utilizarán para el Golfo (`mangrove` and `soft_bottom`).**
+
+
 # TSK #08: SPP TREND and STATUS.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
