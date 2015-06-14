@@ -4,6 +4,43 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSK #08: SPP TREND and STATUS.
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+ - Source: `10.2.1 Tabla _ spp.xlsx` @ sheets 1, 2, 3.
+ - Code: `mk_spp_status.R`
+ 
+Build status and trend layers. But first fixes typos on source xlsx and unites
+information of sheets 1, 2 and 3. Groups by `habitat` and estimates scores:
+
+## Status
+```R
+aceptables = complete.cases(FRAME$Estado.Peso)
+X_SPP = FRAME[aceptables, ] %>% group_by(Tipo.Fondo) %>% do({
+        data.frame(suma=sum(.$Estado.Peso), cantidad=nrow(.))
+})  %>% join(Area, by='Tipo.Fondo') %>% mutate(cociente = 1 - suma / cantidad, Status = cociente * total.km2 / Total)
+```
+Output:
+```R
+> head(X_SPP)
+  Tipo.Fondo suma cantidad     habitat  total.km2    Total  cociente      Status
+1          B  6.2      178 soft_bottom 12051.9487 12109.32 0.9651685 0.960595608
+2          D  6.8      116  rocky_reef    57.3735 12109.32 0.9413793 0.004460219
+```
+## Trend
+```R
+aceptables = complete.cases(FRAME$Tendencia.Peso)
+Y_SPP = FRAME[aceptables, ] %>% group_by(Tipo.Fondo) %>% do({
+  data.frame(mean = mean(.$Tendencia.Peso))
+})  %>% join(Area, by='Tipo.Fondo') %>% mutate(Trend = mean * total.km2 / Total)
+```
+Output
+```R
+  Tipo.Fondo       mean     habitat  total.km2    Total         Trend
+1          B -0.1944444 soft_bottom 12051.9487 12109.32 -0.1935231742
+2          D -0.1428571  rocky_reef    57.3735 12109.32 -0.0006768516
+```
+
 # TSK #07-062015: ICO_SPP layersupdate.
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 

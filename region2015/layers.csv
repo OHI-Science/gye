@@ -135,17 +135,17 @@ Data sources:
 - [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)
 ","usd_rel","score","np_harvest_usd_relative_gl2014.csv","equal","global scores were applied equally to each region. ","np_harvest_usd_relative","~/github/ohi-global/eez2014/layers/np_harvest_usd_relative.csv","global","rgn_id",,"product","year","usd_rel",,TRUE,1976,2011,0,1,TRUE,,,,3,FALSE
 "SPP","spp_status","Species lists and IUCN threat categories as a proxy for iconic species status","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists.
-
+Updated with local data. Layer is still not regionalized. @andres 13/06/2015.
 Data sources:
 
 - [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
-","score","status score","spp_status_gl2014.csv","equal","global scores were applied equally to each region. ","spp_status","~/github/ohi-global/eez2014/layers/spp_status.csv","global","rgn_id",,,,"score",,TRUE,,,0.824533697495568,0.824533697495568,TRUE,,,,3,FALSE
+","score","status score","spp_status_gye2015.csv","equal","global scores were applied equally to each region. ","spp_status","~/github/ohi-global/eez2014/layers/spp_status.csv","global","rgn_id",,,,"score",,TRUE,,,0.965055826879481,0.965055826879481,TRUE,,,,3,FALSE
 "SPP","spp_trend","Species lists and IUCN threat categories as a proxy for iconic species trend","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists.
-
+Updated with local data. Layer is still not regionalized. @andres 13/06/2015.
 Data sources:
 
 - [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
-","score","trend score","spp_trend_gl2014.csv","equal","global trends were applied equally to each region. ","spp_trend","~/github/ohi-global/eez2014/layers/spp_trend.csv","global","rgn_id",,,,"score",,TRUE,,,-0.231745771822033,-0.231745771822033,FALSE,,,,3,FALSE
+","score","trend score","spp_trend_gye2015.csv","equal","global trends were applied equally to each region. ","spp_trend","~/github/ohi-global/eez2014/layers/spp_trend.csv","global","rgn_id",,,,"score",,TRUE,,,-0.194200025805751,-0.194200025805751,FALSE,,,,3,FALSE
 "TR","tr_jobs_total","Total labor force","Total labor force (number of people 15 years old and older who can supply labor for the production of goods and services) from World Bank assessments.
 
 Data sources:
