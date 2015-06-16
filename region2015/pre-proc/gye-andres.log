@@ -1,0 +1,530 @@
+commit ee195d572d2054498546f83b3ff930d73f49ab63
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 13 23:24:17 2015 -0430
+
+    Move mk_spp_status.R to the right place....
+
+commit 6aabe9a2e8239e1ffbdb2c83213b5832c7de036b
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 13 22:47:24 2015 -0430
+
+    Fix HAB sub-goal.
+
+commit d9e73d5fcf365d03dd67bf98fba1d6fd98d91dd1
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 13 22:38:01 2015 -0430
+
+    Add spp_status and spp_trend layers
+
+commit 1b5a1815388281087be5a750381347f5fdd27e28
+Merge: 58d470c 6314f2e
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 13 19:58:50 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 58d470c6d8a7dfccb82a1a529f1b4dbc5685b0ce
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 13 19:58:16 2015 -0430
+
+    Update two ICO/SPP layers
+
+commit 6314f2ed11729f4cc29e42d2d1f7dbe9655f598d
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Sat Jun 13 19:56:20 2015 -0430
+
+    Update README.md
+
+commit 56b00b6c90173e78a0304b1a71469f8254e32beb
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri Jun 5 00:21:06 2015 -0430
+
+    Last minute verification of ALL layers
+
+commit dbb44832ca714bcea484f82ea206694cefb6c6ae
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 23:37:11 2015 -0430
+
+    LE updates
+
+commit 86b6119f1aa13c0f89de002e75177a08a7e39ade
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 23:33:26 2015 -0430
+
+    LE Goal
+
+commit 208d530163d63e12283b09ad168e3f0ef2df2b3f
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 23:32:14 2015 -0430
+
+    LE goal
+
+commit a6be4053d71c0398e1c32786231db283307448ee
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 23:18:48 2015 -0430
+
+    le_* README.md
+
+commit 41d31a5e21531139bda4d3eb17299d7799c40974
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 23:09:15 2015 -0430
+
+    le_layers and LIV_ECO @ functions.R update
+
+commit 5ef0bb28843e50afbc50b88f1a31d81321776254
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 22:19:36 2015 -0430
+
+    Partially change GDP for VAB, var names stay unchanged
+
+commit ce6f312216feb63e6bae2a3f71d80e49ea5b250c
+Merge: 97f6d9c e44c399
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 22:17:01 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 97f6d9c2cfa603e4503380e928dc8cedf6297803
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Jun 4 22:16:43 2015 -0430
+
+    Add le_* layers
+
+commit 43b98188206ad49a272db69cd49796a6b3fe7d64
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 1 20:01:15 2015 -0430
+
+    Add register pressure layers in layers.csv
+    
+    This brings 43 warnings
+
+commit 51802d0860717906f7b6d291d0c7abb60a67a936
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 1 19:47:01 2015 -0430
+
+    updated score for previous commit
+
+commit 49bb1f3243619fb2469b9f7bb7a29f0602cef8b9
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 1 19:44:51 2015 -0430
+
+    Update all trend layers with local info: project 5 years
+
+commit 53f8f6d013f21012616163c874b5692a9a136596
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 1 17:59:20 2015 -0430
+
+    fix pressure layers problem
+
+commit 3c7a8d2c1b31160a4dc831b911aecf4de6ebe7ed
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 31 17:11:30 2015 -0430
+
+    Trend doc update
+
+commit 20e693eb1aca4a367bcbe0f5822f2df73c644f7a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 31 17:06:43 2015 -0430
+
+    Trend doc update
+
+commit aa4d0301014be44370ea6cc3da738ff0a0163b73
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 31 17:00:22 2015 -0430
+
+    Trend doc
+
+commit 891d7994174867bd70251b59adde7e420f2fa34e
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 31 16:55:41 2015 -0430
+
+    add trend layers. fix hab_trend.
+    
+    These layers all use
+    mdl = lm(value ~ year, data = .)
+    trend =  coef(mdl)[['year']] * sd(.$year) / sd(.$value)
+    sector_trend = pmax(-1, pmin(1, trend))
+
+commit 293eacd3ca35a3069190b8e4586ca51ae76e421a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu May 28 23:17:01 2015 -0430
+
+    add soft_bottom trend figure
+
+commit 0f85de5f86de7fa6fdf0cc8a0739f6e3f4c3d090
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu May 28 23:16:28 2015 -0430
+
+    add soft_bottom to hab_trend_gye2015 layer
+
+commit 9c0a20787796dd2891243163b8b3b175f463cc7b
+Merge: d601848 a582e0a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu May 28 21:04:59 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit d601848c99f50fe29b13e711c6250f4ca7287187
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu May 28 21:04:03 2015 -0430
+
+    add local pressure layer but not register in layers.csv
+
+commit 106d64736d4ddea6b6e8d6e241adb2cae903d8ea
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed May 27 19:27:38 2015 -0430
+
+    readme
+
+commit 8b17fdfa218013bfa7f37347a1deaeae9c45cab5
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed May 27 19:25:10 2015 -0430
+
+    compare scores for new pressure matrix
+
+commit 7dbfd5482b25ff453f088e114c3688264df32818
+Merge: 4653c4e 26f36b2
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue May 26 17:43:53 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 4653c4ec4b1c252ad0b5af07dd746a2176969403
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue May 26 16:58:08 2015 -0430
+
+    fix ; and , dissaster
+
+commit 5ef1654d858ec6aaaf303f65a40eccbb26a1f941
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu May 21 12:50:17 2015 -0430
+
+    replace TR=... by formula TR2=... in page 11 of
+    pre-proc/TR/INFORME DE AVANCE 3TR-lb.pdf
+
+commit 4d990bca6ebe74a3fd454f80c423c3feff54471a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri May 15 00:40:57 2015 -0430
+
+    scores table update and comparison
+
+commit a08118318d05bdf38b3c8322e94f1043a7b9a9cf
+Merge: eb44349 f950650
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri May 15 00:39:26 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit eb443494072710e9d3003268b6725a62d9f2b4a2
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri May 15 00:39:08 2015 -0430
+
+    TSK #03-052015 report
+
+commit 52a1b9e29d77ddada1880c4bfaf4460383a7d67b
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri May 15 00:26:46 2015 -0430
+
+    Update TR to use new formulas
+
+commit e14d9c21446f43af49888c72de50c7c0e66e5533
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed May 13 22:08:08 2015 -0430
+
+    Update TR score to use 6 layers
+
+commit 964c6ba5b6e73c463aa338edb2ffc0a018b1366b
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed May 13 21:32:36 2015 -0430
+
+    Roll-back on layers names: int->local & ext->inter ...
+
+commit 9dea8904b88314a2366f18f92a1be949e733bc2b
+Merge: 687f40e de29013
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue May 12 23:40:32 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 687f40e2d3ac154118c138c065b9ff4cc16f2a6d
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue May 12 23:40:16 2015 -0430
+
+    Progress report
+
+commit 2b9ff4a60c060cc24ee3387f3681311f609e47fb
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue May 12 23:11:21 2015 -0430
+
+    Changed TR score formula + 4 new layers in TR gye 2015
+
+commit f6df671fa331ecb99fcdd4d50aa804448b38ca12
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 3 16:13:58 2015 -0430
+
+    rename layer file to .old
+
+commit 7c8ebfdd9688f5a6c867243800b414bc1e43f012
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 3 16:10:18 2015 -0430
+
+    update layers.csv
+
+commit 63c93756c7dd05aa9e0e87a46db05dc5bfc9c034
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun May 3 16:04:59 2015 -0430
+
+    layers.csv update
+
+commit 0a6c1e129672cc79558d6cf8c6ff444d6437ef32
+Merge: 49db9ed 0018a0d
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat May 2 21:38:25 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 49db9edd52916a59a7bd376f807707d7c8f7c430
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat May 2 21:38:18 2015 -0430
+
+    update rgn_area_inland1km and offshore3nm layers with local data
+
+commit 0018a0da476a1b33c3b97c270680c7f8f0b905c7
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 18:44:16 2015 -0430
+
+    Update README.md
+
+commit 2d75a00e20f376de618452339695afbc5169191b
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 18:43:38 2015 -0430
+
+    Update README.md
+
+commit b57136fd8081bec7ca4c0f833efe55110407e719
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 18:42:22 2015 -0430
+
+    Delete ~$tabla tendencia.xlsx
+
+commit c0abf240f1dd5a8f79db2e03da7369b2ef7aff20
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 18:37:10 2015 -0430
+
+    Update TODO.md
+
+commit 61b2206745f34a917088744cee29e177b0de7fff
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 18:27:45 2015 -0430
+
+    todos
+
+commit 13dda4709dfe4bfd96133105afe8c91c600055c1
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:38:57 2015 -0430
+
+    Layer CP updated w/ local data.
+
+commit 0acab8355fa845a32a44d0a730cf92b39b8ad393
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:29:06 2015 -0430
+
+    add right graph.
+
+commit 2b87d2f49c3b885fcce6bd1f5f9e7ef657365ee9
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:27:17 2015 -0430
+
+    delete bad graph
+
+commit 1df599c278be2f17376185eaa973bffe356042cf
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 16:31:44 2015 -0430
+
+    Update README.md
+
+commit 1a49ab12e0d4f673fc9c16c53cc828b3fade1096
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Thu Apr 30 16:31:19 2015 -0430
+
+    Delete lms.png
+
+commit 22dde7e7aa9258f011aaa52048e2a69653a187a5
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:21:33 2015 -0430
+
+    typo
+
+commit 7df74041243ec65320efb4d6f5f6314511d3c02f
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:20:03 2015 -0430
+
+    typo ... !
+
+commit 864ad9105fcf9ab725e9ede71f32c7ca001d0b2e
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:17:45 2015 -0430
+
+    typo fix
+
+commit e49d3cd3393fa9b6b42e0a4e5b4061f0d4d1af44
+Merge: a074ec1 c7d0cf2
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:14:32 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit a074ec18814c485b70ec69c1030b7e88f14447cd
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 16:14:21 2015 -0430
+
+    README.md for hab_trend layer
+
+commit b228df8d19cf86993d5b0a99fb9018798e6a2497
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Thu Apr 30 15:52:38 2015 -0430
+
+    Added layers for CS
+     - hab_extent
+     - hab_health
+     - hab_trend was already done in previous commits
+     - cs_habitat_extent is a duplicate of hab_extent
+    
+    Important: ao_need layer updated: removed 2011-2013 extrapolation. last year is 2010. Updated goals.csv to use this last year and not 2013.
+
+commit c1aa5d2e1f171ace4a15511cc5c4ceee50df3ad4
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed Apr 29 23:23:01 2015 -0430
+
+    Add readme...
+
+commit a0751f155a6dd029e2d82750847c4f15da086d60
+Merge: 4187c08 e9884bb
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed Apr 29 23:11:31 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 4187c08057491cfda77398b65e7c2e0ef93d76a0
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed Apr 29 23:10:58 2015 -0430
+
+    build and add an html table to compare scores
+
+commit 9f1c9e7d4987369e495821ca8f5e6ab02d2a7847
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Wed Apr 29 20:15:51 2015 -0430
+
+    Add new species in ICO layers.
+
+commit 0b6ea14876c3ac7ae542e41ec0e7e9cea14f446e
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Tue Apr 28 23:56:54 2015 -0430
+
+    Update README.md
+
+commit 72963ab06b53c8ceeb7594a3e81e51b566c71c1b
+Merge: 876e046 886c228
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 23:46:00 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 876e0463bfb732ae4fcd10c3dc003999de6c30aa
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 23:45:31 2015 -0430
+
+    TSK3: add local layers for lsp_*.
+
+commit 927155e5cc1139881d0d6bcae7bd193ef2af4d8f
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 22:19:42 2015 -0430
+
+    Goal ICO uses local iso_spp_* data
+
+commit 86398cee3d29a0cd7101153c5f922027c5d81233
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 21:52:36 2015 -0430
+
+    TSK2 layer hab_trend complete
+
+commit 3b590164030846270f033506252ac34e3bc8b4fe
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Tue Apr 28 20:52:53 2015 -0430
+
+    Update README.md
+
+commit dfa2b46562530b22fd05abfc18c25567d7b65451
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Tue Apr 28 17:26:59 2015 -0430
+
+    Update README.md
+
+commit 16c70209db4a4efe34258672e9bb8829446e40b6
+Merge: ce53302 fa359e5
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 17:12:41 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit ce53302f36602d0ecd1444010fc483b8ac398831
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 17:12:08 2015 -0430
+
+    Fix layers with time series layout.
+    
+    Now scores are correctly calculated for target AO.
+    
+    See README.md under pre-proc
+
+commit aa051126a95496b120bce3af8fb45e1abfe9fa09
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 15:33:52 2015 -0430
+
+    calculate_scores sucess, functions.R is untouched
+
+commit 46cab40d0a12c5cd368b4ab52238434dfcae12e7
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 15:32:39 2015 -0430
+
+    typo on column name
+
+commit 55f8ac4858fa669a180d64fe9175019e218eb712
+Merge: deb62f2 009b659
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 15:20:16 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit deb62f2ea2c0efbfba4c196a3cd691b60e04c160
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 15:17:32 2015 -0430
+
+    Remove ao*_loc* due to wrong filenames.
+    
+    Replaced by correct files on previous commit.
+
+commit 477ad94e5dfb09f2725f1d0adfe785896606769c
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Tue Apr 28 15:14:16 2015 -0430
+
+    TSK1:Make local layers ao_*
+    Objetivo:
+    Construir los layes
+    **ao_need**, **ao_access** y **ao_sao**
+    con información local.
+    Fuente: `Oportunidad de pesca artesanal (1).xlsx@Base`,
+    `Oportunidad de pesca artesanal-completo.xlsx@Base`, `AO_need_ts.xlsx@Sheet1`.
+
+commit 37615e4d5b9858939dae11a613fae0fcfae44cf4
+Merge: 44815ad 4576f3b
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Apr 27 23:06:08 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 44815ad892737c7663980193a777486539e90a16
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Apr 27 23:05:52 2015 -0430
+
+    Added new layers, work in progress, check README.md
