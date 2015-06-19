@@ -33,27 +33,27 @@ Data sources:
 - [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).
 ","trend.score","trend score","cw_pesticide_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pesticide_trend","~/github/ohi-global/eez2014/layers/cw_pesticide_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,1,1,TRUE,,,,3,FALSE
 "FIS","fis_b_bmsy","B/Bmsy estimates obtained using the catch-MSY method","The ratio of population abundance compared to the abundance required to deliver maximum sustainable yield, obtained from the catch-MSY model (Martell & Froese, 2013).
-
+Updated with local data. @andres. 18/06/2015.
 Data sources:
 
 - Martell, S., & Froese, R. (2013). **A simple method for estimating MSY from catch and resilience**. _Fish and Fisheries_ 14(4): 504-514. [doi:10.1111/j.1467-2979.2012.00485.x](https://dx/doi/org/10.1111/j.1467-2979.2012.00485.x)
-","b_bmsy","B / B_msy","fis_b_bmsy_gl2014.csv","equal","global b_bmsy information was applied equally to all regions.","fis_b_bmsy","~/github/ohi-global/eez2014/layers/fis_b_bmsy.csv","global","fao_id",,"taxon_name","year","b_bmsy",,TRUE,1954,2011,0.0543516096887502,1.98695925324803,FALSE,,,,3,FALSE
+","b_bmsy","B / B_msy","fis_b_bmsy_gye2015.csv","equal","global b_bmsy information was applied equally to all regions.","fis_b_bmsy","~/github/ohi-global/eez2014/layers/fis_b_bmsy.csv","global","fao_id",,"taxon_name","year","b_bmsy",,TRUE,1945,2014,0.015631345,1.99216729,FALSE,,,,3,FALSE
 "FIS","fis_meancatch","Catch data for each Taxon/FAO/SAUP region averaged across years (1980-2011)","Mean catch-per-taxon values within each FAO major fishing area.
-
+Updated with local data. @andres. 18/06/2015.
 Data sources:
 
-- [FAO Major Fishing Areas](http://www.fao.org/fishery/area/search/en)","mean_catch","metric tons","fis_meancatch_gl2014.csv","equal","global mean catch information was applied equally to all regions.","fis_meancatch","~/github/ohi-global/eez2014/layers/fis_meancatch.csv","global",,"fao_saup_id","taxon_name_key","year","mean_catch",,TRUE,2006,2011,8.17638e-18,4787769.75544375,FALSE,,,,3,FALSE
+- [FAO Major Fishing Areas](http://www.fao.org/fishery/area/search/en)","mean_catch","metric tons","fis_meancatch_gye2015.csv","equal","global mean catch information was applied equally to all regions.","fis_meancatch","~/github/ohi-global/eez2014/layers/fis_meancatch.csv","global",,"fao_saup_id","taxon_name_key","year","mean_catch",,TRUE,1981,2014,0,3185440,FALSE,,,,3,FALSE
 "FIS","fis_proparea_saup2rgn","area of each saup/total OHI reporting region","Lookup table of Sea Around Us Project regions to Ocean Health Index region identifiers.
-
+Updated with local data. @andres. 18/06/2015.
 Data sources:
 
 - [Sea Around Us Project (SAUP)](http://www.seaaroundus.org)
-","prop_area","proportion of area","fis_proparea_saup2rgn_sc2014-area-offshore.csv","area_offshore","global proportional area were applied to each region after weighting by each region's offshore area.","fis_proparea_saup2rgn","~/github/ohi-global/eez2014/layers/fis_proparea_saup2rgn.csv","global","rgn_id",,"saup_id",,"prop_area",,TRUE,,,0.0216798905972768,0.445789301862576,TRUE,,,,3,FALSE
+","prop_area","proportion of area","fis_proparea_saup2rgn_gye2015.csv","area_offshore","global proportional area were applied to each region after weighting by each region's offshore area.","fis_proparea_saup2rgn","~/github/ohi-global/eez2014/layers/fis_proparea_saup2rgn.csv","global","rgn_id",,"saup_id",,"prop_area",,TRUE,,,0.021679891,0.126172831,TRUE,,,,3,FALSE
 "FP","fp_wildcaught_weight","Fisheries weighting factor","Proportion of wild caught fisheries yield to mariculture yield, based on FAO fisheries statistics.
-
+Updated with local data. @andres. 18/06/2015.
 Data sources:
 
-- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","w_fis","value","fp_wildcaught_weight_gl2014.csv","equal","global weights were applied equally to all regions. ","fp_wildcaught_weight","~/github/ohi-global/eez2014/layers/fp_wildcaught_weight.csv","global","rgn_id",,,,"w_fis",,TRUE,,,0.469560954444571,0.469560954444571,TRUE,,,,3,FALSE
+- [FAO fisheries statistics](http://www.fao.org/fishery/statistics/global-capture-production/en)","w_fis","value","fp_wildcaught_weight_gye2015.csv","equal","global weights were applied equally to all regions. ","fp_wildcaught_weight","~/github/ohi-global/eez2014/layers/fp_wildcaught_weight.csv","global","rgn_id",,,,"w_fis",,TRUE,,,0.898390513,1,TRUE,,,,3,FALSE
 "HAB CS CP","hab_extent","Habitat extent","Modeled combined habitat extent. @andres: updated with local data. Src: pre-proc/CS/","km2","km^2","hab_extent_gye2015.csv","raster | area_offshore","","hab_extent","~/github/ohi-global/eez2014/layers/hab_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,1.8269,6269.9242,FALSE,,,,3,FALSE
 "HAB CS CP","hab_health","Habitat health","Modeled combined habitat health condition trend. @andres: updated with local data. Src: pre-proc/CS/","health","value","hab_health_gye2015.csv","equal","global habitat health was applied equally to all regions. ","hab_health","~/github/ohi-global/eez2014/layers/hab_health.csv","global","rgn_id",,"habitat",,"health",,TRUE,,,0.6706,0.95,TRUE,,,,3,FALSE
 "HAB CS CP","hab_trend","Habitat health trend","Modeled combined habitat health trend. Update local data @andres source: hab-trend/tabla tendencias.xlsx + soft_bottom, trend is adjusted via sd(x)/sd(y)","trend","trend score","hab_trend_gye2015.csv","equal","global trends were applied equally to all regions.","hab_trend","~/github/ohi-global/eez2014/layers/hab_trend.csv","global","rgn_id",,"habitat",,"trend",,TRUE,,,-1,-1,FALSE,,,,3,FALSE

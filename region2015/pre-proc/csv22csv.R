@@ -10,3 +10,19 @@ for ( f in files ) {
         csv22csv(infile = paste0('old/', f), outfile = f)
 }
 
+
+
+LAYERS = "~/github/gye/region2015/layers"
+PREPROC = "." # current dir
+FILES = sub(files, pattern = '_gye.*.csv', replacement = '')
+for ( f in FILES ) {
+        gl = read.csv(paste0(LAYERS, '/', f, '_gl2014.csv'))
+        gye = read.csv(paste0(PREPROC, '/', f, '_gye2015.csv'))
+        
+        cat('*** Checking: ', f, '...\n')
+        stopifnot(all(colnames(gl) == colnames(gye)))
+        if ( 'rgn_id' %in% colnames(gye) ) {
+                stopifnot(any(c(1, 2, 6) %in% gye$rgn_id))
+        }
+        cat('    OK ***\n')
+}
