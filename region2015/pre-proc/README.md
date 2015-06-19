@@ -5,6 +5,8 @@ date: "27/04/2015"
 output: html_document
 ---
 # TSKB #2: Actualizar meta FIS
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
 Las actividades involucradas son:
 
  1. Validar, agregar y registrar las capas 
