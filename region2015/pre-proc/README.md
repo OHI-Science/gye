@@ -4,6 +4,19 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSKB #2: Actualizar meta FIS
+Las actividades involucradas son:
+
+ 1. Validar, agregar y registrar las capas 
+    `fis_b_bmsy`, `fis_proparea` y `fp_wildcaught_weight`.
+ 2. Validar el nuevo ajuste de modelo. 
+ 3. Recalcular la tabla comparativa de puntajes.
+
+# TSKB #1: Completar y depurar capa `fis_meancatch`
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+La tarea consiste en completar datos de años faltantes y asociar el código FAO al SAUP.
+
 # TSK #09: Fix up HAB
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
