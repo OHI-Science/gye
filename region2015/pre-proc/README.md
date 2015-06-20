@@ -4,6 +4,15 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSKB #3: Actualizar meta MAR
+
+mar_coastalpopn_inland25km_gye2015.csv
+mar_harvest_species_gye2015.csv
+mar_harvest_tonnes_gye2015.csv
+mar_sustainability_score_gye2015.csv
+mar_trend_years_gye2015.csv
+
+
 # TSKB #2: Actualizar meta FIS
 Las actividades involucradas son:
 
