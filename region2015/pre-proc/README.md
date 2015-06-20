@@ -4,8 +4,20 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
-# TSKB #3: Actualizar meta MAR
+# TSKB #5: Meta NP
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
+por reportar
+
+# TSKB #4: Depuración de dos capas de la meta MAR
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+por reportar
+
+# TSKB #3: Actualizar meta MAR
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+por reportar
 mar_coastalpopn_inland25km_gye2015.csv
 mar_harvest_species_gye2015.csv
 mar_harvest_tonnes_gye2015.csv
@@ -14,6 +26,8 @@ mar_trend_years_gye2015.csv
 
 
 # TSKB #2: Actualizar meta FIS
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
 Las actividades involucradas son:
 
  1. Validar, agregar y registrar las capas 
