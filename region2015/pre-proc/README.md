@@ -4,26 +4,56 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSKB #6: Actualización de meta NP
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+Esta actividad conlleva las siguientes tareas
+
+ 1. Modificar el archivo general de metas `goals.csv` para que el último año
+    a tomar para la estimación de tendencias fuese 2014 y no 2011
+ 2. Recalculo y validación de los scores sociados a la meta NP
+ 3. Recalculo de la tabla comparativa
+
 # TSKB #5: Meta NP
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
-por reportar
+Las actividades involucradas son:
+ 1. Validación y registro de las capas:
+    * `np_blast_gye2015.csv`
+    * `np_cyanide_gye2015.csv`
+    * `np_harvest_product_weight_gye2015.csv`
+    * `np_harvest_tonnes_gye2015.csv`
+    * `np_harvest_tonnes_relative_gye2015.csv`
+    * `np_harvest_usd_gye2015.csv`
+    * `np_harvest_usd_relative_gye2015.csv`
+ 2. Recalculo y validación de los scores sociados a la meta NP
+ 3. Recalculo de la tabla comparativa
 
 # TSKB #4: Depuración de dos capas de la meta MAR
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
-por reportar
+Dos capas presentaron problemas al momento de calcular los puntajes de `status` y `trend`
+para las regiones 1 y 6. Esto conllevo a la depuración de la función `MAR()` y se identificó el
+problema como datos faltantes en las capas `fis_meancatch` y 
+`fis_proparea_saup2rgn`. Se acomodaron estas capas y se recalculó los
+scores y la tabla comparativa.
+
+
+
+
 
 # TSKB #3: Actualizar meta MAR
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
-por reportar
-mar_coastalpopn_inland25km_gye2015.csv
-mar_harvest_species_gye2015.csv
-mar_harvest_tonnes_gye2015.csv
-mar_sustainability_score_gye2015.csv
-mar_trend_years_gye2015.csv
-
+Las actividades involucradas son:
+ 1. Validación y registro de las capas:
+    * `mar_coastalpopn_inland25km_gye2015.csv`
+    * `mar_harvest_species_gye2015.csv`
+    * `mar_harvest_tonnes_gye2015.csv`
+    * `mar_sustainability_score_gye2015.csv`
+    * `mar_trend_years_gye2015.csv`
+ 2. Recalculo y validación de los scores sociados a la meta MAR
+ 3. Recalculo de la tabla comparativa 
 
 # TSKB #2: Actualizar meta FIS
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
