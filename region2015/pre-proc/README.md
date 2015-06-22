@@ -34,8 +34,8 @@ Las actividades involucradas son:
 
 Dos capas presentaron problemas al momento de calcular los puntajes de `status` y `trend`
 para las regiones 1 y 6. Esto conllevo a la depuración de la función `MAR()` y se identificó el
-problema como datos faltantes en las capas `fis_meancatch` y 
-`fis_proparea_saup2rgn`. Se acomodaron estas capas y se recalculó los
+problema como datos faltantes en las capas `mar_harvest_tonnes_gye2015.csv` y 
+`mar_sustainability_score_gye2015.csv`. Se acomodaron estas capas y se recalculó los
 scores y la tabla comparativa.
 
 
