@@ -1,0 +1,417 @@
+fao_saup_id;taxon_name_key;year;mean_catch
+87;Sardinops sagax_601477;1981;255102
+87;Sardinops sagax_601477;1982;314102
+87;Sardinops sagax_601477;1983;104163
+87;Sardinops sagax_601477;1984;648784
+87;Sardinops sagax_601477;1985;1215587
+87;Sardinops sagax_601477;1986;590258
+87;Sardinops sagax_601477;1987;210097
+87;Sardinops sagax_601477;1988;382337
+87;Sardinops sagax_601477;1989;260872
+87;Sardinops sagax_601477;1990;16895
+87;Sardinops sagax_601477;1991;3377
+87;Sardinops sagax_601477;1992;212
+87;Sardinops sagax_601477;1993;0
+87;Sardinops sagax_601477;1994;212
+87;Sardinops sagax_601477;1995;34609
+87;Sardinops sagax_601477;1996;356477
+87;Sardinops sagax_601477;1997;56096
+87;Sardinops sagax_601477;1998;1012
+87;Sardinops sagax_601477;1999;8821
+87;Sardinops sagax_601477;2000;51440
+87;Sardinops sagax_601477;2001;42097
+87;Sardinops sagax_601477;2002;1924
+87;Sardinops sagax_601477;2003;632
+87;Sardinops sagax_601477;2004;543
+87;Sardinops sagax_601477;2005;4
+87;Sardinops sagax_601477;2006;9
+87;Etrumeus teres_601455;1981;266177
+87;Etrumeus teres_601455;1982;25547
+87;Etrumeus teres_601455;1983;79339
+87;Etrumeus teres_601455;1984;52025
+87;Etrumeus teres_601455;1985;40739
+87;Etrumeus teres_601455;1986;29209
+87;Etrumeus teres_601455;1987;14373
+87;Etrumeus teres_601455;1988;9215
+87;Etrumeus teres_601455;1989;838
+87;Etrumeus teres_601455;1990;5471
+87;Etrumeus teres_601455;1991;17180
+87;Etrumeus teres_601455;1992;9688
+87;Etrumeus teres_601455;1993;57663
+87;Etrumeus teres_601455;1994;30748
+87;Etrumeus teres_601455;1995;46253
+87;Etrumeus teres_601455;1996;34349
+87;Etrumeus teres_601455;1997;1095
+87;Etrumeus teres_601455;1998;8873
+87;Etrumeus teres_601455;1999;3636
+87;Etrumeus teres_601455;2000;4415
+87;Etrumeus teres_601455;2001;28
+87;Etrumeus teres_601455;2002;613
+87;Etrumeus teres_601455;2003;1068
+87;Etrumeus teres_601455;2004;4901
+87;Etrumeus teres_601455;2005;4629
+87;Etrumeus teres_601455;2006;432
+87;Etrumeus teres_601455;2007;520
+87;Etrumeus teres_601455;2008;2632
+87;Etrumeus teres_601455;2009;1154
+87;Etrumeus teres_601455;2010;1903
+87;Etrumeus teres_601455;2011;1760
+87;Etrumeus teres_601455;2012;1653
+87;Etrumeus teres_601455;2013;2650
+87;Opisthonema libertate_601484;1981;68390
+87;Opisthonema libertate_601484;1982;219849
+87;Opisthonema libertate_601484;1983;69155
+87;Opisthonema libertate_601484;1984;182074
+87;Opisthonema libertate_601484;1985;328074
+87;Opisthonema libertate_601484;1986;297721
+87;Opisthonema libertate_601484;1987;240577
+87;Opisthonema libertate_601484;1988;206766
+87;Opisthonema libertate_601484;1989;189789
+87;Opisthonema libertate_601484;1990;98632
+87;Opisthonema libertate_601484;1991;91622
+87;Opisthonema libertate_601484;1992;31016
+87;Opisthonema libertate_601484;1993;69247
+87;Opisthonema libertate_601484;1994;69892
+87;Opisthonema libertate_601484;1995;40910
+87;Opisthonema libertate_601484;1996;41041
+87;Opisthonema libertate_601484;1997;37723
+87;Opisthonema libertate_601484;1998;40530
+87;Opisthonema libertate_601484;1999;22253
+87;Opisthonema libertate_601484;2000;20037
+87;Opisthonema libertate_601484;2001;20071
+87;Opisthonema libertate_601484;2002;10952
+87;Opisthonema libertate_601484;2003;6895
+87;Opisthonema libertate_601484;2004;8590
+87;Opisthonema libertate_601484;2005;8282
+87;Opisthonema libertate_601484;2006;16851
+87;Opisthonema libertate_601484;2007;14153
+87;Opisthonema libertate_601484;2008;25263
+87;Opisthonema libertate_601484;2009;22527
+87;Opisthonema libertate_601484;2010;35849
+87;Opisthonema libertate_601484;2011;20273
+87;Opisthonema libertate_601484;2012;33089
+87;Opisthonema libertate_601484;2013;13191
+87;Cetengraulis mysticetus_600548;1981;2832
+87;Cetengraulis mysticetus_600548;1982;2832
+87;Cetengraulis mysticetus_600548;1983;40384
+87;Cetengraulis mysticetus_600548;1984;54029
+87;Cetengraulis mysticetus_600548;1985;5788
+87;Cetengraulis mysticetus_600548;1986;74246
+87;Cetengraulis mysticetus_600548;1987;126420
+87;Cetengraulis mysticetus_600548;1988;84346
+87;Cetengraulis mysticetus_600548;1989;63433
+87;Cetengraulis mysticetus_600548;1990;30996
+87;Cetengraulis mysticetus_600548;1991;59637
+87;Cetengraulis mysticetus_600548;1992;99672
+87;Cetengraulis mysticetus_600548;1993;101683
+87;Cetengraulis mysticetus_600548;1994;27164
+87;Cetengraulis mysticetus_600548;1995;47660
+87;Cetengraulis mysticetus_600548;1996;26354
+87;Cetengraulis mysticetus_600548;1997;89723
+87;Cetengraulis mysticetus_600548;1998;44474
+87;Cetengraulis mysticetus_600548;1999;27221
+87;Cetengraulis mysticetus_600548;2000;13333
+87;Cetengraulis mysticetus_600548;2001;73289
+87;Cetengraulis mysticetus_600548;2002;18288
+87;Cetengraulis mysticetus_600548;2003;19492
+87;Cetengraulis mysticetus_600548;2004;5061
+87;Cetengraulis mysticetus_600548;2005;9672
+87;Cetengraulis mysticetus_600548;2006;12332
+87;Cetengraulis mysticetus_600548;2007;1079
+87;Cetengraulis mysticetus_600548;2008;26928
+87;Cetengraulis mysticetus_600548;2009;7586
+87;Cetengraulis mysticetus_600548;2010;741
+87;Cetengraulis mysticetus_600548;2011;13012
+87;Cetengraulis mysticetus_600548;2012;2758
+87;Cetengraulis mysticetus_600548;2013;6535
+87;Engraulis ringens_600004;2001;2065
+87;Engraulis ringens_600004;2002;71013
+87;Engraulis ringens_600004;2003;33382
+87;Engraulis ringens_600004;2004;11273
+87;Engraulis ringens_600004;2005;39908
+87;Engraulis ringens_600004;2006;76606
+87;Engraulis ringens_600004;2007;59309
+87;Engraulis ringens_600004;2008;44566
+87;Engraulis ringens_600004;2009;20152
+87;Engraulis ringens_600004;2010;0
+87;Engraulis ringens_600004;2011;2977
+87;Engraulis ringens_600004;2012;12109
+87;Engraulis ringens_600004;2013;2
+87;Anchoa spp.;2004;40694
+87;Anchoa spp.;2005;31742
+87;Anchoa spp.;2006;26953
+87;Anchoa spp.;2007;3185440
+87;Anchoa spp.;2008;39111
+87;Anchoa spp.;2009;21235
+87;Anchoa spp.;2010;33975
+87;Anchoa spp.;2011;19938
+87;Anchoa spp.;2012;7929
+87;Anchoa spp.;2013;194
+87;Scomber japonicus_600117;1981;448088
+87;Scomber japonicus_600117;1982;589375
+87;Scomber japonicus_600117;1983;252667
+87;Scomber japonicus_600117;1984;396913
+87;Scomber japonicus_600117;1985;397863
+87;Scomber japonicus_600117;1986;274852
+87;Scomber japonicus_600117;1987;149302
+87;Scomber japonicus_600117;1988;255548
+87;Scomber japonicus_600117;1989;141333
+87;Scomber japonicus_600117;1990;78639
+87;Scomber japonicus_600117;1991;55023
+87;Scomber japonicus_600117;1992;25651
+87;Scomber japonicus_600117;1993;50980
+87;Scomber japonicus_600117;1994;38991
+87;Scomber japonicus_600117;1995;63577
+87;Scomber japonicus_600117;1996;79484
+87;Scomber japonicus_600117;1997;192181
+87;Scomber japonicus_600117;1998;44716
+87;Scomber japonicus_600117;1999;28307
+87;Scomber japonicus_600117;2000;83923
+87;Scomber japonicus_600117;2001;85248
+87;Scomber japonicus_600117;2002;17074
+87;Scomber japonicus_600117;2003;33272
+87;Scomber japonicus_600117;2004;51806
+87;Scomber japonicus_600117;2005;115406
+87;Scomber japonicus_600117;2006;37664
+87;Scomber japonicus_600117;2007;43171
+87;Scomber japonicus_600117;2008;21758
+87;Scomber japonicus_600117;2009;36679
+87;Scomber japonicus_600117;2010;52751
+87;Scomber japonicus_600117;2011;31799
+87;Scomber japonicus_600117;2012;51838
+87;Scomber japonicus_600117;2013;88793
+87;Auxis_501163;1998;4201
+87;Auxis_501163;1999;48913
+87;Auxis_501163;2000;9317
+87;Auxis_501163;2001;5686
+87;Auxis_501163;2002;9806
+87;Auxis_501163;2003;36297
+87;Auxis_501163;2004;19709
+87;Auxis_501163;2005;6544
+87;Auxis_501163;2006;13033
+87;Auxis_501163;2007;21829
+87;Auxis_501163;2008;19388
+87;Auxis_501163;2009;34956
+87;Auxis_501163;2010;35273
+87;Auxis_501163;2011;43812
+87;Auxis_501163;2012;56403
+87;Auxis_501163;2013;28856
+87;Scombridae_400416;2004;1078,2
+87;Scombridae_400416;2005;1401,5
+87;Scombridae_400416;2006;189,84
+87;Scombridae_400416;2007;2117,8
+87;Scombridae_400416;2008;3822,1
+87;Scombridae_400416;2009;1105,9
+87;Scombridae_400416;2010;871,4
+87;Scombridae_400416;2011;4443,1
+87;Scombridae_400416;2012;6512,2
+87;Scombridae_400416;2013;1609,2
+87;Trachurus murphyi_600367;1990;4144
+87;Trachurus murphyi_600367;1991;45313
+87;Trachurus murphyi_600367;1992;15022
+87;Trachurus murphyi_600367;1993;2673
+87;Trachurus murphyi_600367;1994;36575
+87;Trachurus murphyi_600367;1995;174393
+87;Trachurus murphyi_600367;1996;56782
+87;Trachurus murphyi_600367;1997;30302
+87;Trachurus murphyi_600367;1998;25900
+87;Trachurus murphyi_600367;1999;19072
+87;Trachurus murphyi_600367;2000;7122
+87;Trachurus murphyi_600367;2001;133969
+87;Trachurus murphyi_600367;2002;604
+87;Trachurus murphyi_600367;2003;0
+87;Trachurus murphyi_600367;2004;0
+87;Trachurus murphyi_600367;2005;0
+87;Trachurus murphyi_600367;2006;0
+87;Trachurus murphyi_600367;2007;927
+87;Trachurus murphyi_600367;2008;0
+87;Trachurus murphyi_600367;2009;1934
+87;Trachurus murphyi_600367;2010;4613
+87;Trachurus murphyi_600367;2011;69373
+87;Trachurus murphyi_600367;2012;77
+87;Trachurus murphyi_600367;2013;3563
+87;Chloroscombrus orqueta_601937;2004;10380
+87;Chloroscombrus orqueta_601937;2005;4909
+87;Chloroscombrus orqueta_601937;2006;7026
+87;Chloroscombrus orqueta_601937;2007;793132
+87;Chloroscombrus orqueta_601937;2008;7693
+87;Chloroscombrus orqueta_601937;2009;10410
+87;Chloroscombrus orqueta_601937;2010;585
+87;Chloroscombrus orqueta_601937;2011;356
+87;Chloroscombrus orqueta_601937;2012;221
+87;Chloroscombrus orqueta_601937;2013;526
+87;Decapterus macrosoma_601938;2004;1122
+87;Decapterus macrosoma_601938;2005;645
+87;Decapterus macrosoma_601938;2006;5239
+87;Decapterus macrosoma_601938;2007;798960
+87;Decapterus macrosoma_601938;2008;37800
+87;Decapterus macrosoma_601938;2009;41168
+87;Decapterus macrosoma_601938;2010;21097
+87;Decapterus macrosoma_601938;2011;6842
+87;Decapterus macrosoma_601938;2012;6997
+87;Decapterus macrosoma_601938;2013;16113
+87;Selene spp.;2004;6049
+87;Selene spp.;2005;2328
+87;Selene spp.;2006;5245
+87;Selene spp.;2007;535604
+87;Selene spp.;2008;3905
+87;Selene spp.;2009;3184
+87;Selene spp.;2010;676
+87;Selene spp.;2011;240
+87;Selene spp.;2012;122
+87;Selene spp.;2013;389
+87;Oligoplites spp.;2004;985
+87;Oligoplites spp.;2005;403
+87;Oligoplites spp.;2006;175
+87;Oligoplites spp.;2007;37350
+87;Oligoplites spp.;2008;1187
+87;Oligoplites spp.;2009;884
+87;Oligoplites spp.;2010;3922
+87;Oligoplites spp.;2011;1528
+87;Oligoplites spp.;2012;38
+87;Oligoplites spp.;2013;310
+87;Arius spp.;2004;3679
+87;Arius spp.;2005;4107
+87;Arius spp.;2006;2775
+87;Arius spp.;2007;274976
+87;Arius spp.;2008;3384
+87;Arius spp.;2009;2345
+87;Arius spp.;2010;317
+87;Arius spp.;2011;1091
+87;Arius spp.;2012;495
+87;Arius spp.;2013;413
+87;Fistularia corneta_608289;2004;4534
+87;Fistularia corneta_608289;2005;1434
+87;Fistularia corneta_608289;2006;12400
+87;Fistularia corneta_608289;2007;31505
+87;Fistularia corneta_608289;2008;2718
+87;Fistularia corneta_608289;2009;5191
+87;Fistularia corneta_608289;2010;6443
+87;Fistularia corneta_608289;2011;4464
+87;Fistularia corneta_608289;2012;2851
+87;Fistularia corneta_608289;2013;4752
+87;Conodon macrops;2004;310
+87;Conodon macrops;2005;77
+87;Conodon macrops;2007;17858
+87;Conodon macrops;2009;106
+87;Conodon macrops;2011;33
+87;Conodon macrops;2012;14
+87;Conodon macrops;2013;21
+87;Orthopristis chalceus;2005;901
+87;Orthopristis chalceus;2007;48495
+87;Orthopristis chalceus;2008;489
+87;Orthopristis chalceus;2009;707
+87;Orthopristis chalceus;2010;458
+87;Orthopristis chalceus;2011;309
+87;Orthopristis chalceus;2012;23
+87;Orthopristis chalceus;2013;42
+87;Larimus spp.;2004;361
+87;Larimus spp.;2005;59
+87;Larimus spp.;2006;163
+87;Larimus spp.;2007;20575
+87;Larimus spp.;2008;306
+87;Larimus spp.;2009;432
+87;Larimus spp.;2010;596
+87;Larimus spp.;2011;797
+87;Larimus spp.;2013;1700
+87;Cynoscion spp.;1989;1202
+87;Cynoscion spp.;1990;1057
+87;Cynoscion spp.;1991;2347
+87;Cynoscion spp.;1992;2511
+87;Cynoscion spp.;1993;2446
+87;Cynoscion spp.;1994;2342
+87;Cynoscion spp.;1995;1335
+87;Cynoscion spp.;1996;1098
+87;Cynoscion spp.;1997;441
+87;Cynoscion spp.;1998;1070
+87;Cynoscion spp.;1999;278
+87;Cynoscion spp.;2000;333
+87;Cynoscion spp.;2001;424
+87;Cynoscion spp.;2002;307
+87;Cynoscion spp.;2003;503
+87;Cynoscion spp.;2013;126
+87;Cynoscion spp.;2014;359
+87;Peprilus medius;2004;3113
+87;Peprilus medius;2005;1663
+87;Peprilus medius;2006;3265
+87;Peprilus medius;2007;1290984
+87;Peprilus medius;2008;4335
+87;Peprilus medius;2009;10253
+87;Peprilus medius;2010;2774
+87;Peprilus medius;2011;1285
+87;Peprilus medius;2012;183
+87;Peprilus medius;2013;1040
+87;Trichiurus lepturus;2004;1541
+87;Trichiurus lepturus;2005;1588
+87;Trichiurus lepturus;2006;489
+87;Trichiurus lepturus;2008;275
+87;Trichiurus lepturus;2009;2842
+87;Trichiurus lepturus;2010;2464
+87;Trichiurus lepturus;2011;2347
+87;Trichiurus lepturus;2012;10220
+87;Trichiurus lepturus;2013;31281
+87;Prionotus  spp.;2013;3725
+87;Prionotus  spp.;2012;389
+87;Prionotus  spp.;2011;3636
+87;Prionotus  spp.;2010;404
+87;Prionotus  spp.;2009;1458
+87;Prionotus  spp.;2008;2286
+87;Prionotus  spp.;2007;236735
+87;Prionotus  spp.;2005;396
+87;Prionotus  spp.;2004;355
+87;Coryphaena hippurus_600006;2004;4837,8
+87;Coryphaena hippurus_600006;2005;2300,1
+87;Coryphaena hippurus_600006;2006;3637,7
+87;Coryphaena hippurus_600006;2007;3865,3
+87;Coryphaena hippurus_600006;2008;13490,8
+87;Coryphaena hippurus_600006;2009;445,2
+87;Coryphaena hippurus_600006;2010;9325,8
+87;Coryphaena hippurus_600006;2011;15054,5
+87;Coryphaena hippurus_600006;2012;16032,4
+87;Coryphaena hippurus_600006;2013;2328,1
+87;Istiophoridae_400419;2004;1729,5
+87;Istiophoridae_400419;2005;964,7
+87;Istiophoridae_400419;2006;2104,37
+87;Istiophoridae_400419;2007;3152
+87;Istiophoridae_400419;2008;2283,1
+87;Istiophoridae_400419;2009;376,1
+87;Istiophoridae_400419;2010;4780,1
+87;Istiophoridae_400419;2011;2179,9
+87;Istiophoridae_400419;2012;2125,4
+87;Istiophoridae_400419;2013;625,8
+87;Xiphias gladius_600226;2004;0,6
+87;Xiphias gladius_600226;2005;126,6
+87;Xiphias gladius_600226;2006;718,04
+87;Xiphias gladius_600226;2007;585,6
+87;Xiphias gladius_600226;2008;1256,7
+87;Xiphias gladius_600226;2009;368,5
+87;Xiphias gladius_600226;2010;3413,8
+87;Xiphias gladius_600226;2011;2279,9
+87;Xiphias gladius_600226;2012;2138
+87;Xiphias gladius_600226;2013;849,5
+87;Gempylidae_6e+05;2004;769,9
+87;Gempylidae_6e+05;2005;447,9
+87;Gempylidae_6e+05;2006;1826,07
+87;Gempylidae_6e+05;2007;1884,2
+87;Gempylidae_6e+05;2008;822
+87;Gempylidae_6e+05;2009;161
+87;Gempylidae_6e+05;2010;903,9
+87;Gempylidae_6e+05;2011;983,4
+87;Gempylidae_6e+05;2012;650,9
+87;Gempylidae_6e+05;2013;32,8
+87;Ophichthus remiger;2009;71,51
+87;Ophichthus remiger;2010;120,81
+87;Ophichthus remiger;2011;328,3
+87;Ophichthus remiger;2012;107,7
+87;Ophichthus remiger;2013;113,97
+87;Ophichthus remiger;2014;59,33
+87;Protrachypene precipua;2005;11155
+87;Protrachypene precipua;2006;6396
+87;Protrachypene precipua;2007;5900
+87;Protrachypene precipua;2008;5704
+87;Protrachypene precipua;2009;7012
+87;Protrachypene precipua;2010;7155
+87;Protrachypene precipua;2011;4188
+87;Protrachypene precipua;2012;5569
+87;Protrachypene precipua;2013;2074
+87;Protrachypene precipua;2014;3019
