@@ -1498,10 +1498,12 @@ FinalizeScores = function(layers, conf, scores){
                        region_id = c(rgns[,'id_num'], 0),
                        dimension = c('pressures','resilience','status','trend','future','score'),
                        goal      = c(conf$goals$goal, 'Index')), stringsAsFactors=F); head(d)
-  d = subset(d,
-             !(dimension %in% c('pressures','resilience','trend') & region_id==0) &
-             !(dimension %in% c('pressures','resilience','status','trend') & goal=='Index'))
-  scores = merge(scores, d, all=T)[,c('goal','dimension','region_id','score')]
+  scores =
+    merge(
+      d %>%
+        filter(!(dimension %in% c('pressures','resilience','trend') & region_id==0) &
+               !(dimension %in% c('pressures','resilience','status','trend') & goal=='Index')),
+      scores, all=T)[,c('goal','dimension','region_id','score')]
 
   # order
   scores = arrange(scores, goal, dimension, region_id)
