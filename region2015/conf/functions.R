@@ -1115,6 +1115,10 @@ LIV_ECO = function(layers, subgoal){
         goal, dimension,
         region_id = rgn_id,
         score)
+
+    # temporary debug fix by @jules32
+    liv_trend = liv_trend %>%
+      mutate(score = 0)
   }
 
 
@@ -1201,15 +1205,15 @@ LIV_ECO = function(layers, subgoal){
 LE = function(scores, layers){
 
   # calculate LE scores
-  scores.LE = scores %.%
-    filter(goal %in% c('LIV','ECO') & dimension %in% c('status','trend','score','future')) %.%
-    dcast(region_id + dimension ~ goal, value.var='score') %.%
-    mutate(score = rowMeans(cbind(ECO, LIV), na.rm=T)) %.%
-    select(region_id, dimension, score) %.%
+  scores.LE = scores %>%
+    filter(goal %in% c('LIV','ECO') & dimension %in% c('status','trend','score','future')) %>%
+    dcast(region_id + dimension ~ goal, value.var='score') %>%
+    mutate(score = rowMeans(cbind(ECO, LIV), na.rm=T)) %>%
+    select(region_id, dimension, score) %>%
     mutate(goal  = 'LE')
 
   # rbind to all scores
-  scores = scores %.%
+  scores = scores %>%
     rbind(scores.LE)
 
   # return scores
