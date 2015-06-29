@@ -1074,6 +1074,7 @@ LIV_ECO = function(layers, subgoal){
     # ... averaging slopes across sectors weighted by the revenue in each sector
 
     # get trend across years as slope of individual sectors for jobs and wages
+
 #     liv_trend = liv %>%
 #       filter(!is.na(jobs_adj) & !is.na(wage_usd)) %>%
 #       # TODO: consider "5 year time spans" as having 5 [(max(year)-4):max(year)] or 6 [(max(year)-5):max(year)] member years
