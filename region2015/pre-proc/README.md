@@ -19,19 +19,19 @@ inesperadamente también están cambiando en este momento la siguiente:
 `cw_fertilizer_trend_gye2015.csv`, `cw_pesticide_trend_gye2015.csv` , `cw_pathogen_trend_gye2015.csv` y `cw_coastalpopn_trend_gye2015.csv`.
 
 todas tienen nuevos valores, son series de tiempo que se usan para calcular las respectivas tendencias, por lo tanto esas tendencias se deben volver a calcular.
-
+ * Coastalpopn
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_El%20Oro.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Guayas.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Santa%20Elena.png)
-
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_El%20Oro.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_Guayas.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_Santa%20Elena.png)
-
+ * Fertilizer
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvEl%20Oro.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvGuayas.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvSanta%20Elena.png)
+ * Pesticide
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_El%20Oro.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Guayas.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Santa%20Elena.png)
-
+ * Pathogen
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_El%20Oro.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Guayas.png)
 ![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Santa%20Elena.png)
