@@ -19,19 +19,19 @@ Data sources:
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
-- [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).","trend.score","trend score","cw_fertilizer_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_fertilizer_trend","~/github/ohi-global/eez2014/layers/cw_fertilizer_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,1,1,TRUE,,,,3,FALSE
+- [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).","trend.score","trend score","cw_fertilizer_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_fertilizer_trend","~/github/ohi-global/eez2014/layers/cw_fertilizer_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,-0.019848146135102,1,FALSE,,,,3,FALSE
 "CW","cw_pathogen_trend","Trends in access to improved sanitation as a proxy for pathogen pollution trend","Trends in percent of population with access to improved sanitation facilities.
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
 - [World Health Organization and United Nations Children's Fund's Joint Monitoring Programme (WHO/UNICEF's JMP)](http://www.wssinfo.org/data-estimates/table)
-","trend","trend score","cw_pathogen_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pathogen_trend","~/github/ohi-global/eez2014/layers/cw_pathogen_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,1,1,TRUE,,,,3,FALSE
+","trend","trend score","cw_pathogen_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pathogen_trend","~/github/ohi-global/eez2014/layers/cw_pathogen_trend.csv","global","rgn_id",,,,"trend",,TRUE,,,-1,-1,FALSE,,,,3,FALSE
 "CW","cw_pesticide_trend","Pesticide consumption as a proxy for trend in chemical pollution","Statistics on pesticide consumption from the Food and Agricultural Organization (FAO). 
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)
 Data sources:
 
 - [FAOâs statistical database FAOSTAT](http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E).
-","trend.score","trend score","cw_pesticide_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pesticide_trend","~/github/ohi-global/eez2014/layers/cw_pesticide_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,1,1,TRUE,,,,3,FALSE
+","trend.score","trend score","cw_pesticide_trend_gye2015.csv","equal","global trends were applied equally to all regions.","cw_pesticide_trend","~/github/ohi-global/eez2014/layers/cw_pesticide_trend.csv","global","rgn_id",,,,"trend.score",,TRUE,,,-0.16094707095949,0.570516135366316,FALSE,,,,3,FALSE
 "FIS","fis_b_bmsy","B/Bmsy estimates obtained using the catch-MSY method","The ratio of population abundance compared to the abundance required to deliver maximum sustainable yield, obtained from the catch-MSY model (Martell & Froese, 2013).
 Updated with local data. @andres. 18/06/2015.
 Data sources:
