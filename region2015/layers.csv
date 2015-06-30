@@ -197,10 +197,10 @@ Data sources:
 - [Goddard Earth Sciences Data and Information Services Center (GES DISC)](http://disc.sci.gsfc.nasa.gov/data-holdings/PIP/erythemal_uv_irradiance.shtml)
 ","pressure_score","pressure score","cc_uv_gye2015.csv","raster | equal","","cc_uv","~/github/ohi-global/eez2014/layers/cc_uv.csv","global","rgn_id",,,,"pressure_score",,TRUE,,,0.890841161,0.922301728,TRUE,,,,3,FALSE
 "pressures","fp_art_hb","High bycatch caused by artisanal fishing ","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
-
+Uodated with local information. @andres, 29/06/2015
 Data sources:
 
-- [Reefs at Risk Revisited](http://www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","fp_art_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","fp_art_hb","~/github/ohi-global/eez2014/layers/fp_art_hb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0.0320958635766238,0.0320958635766238,TRUE,,,,3,FALSE
+- [Reefs at Risk Revisited](http://www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","fp_art_hb_gye2015.csv","equal","global pressures data were applied equally to all regions.","fp_art_hb","~/github/ohi-global/eez2014/layers/fp_art_hb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,0,0,TRUE,,,,3,FALSE
 "pressures","fp_art_lb","Low bycatch caused by artisanal fishing ","Modeled low bycatch artisanal fishing using non-destructive practices (Halpern et al. 2008) based on FAO fisheries statistics.
 
 Data sources:
