@@ -311,35 +311,35 @@ Data sources:
 
 ","resilience score","resilience score","cites_gl2014.csv","equal","global resilience data were applied equally to all regions.","cites","~/github/ohi-global/eez2014/layers/cites.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,1,1,TRUE,,,,3,FALSE
 "resilience","fishing_v1","CBD survey: coastal fishing v1","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","fishing_v1_gl2014.csv","equal","global resilience data were applied equally to all regions.","fishing_v1","~/github/ohi-global/eez2014/layers/fishing_v1.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.792256401457733,0.792256401457733,TRUE,,,,3,FALSE
+","resilience score","resilience score","fishing_v1_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v1","~/github/ohi-global/eez2014/layers/fishing_v1.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.62,0.62,TRUE,,,,3,FALSE
 "resilience","fishing_v1_eez","CBD survey: ocean fishing v1","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","fishing_v1_eez_gl2014.csv","equal","global resilience data were applied equally to all regions.","fishing_v1_eez","~/github/ohi-global/eez2014/layers/fishing_v1_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.792256401457733,0.792256401457733,TRUE,,,,3,FALSE
+","resilience score","resilience score","fishing_v1_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v1_eez","~/github/ohi-global/eez2014/layers/fishing_v1_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.17,0.17,TRUE,,,,3,FALSE
 "resilience","fishing_v2_eez","CBD survey: ocean fishing v2","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","fishing_v2_eez_gl2014.csv","equal","global resilience data were applied equally to all regions.","fishing_v2_eez","~/github/ohi-global/eez2014/layers/fishing_v2_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.733135277906769,0.733135277906769,TRUE,,,,3,FALSE
+","resilience score","resilience score","fishing_v2_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v2_eez","~/github/ohi-global/eez2014/layers/fishing_v2_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.59,0.59,TRUE,,,,3,FALSE
 "resilience","fishing_v3","CBD survey: coastal fishing v3","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","fishing_v3_gl2014.csv","equal","global resilience data were applied equally to all regions.","fishing_v3","~/github/ohi-global/eez2014/layers/fishing_v3.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.821620938781596,0.821620938781596,TRUE,,,,3,FALSE
+","resilience score","resilience score","fishing_v3_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v3","~/github/ohi-global/eez2014/layers/fishing_v3.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.65,0.65,TRUE,,,,3,FALSE
 "resilience","fishing_v3_eez","CBD survey: ocean fishing v3","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","fishing_v3_eez_gl2014.csv","equal","global resilience data were applied equally to all regions.","fishing_v3_eez","~/github/ohi-global/eez2014/layers/fishing_v3_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.821620938781596,0.821620938781596,TRUE,,,,3,FALSE
+","resilience score","resilience score","fishing_v3_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v3_eez","~/github/ohi-global/eez2014/layers/fishing_v3_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.17,0.17,TRUE,,,,3,FALSE
 "resilience","habitat","CBD survey: habitat","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
 
 Data sources:
