@@ -1,0 +1,295 @@
+---
+title: "Informe de actividades (1/5/2015 -- 15/6/2015)"
+author: "AM Sajo Castelli"
+date: "29/06/2015"
+output:
+  pdf_document:
+    number_sections: yes
+    toc: yes
+---
+# Actividades realizadas y Productos entregados
+Se presentan las actividades realizadas y productos entregados 
+durante el mes de la segunda quincena de Junio de 2015.
+
+Tiempo de contratación 0,5 mes/hombre a costo de 1000USD / mes: total 500USD.
+
+# Actualización de las capas de presiones
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas y validadas:
+
+ 1. `po_pathogens` 
+ 2. `po_trash`
+ 3. `hd_subtidal_hb`
+ 4.  `fp_art_hb` 
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+# Meta CW
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron depuradas, recalculadas y validadas:
+
+ 1. `cw_fertilizer_trend` 
+ 2. `cw_pesticide_trend`
+ 3. `cw_pathogen_trend`
+ 4.  `cw_coastalpopn_trend` 
+
+Todas tienen nuevos valores, son series de tiempo que se usan para calcular las respectivas tendencias, por lo tanto esas tendencias se deben volver a calcular.
+
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+
+# Meta ICO
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas y validadas:
+
+ 1. `ico_spp_extinction_status`
+ 2. `ico_spp_popn_trend`
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+# Meta LIV
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas y validadas:
+
+ 1. `le_vab.csv`
+ 2. `le_workforcesize_adj.csv`
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+# Meta MAR
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas y validadas:
+
+ 1. `mar_coastalpopn_inland25km`
+ 
+Se corrigieron unos valores para Santa Elena de población.
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+# Meta FIS
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas y validadas:
+
+ 1. `fp_wildcaught_weight `
+ 
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+
+# Matriz de resiliencias
+
+Las capas de resiliencias actualizadas son
+15  capas del total de 19 que están en la aplicación.
+
+Para este producto las siguientes actividades fueron realizadas:
+
+Las capas de datos correspondientes fueron agregadas de agrupos pequeños y validadas:
+ 1. Grupo I: `li_gci`
+ 2. Grupo II: `wgi_all`
+ 3. Grupo III: `fishing_v1`, `fishing_v2`, `fishing_v1_eez`, `fishing_v2_eez`, `fishing_v3_eez`
+ 4. Grupo IV: `mariculture`, `habitat`, `habitat_combo`, `habitat_combo_eez`
+ 5. Grupo V: `tourism`, `water`, `cites`, `alien_species`
+ 
+Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
+
+
+# Bitácora y Registro de Actividades
+
+commit 038a3848aa20e39b2cff16eb71182bd5431b94fd
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 23:40:36 2015 -0430
+
+    Compare scores table final update for new 16 layers
+
+commit f1e5b4d7316da36622e88ed116095ba2faf6d2de
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 23:38:26 2015 -0430
+
+    Update CW goal
+     Recalculated trends for layers
+     1. cw_coastalpopn_trend_gye2015.csv
+     2. cw_fertilizer_trend_gye2015.csv
+     3. cw_pathogen_trend_gye2015.csv
+     4. cw_pesticide_trend_gye2015.csv
+
+commit 13a960086b967dacee49a611c2c59989a2bd8d25
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 22:29:43 2015 -0430
+
+    Resilience Matrix Layers Update: 5 of 5
+        Updates:
+     1. msi_gov
+     2. tourism
+     3. water
+     4. wgi_all
+
+commit ec52191c0a0ae33ece795c791ced0e39801aecc1
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 22:25:19 2015 -0430
+
+    Resilience Matrix Layer Updates: 4 of many...
+      Update includes resilience layers:
+     1. li_gci
+     2. mariculture
+
+commit 8bc7323004bd67fa96871a119b1e55e0ef8c9791
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 22:15:13 2015 -0430
+
+    Resilience Matrix Layer Updates: 1 of many...
+    
+    This update includes all habitat resilience layers
+
+commit 38ecf49076b9fbd103609be4840a1db82a60d574
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 22:11:40 2015 -0430
+
+    Resilience Matrix Layers Update: 2 of many....
+    Updates all fishing_v*
+
+commit 88ac5204e3de70d1c2c93b55f702733e7651f1bd
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 22:06:52 2015 -0430
+
+    Resilience Matrix Layer Updates: 1 of many...
+    
+     This uopdate includes:
+     1. Migration of layers
+     2. Registration of layer alien_species
+
+commit 48cabbc5cbf3c24025cf7ef5cd9495ff0601aa7a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 21:56:52 2015 -0430
+
+    Update FIS Goal
+    
+     Layer update: fp_wildcaught_weight
+
+commit 384a30dc5c90fde0ad0102dc5ae8a0391f72a658
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 21:50:11 2015 -0430
+
+    Update MAR Goal
+    
+    Update layer mar_coastalpopn_inland25km
+
+commit 98122f09f66c84b201efb339dd94ad72f89be7f9
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 21:44:17 2015 -0430
+
+    Update LE Goal
+    
+    Update to layers:
+     1. le_vab
+     2. le_workforcesize_adj
+
+commit 0441b083adbd2ea45e0e1f43491c039c9019c4cb
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 21:35:18 2015 -0430
+
+    Update ICO score
+    
+    Uses new layers:
+     1. ico_spp_popn_trend
+     2. ico_spp_extinction_status
+
+commit 1b270bbff8c34b913f269ba3e770abd05e23945a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 20:38:40 2015 -0430
+
+    Update compare score tables -- new pressures
+
+commit c1a346bf2538bdfb3381f3b1dcbdb2e2b971e777
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 20:38:02 2015 -0430
+
+    Second update to pressures.
+    Includes new
+     1. fp_art_hb
+
+commit e98c5228405adbc9e1d9ed7aa8dec2c88008a187
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 29 20:27:05 2015 -0430
+
+    Update pressures.
+    Uses new layers:
+    
+     1. po_pathogens
+     2. po_trash
+     3. hd_subtidal_hb
+
+commit 3f788ec5871c954c846daedefde908098b07e54a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Mon Jun 22 11:45:29 2015 -0430
+
+    Update README
+
+commit 4b671ded954e0dc9c79b13b59a5865dce2f0e1d0
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sun Jun 21 09:55:31 2015 -0430
+
+    NP update: goals.csv@NP:max_year=2014.
+
+commit d8eee9cfd6a5af1e0e63f48bfffdfca4c65d00cb
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 20 09:04:46 2015 -0430
+
+    Revert tenebrii remote executions
+
+commit dfc754c70e5822f5f368e3e376ff2bd194e9a119
+Merge: 1800ca3 fe2a6f8
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 20 09:03:55 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 1800ca3752b7d9cb176c89adb6d8711b6572275a
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 20 09:02:54 2015 -0430
+
+    MAR and NP scores update
+
+commit b50755e904cee38ef78bcb0f9cadbd7bf293a9fe
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Sat Jun 20 08:59:43 2015 -0430
+
+    NP score.
+    
+     - Debug MAR seg fault on dplyr.
+     - pre <email julie>.
+
+commit 7e43bd85021b06e229d3141426bdb1ff16dd57e8
+Author: Andrew Sajo Castelli <talassio@users.noreply.github.com>
+Date:   Fri Jun 19 16:52:27 2015 -0430
+
+    Update README.md
+
+commit c9b6b52d8951585020f3f0d14b6ab64e83c193ec
+Merge: 5ca0a00 038b7f4
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri Jun 19 16:42:03 2015 -0430
+
+    Merge branch 'draft' of https://github.com/OHI-Science/gye into draft
+
+commit 5ca0a001ee93cef1372adc7b964f2800749f2699
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri Jun 19 16:41:43 2015 -0430
+
+    Readme update
+
+commit 9b976bdaec883a67e9b36373cd5ad98b7cec2904
+Author: Andrew Sajo <asajo@usb.ve>
+Date:   Fri Jun 19 16:32:18 2015 -0430
+
+    Add FIS layers (4).
+    
+    1) fis_b_bmsy_gye2015.csv
+    2) fis_meancatch_gye2015.csv
+    3) fis_proparea_saup2rgn_gye2015.csv
+    4) fp_wildcaught_weight_gye2015.csv

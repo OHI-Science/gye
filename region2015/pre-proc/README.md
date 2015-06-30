@@ -4,6 +4,74 @@ author: "AM Sajo Castelli"
 date: "27/04/2015"
 output: html_document
 ---
+# TSKM #1: Actualizacion de varias metas, presiones y resiliencias
+![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
+
+
+ 1. `github/gye/region2015/prep/presiones`: `po_pathogens` y `po_trash`
+
+inesperadamente también están cambiando en este momento la siguiente:
+`hd_subtidal_hb` le van a poner a todo 0 (cero) (antes iban a usar la global, pero como en el Golfo no hay pesca con explosivos, se pone todo en cero.)
+
+`fp_art_hb` que es una presión que también va todo en cero, asi que por fa, incluye esa en mi archivito, en el punto 1.
+
+ 2. `github/gye/region2015/prep/9_CW`:
+`cw_fertilizer_trend_gye2015.csv`, `cw_pesticide_trend_gye2015.csv` , `cw_pathogen_trend_gye2015.csv` y `cw_coastalpopn_trend_gye2015.csv`.
+
+todas tienen nuevos valores, son series de tiempo que se usan para calcular las respectivas tendencias, por lo tanto esas tendencias se deben volver a calcular.
+
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_El%20Oro.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Guayas.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Santa%20Elena.png)
+
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_El%20Oro.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_Guayas.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csv_Santa%20Elena.png)
+
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_El%20Oro.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Guayas.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Santa%20Elena.png)
+
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_El%20Oro.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Guayas.png)
+![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Santa%20Elena.png)
+
+
+ 3. `github/gye/region2015/prep/8.1_ICO`: `ico_spp_extinction_status_gye2015_TG.csv`, `ico_spp_popn_trend_gye2015_TG.csv`.
+
+ 4. `github/gye/region2015/prep/6.1_LIV`: `le_vab.csv` y `le_workforcesize_adj.csv`
+
+ 5. `github/gye/region2015/prep/1.2_MAR`: `mar_coastalpopn_inland25km`: Se corrigieron unos valores para Santa Elena de población.
+
+ 6.  `github/gye/region2015/prep/1.1_FIS`: `fp_wildcaught_weight`
+
+ 7. Las capas de resiliencias están en github/gye/region2015/prep/resiliencia 
+todas las capas en este directorio son nuevas, no se habían colocado datos locales en ellas. Ahora se hizo para 15  capas del total de 19 que están en la aplicación.
+
+Son estas:
+
+ 1. `li_gci`
+ 2. `wgi_all`
+ 3. `fishing_v1`
+ 4. `fishing_v2`
+ 5. `fishing_v1_eez`
+ 6. `fishing_v2_eez`
+ 7. `fishing_v3_eez`
+ 8. `mariculture`
+ 9. `habitat`
+ 10. `habitat_combo`
+ 11. `habitat_combo_eez`
+ 12. `tourism`
+ 13. `water`
+ 14. `cites`
+ 15. `alien_species`
+
+No se van a cambiar las otras 4 que son:
+ 1. `msi_gov`
+ 2. `li_sector_evenness`
+ 3. `species_diversity`
+ 4. `species_diversity_3nm`
+
 # TSKB #6: Actualización de meta NP
 ![task:complete](https://img.shields.io/badge/task-complete-brightgreen.svg)
 
