@@ -11,8 +11,6 @@ output:
 Se presentan las actividades realizadas y productos entregados 
 durante el mes de Mayo y la primera quincena de Junio de 2015.
 
-Tiempo de contratación 1,5 mes/hombre a costo de 1000USD / mes: total 1500USD.
-
 # Capa HAB
 
 Para este producto las siguientes actividades fueron realizadas:

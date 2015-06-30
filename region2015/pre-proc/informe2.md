@@ -1,17 +1,17 @@
 ---
 title: "Informe de actividades (1/5/2015 -- 15/6/2015)"
 author: "AM Sajo Castelli"
-date: "29/06/2015"
+date: "30/06/2015"
 output:
   pdf_document:
     number_sections: yes
+    toc: yes
+  html_document:
     toc: yes
 ---
 # Actividades realizadas y Productos entregados
 Se presentan las actividades realizadas y productos entregados 
 durante el mes de la segunda quincena de Junio de 2015.
-
-Tiempo de contratación 0,5 mes/hombre a costo de 1000USD / mes: total 500USD.
 
 # Actualización de las capas de presiones
 Para este producto las siguientes actividades fueron realizadas:
@@ -37,28 +37,6 @@ Las capas de datos correspondientes fueron depuradas, recalculadas y validadas:
 
 
 Todas tienen nuevos valores, son series de tiempo que se usan para calcular las respectivas tendencias, por lo tanto esas tendencias se deben volver a calcular.
-
-
- * Coastalpopn
- 
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_El%20Oro.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Guayas.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_coastalpopn_trend_gye2015.csv_Santa%20Elena.png)
- * Fertilizer
- 
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvEl%20Oro.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvGuayas.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_fertilizer_trend_gye2015.csvSanta%20Elena.png)
- * Pesticide
- 
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_El%20Oro.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Guayas.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pesticide_trend_gye2015.csv_Santa%20Elena.png)
- * Pathogen
- 
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_El%20Oro.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Guayas.png)
-![trend](https://github.com/OHI-Science/gye/blob/draft/region2015/pre-proc/CW_2/cw_pathogen_trend_gye2015.csv_Santa%20Elena.png)
 
 
 Posteriormente, se recalcularon las tablas de `score` y `compare_scores`. 
