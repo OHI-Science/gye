@@ -341,23 +341,23 @@ Data sources:
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
 ","resilience score","resilience score","fishing_v3_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","fishing_v3_eez","~/github/ohi-global/eez2014/layers/fishing_v3_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.17,0.17,TRUE,,,,3,FALSE
 "resilience","habitat","CBD survey: habitat","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","habitat_gl2014.csv","equal","global resilience data were applied equally to all regions.","habitat","~/github/ohi-global/eez2014/layers/habitat.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.909090909090909,0.909090909090909,TRUE,,,,3,FALSE
+","resilience score","resilience score","habitat_gye2015.csv","equal","global resilience data were applied equally to all regions.","habitat","~/github/ohi-global/eez2014/layers/habitat.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.875,0.875,TRUE,,,,3,FALSE
 "resilience","habitat_combo","CBD survey: coastal habitat","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","habitat_combo_gl2014.csv","equal","global resilience data were applied equally to all regions.","habitat_combo","~/github/ohi-global/eez2014/layers/habitat_combo.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.954545454545454,0.954545454545454,TRUE,,,,3,FALSE
+","resilience score","resilience score","habitat_combo_gye2015.csv","equal","global resilience data were applied equally to all regions.","habitat_combo","~/github/ohi-global/eez2014/layers/habitat_combo.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.76,0.76,TRUE,,,,3,FALSE
 "resilience","habitat_combo_eez","CBD survey: ocean habitat","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","habitat_combo_eez_gl2014.csv","equal","global resilience data were applied equally to all regions.","habitat_combo_eez","~/github/ohi-global/eez2014/layers/habitat_combo_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.954545454545454,0.954545454545454,TRUE,,,,3,FALSE
+","resilience score","resilience score","habitat_combo_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","habitat_combo_eez","~/github/ohi-global/eez2014/layers/habitat_combo_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.2,0.2,TRUE,,,,3,FALSE
 "resilience","li_gci","GCI: competitiveness in achieving sustained economic prosperity","Global Competitiveness Index (GCI) scores from the World Economic Forum.
 
 Data sources:
