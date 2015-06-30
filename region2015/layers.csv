@@ -372,10 +372,10 @@ Data sources:
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
 ","resilience score","resilience score","mariculture_gye2015.csv","equal","global resilience data were applied equally to all regions.","mariculture","~/github/ohi-global/eez2014/layers/mariculture.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.916666667,0.916666667,TRUE,,,,3,FALSE
 "resilience","msi_gov"," MSI sustainability and regulations","Mariculture practice assessment criteria from the Mariculture Sustainability Index (MSI). 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
-- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","resilience score","resilience score","msi_gov_gl2014.csv","equal","global resilience data were applied equally to all regions.","msi_gov","~/github/ohi-global/eez2014/layers/msi_gov.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.425,0.425,TRUE,,,,3,FALSE
+- Trujillo P. (2008). **Using a mariculture sustainability index to rank countriesâ performances**. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countriesâ Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report_, vol. 16(7) p. 28â56.","resilience score","resilience score","msi_gov_gye2015.csv","equal","global resilience data were applied equally to all regions.","msi_gov","~/github/ohi-global/eez2014/layers/msi_gov.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.820833333,0.820833333,TRUE,,,,3,FALSE
 "resilience","species_diversity","Ocean ecological integrity","Marine species diversity as a proxy for ecological integrity: ocean (IUCN).
 
 Data sources:
@@ -389,22 +389,22 @@ Data sources:
 - [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
 ","score","resilience score","species_diversity_3nm_gl2014.csv","equal","global resilience data were applied equally to all regions.","species_diversity_3nm","~/github/ohi-global/eez2014/layers/species_diversity_3nm.csv","global","rgn_id",,,,"score",,TRUE,,,0.911715178645145,0.911715178645145,TRUE,,,,3,FALSE
 "resilience","tourism","CBD survey: tourism","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","tourism_gl2014.csv","equal","global resilience data were applied equally to all regions.","tourism","~/github/ohi-global/eez2014/layers/tourism.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.888888888889,0.888888888889,TRUE,,,,3,FALSE
+","resilience score","resilience score","tourism_gye2015.csv","equal","global resilience data were applied equally to all regions.","tourism","~/github/ohi-global/eez2014/layers/tourism.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.6875,0.6875,TRUE,,,,3,FALSE
 "resilience","water","CBD survey: water","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","water_gl2014.csv","equal","global resilience data were applied equally to all regions.","water","~/github/ohi-global/eez2014/layers/water.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,1,1,TRUE,,,,3,FALSE
+","resilience score","resilience score","water_gye2015.csv","equal","global resilience data were applied equally to all regions.","water","~/github/ohi-global/eez2014/layers/water.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.6875,0.6875,TRUE,,,,3,FALSE
 "resilience","wgi_all","Strength of governance indicated with the WGI","World Governance Indicators (WGI) six combined scores.
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
-- [Worldwide Governance Indicators (WGI)](http://info.worldbank.org/governance/wgi/index.asp)","score","resilience score","wgi_all_gl2014.csv","equal","global resilience data were applied equally to all regions.","wgi_all","~/github/ohi-global/eez2014/layers/wgi_all.csv","global","rgn_id",,,,"score",,TRUE,,,0.356717169413023,0.356717169413023,TRUE,,,,3,FALSE
+- [Worldwide Governance Indicators (WGI)](http://info.worldbank.org/governance/wgi/index.asp)","score","resilience score","wgi_all_gye2015.csv","equal","global resilience data were applied equally to all regions.","wgi_all","~/github/ohi-global/eez2014/layers/wgi_all.csv","global","rgn_id",,,,"score",,TRUE,,,0.384305263,0.384305263,TRUE,,,,3,FALSE
 "spatial","rgn_area","Region area of total EEZ ocean","Area of Ocean Health Index regions based on exclusive economic zones (VLIZ 2012). 
 
 Data sources:
