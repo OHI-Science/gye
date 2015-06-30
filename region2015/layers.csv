@@ -359,18 +359,18 @@ Data sources:
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
 ","resilience score","resilience score","habitat_combo_eez_gye2015.csv","equal","global resilience data were applied equally to all regions.","habitat_combo_eez","~/github/ohi-global/eez2014/layers/habitat_combo_eez.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.2,0.2,TRUE,,,,3,FALSE
 "resilience","li_gci","GCI: competitiveness in achieving sustained economic prosperity","Global Competitiveness Index (GCI) scores from the World Economic Forum.
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [World Economic Forum](http://www.weforum.org/issues/global-competitiveness)
-","score","resilience score","li_gci_gl2014.csv","equal","global resilience data were applied equally to all regions.","li_gci","~/github/ohi-global/eez2014/layers/li_gci.csv","global","rgn_id",,,,"score",,TRUE,,,0.597142857142857,0.597142857142857,TRUE,,,,3,FALSE
+","score","resilience score","li_gci_gye2015.csv","equal","global resilience data were applied equally to all regions.","li_gci","~/github/ohi-global/eez2014/layers/li_gci.csv","global","rgn_id",,,,"score",,TRUE,,,0.471631206,0.471631206,TRUE,,,,3,FALSE
 "resilience","li_sector_evenness","Sector evenness as a measure of economic diversity","Shannon's Diversity Index calculated sector evenness based on the total number of sectors and the proportion of jobs belonging to any sector.","resilience score","resilience score","li_sector_evenness_gl2014.csv","equal","global resilience data were applied equally to all regions.","li_sector_evenness","~/github/ohi-global/eez2014/layers/li_sector_evenness.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.768636690874,0.768636690874,TRUE,,,,3,FALSE
 "resilience","mariculture","CBD survey: mariculture","Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-
+Updated with local information. @andres. 29/06/2015.
 Data sources:
 
 - [Convention on Biological Diversity (CBD)](http://www.cbd.int/reports/search/default.shtml)
-","resilience score","resilience score","mariculture_gl2014.csv","equal","global resilience data were applied equally to all regions.","mariculture","~/github/ohi-global/eez2014/layers/mariculture.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.625,0.625,TRUE,,,,3,FALSE
+","resilience score","resilience score","mariculture_gye2015.csv","equal","global resilience data were applied equally to all regions.","mariculture","~/github/ohi-global/eez2014/layers/mariculture.csv","global","rgn_id",,,,"resilience.score",,TRUE,,,0.916666667,0.916666667,TRUE,,,,3,FALSE
 "resilience","msi_gov"," MSI sustainability and regulations","Mariculture practice assessment criteria from the Mariculture Sustainability Index (MSI). 
 
 Data sources:
