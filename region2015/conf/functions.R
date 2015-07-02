@@ -1490,8 +1490,6 @@ PreGlobalScores = function(layers, conf, scores){
 
 FinalizeScores = function(layers, conf, scores){
 
-  setwd('~/github/gye/region2015') # set again for Travis calc
-
   # get regions
   rgns = SelectLayersData(layers, layers=conf$config$layer_region_labels, narrow=T)
 
