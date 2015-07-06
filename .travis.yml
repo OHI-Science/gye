@@ -1,7 +1,10 @@
 language: c
+
+# blacklist
 branches:
-  only:
-  - draft
+  except:
+    - /.*/
+
 env:
   global:
   - default_branch_scenario: "published/region2015"
@@ -16,10 +19,7 @@ before_install:
 - ./travis-tool.sh bootstrap
 - sudo apt-get install pandoc
 
-# blacklist
-branches:
-  except:
-    - /.*/
+
 
 install:
 - ./travis-tool.sh install_r zoo
