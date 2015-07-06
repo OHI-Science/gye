@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Goals"
-excerpt: "OHI goals for Golfo"
+excerpt: "OHI goals for Golfo de Guayaquil"
 share: false
 ads: false
 branch_scenario: draft/region2015
