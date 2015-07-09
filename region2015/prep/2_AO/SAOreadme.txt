@@ -29,14 +29,14 @@ El Instituto Nacional de Pesca (INP) publicó las artes de pesca utilizadas por c
 Esta información es un índice cuya data posee información promediada anual, para los datos de capturas la información va desde 2000 hasta 2013, la publicación del INP es del 2012 y las calificaciones de la FAO fueron publicadas en 2005. 
 
 6.	Unidad en la cual vienen los valores.
-Puntaje
+Puntuaci—n
 
 7.	Significado o explicación de qué significan los valores.
 
-Este puntaje representa una valoración por provincias de la sostenibilidad de las artes de pesca utilizadas en las comunidades pesqueras ponderada de acuerdo al volumen capturado en los puertos pesqueros de cada provincia.
+Esta puntuaci—n representa una valoración por provincias de la sostenibilidad de las artes de pesca utilizadas en las comunidades pesqueras ponderada de acuerdo al volumen capturado en los puertos pesqueros de cada provincia.
 
 8.	Observación o comentario sobre los datos.
-Ninguna
+La metodolog’a global utiliza una puntuaci—n de 1, por no tener datos para estimarla. En el caso del Golfo de Guayaquil, se pudo utilizar la informaci—n descrita aqui, con el mŽtodo indicado, para estimar un indicador de sostenibilidad de la pesca artesanal.
 
 9.	Significado y explicación de las columnas que se incluyen en el archivos, solo si son diferentes de las que se especifican en la aplicación OHI-ecu o si la capa de datos es nueva, creada ad hoc para este estudio regional. 
 

@@ -1,12 +1,15 @@
 
 Ao_ need: Pobreza por Necesidades Básicas Insatisfechas
 1.	Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
+
 Ministerio Coordinador de Desarrollo Social a través del Sistema de Indicadores Sociales del Ecuador (http://www.siise.gob.ec/siiseweb/)
 2.	Institución que provee los datos a este proyecto (si es distinta de la recolectora).
+
 Instituto Nacional de Estadísticas y Censos (INEC) a través del Censo de Población y Vivienda 1990, 2001 y 2010.
 3.	Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 N/A
 4.	Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cuál método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc.
+
 La metodología aplicada fue definida por la Comunidad Andina de Naciones (CAN),  
 según recomendaciones de la Reunión de expertos gubernamentales en Encuestas de 
 Hogares; Empleo y Pobreza. Esta definición establece a un hogar como pobre si 
