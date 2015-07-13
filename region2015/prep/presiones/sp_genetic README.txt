@@ -1,8 +1,11 @@
 sp_genetic: Genetic escapes
+
 1. Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
 Trujillo P. (2008)
+
 2. Institución que provee los datos a este proyecto (si es distinta de la recolectora).
 n/a
+
 3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 References
 * Alder, J. and Watson, R. (2007) Fisheries globalization: fair trade or piracy. p. 47-74 In: Taylor, W., Schechter, M.G. and
@@ -45,15 +48,21 @@ References
 * Watson, R. and Pauly, D. (2001) Systematic distortions in world fisheries catch trends. Nature 414: 534–536. 
 * Worm, B., Barbier, E., Beaumont, N., Duffy, J.E., Folke, C., Halpern, B.S., Jackson, J.B.C., Lotze, H.K., Micheli, F., Palumbi, S.R., Sala, E., Selkoe, K.A., Stachowicz, J.J., Watson, R. (2006) Impacts of Biodiversity Loss on Ocean Ecosystem Services. Science 314: 787-790. WWF (2008)
 * WWF Fish “YES” List. World Wildlife Fund. Washington, D.C. Available at: www.worldwildlife.org/what/globalmarkets/fishing/item4085.html [Accessed 08/05/08]
+
 4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cuál método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc.
 Los datos provienen del Índice de Sostenibilidad Maricultura (MSI) de Trujillo (2008). En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que el extranjero e introdujo especies reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar. Esta información es presentada por países.
+
 5. Período de tiempo que cubren los datos (año desde y año hasta). O enumeración de años si no son consecutivos.
 La publicación de este artículo científico fue en 2008.
+
 6. Unidad en la cual vienen los valores.
 Puntaje (número en un rango de 1 al 10)
+
 7. Significado o explicación de qué significan los valores.
       Esta capa representa el potencial de escape genética dañina en función de si la especies de haber sido cultivadas es nativo o introducido. En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que el extranjero e introdujo especies reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar.
+
 8. Observación o comentario sobre los datos.
 Ninguna
+
 9. Significado y explicación de las columnas que se incluyen en el archivos, solo si son diferentes de las que se especifican en la aplicación OHI-ecu o si la capa de datos es nueva, creada ad hoc para este estudio regional. 
 Para desagregar el indicador a nivel provincial se tomó la información de la FAO a través de SEA Around US Project con respecto a la presencia de Oreochromis (tilapia) en las provincias del país, después de revisar esta información se concluye que solo existe presencia de esta especie en la provincia del Guayas en relación al Golfo de Guayaquil. De esta manera, los datos presentados a nivel nacional por el artículo científico de Trujillo (2008) son utilizados solo para la provincia del Guayas reeescalados a un rango de 0 a 1. Para las otras dos provincias del Golfo se coloca 0 como valor para esta capa al no existir presencia de la especie en estas regiones.
