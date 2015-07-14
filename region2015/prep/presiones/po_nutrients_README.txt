@@ -4,10 +4,9 @@ Capa de datos: contaminación por nutrientes del océano.
 1. Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
 Centro Nacional para Análisis y Síntesis Ecológico (NCEAS).
 
-
 2. Institución que provee los datos a este Proyecto (si es distinta de la recolectora).
-Índice de Salud del Océano (OHI) http://ohi-science.org/
 
+Índice de Salud del Océano (OHI) http://ohi-science.org/
 
 3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D'Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) A global map of human impact on marine ecosystems. Science, 3199(5865): 948-952. doi:10.1126/science.1149345Organización 

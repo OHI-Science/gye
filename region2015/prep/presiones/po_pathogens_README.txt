@@ -1,6 +1,6 @@
 po_pathogens: access to improved sanitation as a proxy for pathogen pollution.
 Capa de datos: acceso mejores servicios de saneamiento como un indicador de la contaminación por patógenos.
-
+A mejor acceso a estos servicios, menor contaminación por patógenos (Agregado por: SAM).
 
 1. Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
 Instituto Nacional de Estadísticas y Censos (INEC).
