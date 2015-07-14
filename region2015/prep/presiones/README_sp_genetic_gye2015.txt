@@ -50,7 +50,7 @@ References
 * WWF Fish “YES” List. World Wildlife Fund. Washington, D.C. Available at: www.worldwildlife.org/what/globalmarkets/fishing/item4085.html [Accessed 08/05/08]
 
 4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cuál método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc.
-Los datos provienen del Índice de Sostenibilidad Maricultura (MSI) de Trujillo (2008). En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que el extranjero e introdujo especies reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar. Esta información es presentada por países.
+Los datos provienen del Índice de Sostenibilidad Maricultura (MSI) de Trujillo (2008). En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que especies introducidas reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar. Esta información es presentada por países.
 
 5. Período de tiempo que cubren los datos (año desde y año hasta). O enumeración de años si no son consecutivos.
 La publicación de este artículo científico fue en 2008.
@@ -59,7 +59,7 @@ La publicación de este artículo científico fue en 2008.
 Puntaje (número en un rango de 1 al 10)
 
 7. Significado o explicación de qué significan los valores.
-      Esta capa representa el potencial de escape genética dañina en función de si la especies de haber sido cultivadas es nativo o introducido. En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que el extranjero e introdujo especies reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar.
+      Esta capa representa el potencial de escape genética dañina en función de si la especies de haber sido cultivadas es nativo o introducido. En el análisis de MSI especies nativas reciben el puntaje más alto (10), mientras que especies introducidas reciben el más bajo (1) en la premisa de posibles impactos a la biodiversidad local si estas especies iban a escapar.
 
 8. Observación o comentario sobre los datos.
 Ninguna
