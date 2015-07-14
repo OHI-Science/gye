@@ -1,4 +1,4 @@
-wgi_all: Fuerza del gobierno indicada por el GTI
+li_gci: GCI: competitividad en el logro de la prosperidad económica sostenida 
 
 1. Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
 Foro Económico Mundial
