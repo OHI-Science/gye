@@ -19,12 +19,12 @@ Consulsua - Biótica
 
 3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 CLIRSEN (Centro de Levantamientos Integrados de Recursos Naturales por Sensores Remotos) (2006). Actualización del estudio multitemporal de manglares, camaroneras y áreas salinas en la costa continental ecuatoriana. 
-Convenio de cooperación técnica entre el CLIRSEN y el PROGRAA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
+Convenio de cooperación técnica entre el CLIRSEN y el PROGRAMA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
 
 4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cual método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc
-Estudio 2007: imágenes de los satélites Ikonos de 2003, Aster de 2007, SPOT del año 2006 y  Landsat del año 2007, así como el procesamiento digital de imágenes y sistemas de información geográfica y también en apoyo de la cartografía básica del IGM y trabajos de campo de noviembre de 2007.
+CLIRSEN, 2006: Cartografía básica del Instituto Geográfico Militar a escala 1:25.000 y 1:50.000. Análisis digital e interpretación visual de imágenes de satélite LANDSAT de Mayo-2007 (sector Golfo de Guayaquil). Ikonos de Marzo-2006  (sector Chanduy) , Ikonos de abril-2003 (sector Playas), Ikonos de abril-2003 (sector Chanduy). Cartografía temática escala 1:25.000 de Manglares, camaroneras y áreas salinas al año 1999. Comprobación de campo - noviembre 2007.
 
-5. Periodo de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
+5. Período de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
 2007
 
 6. Unidad en la cual vienen los valores.
@@ -38,8 +38,7 @@ Para el estudio global, los datos fueron calificados de acuerdo a un modelo comb
 Para el estudio local, los datos fueron tomados de una misma fuente (CLIRSEN, estudios elaborados con base en fotografias satelitales), sin necesidad de combinar modelos. 
 
 9. Significado y explicación de las columnas que se incluirán en el archivo, si son diferentes de las que se especifican en OHI-ecu o si la capa de datos es nueva, creada para este estudio regional. 
-En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categoría que en este caso corresponde a manglar. 
-En la cuarta columna están los datos expresados en km2. La región 6, Santa Elena, no tiene datos porqué carece de manglar.
+En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categoría que en este caso corresponde a manglar. En la cuarta columna están los datos expresados en km2. La región 6, Santa Elena, no tiene datos porque carece de manglar.
 
 ===================================================================================================================================================================================================================================================================================================================================================
 
@@ -62,12 +61,12 @@ Consulsua - Biótica
 
 3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 CLIRSEN (Centro de Levantamientos Integrados de Recursos Naturales por Sensores Remotos) (2006). Actualización del estudio multitemporal de manglares, camaroneras y áreas salinas en la costa continental ecuatoriana. 
-Convenio de cooperación técnica entre el CLIRSEN y el PROGRAA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
+Convenio de cooperación técnica entre el CLIRSEN y el PROGRAMA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
 
 4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cual método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc
-Estudio 2007: imágenes de los satélites Ikonos de 2003, Aster de 2007, SPOT del año 2006 y  Landsat del año 2007, así como el procesamiento digital de imágenes y sistemas de información geográfica y también en apoyo de la cartografía básica del IGM y trabajos de campo de noviembre de 2007.
+CLIRSEN, 2006: Cartografía básica del Instituto Geográfico Militar a escala 1:25.000 y 1:50.000. Análisis digital e interpretación visual de imágenes de satélite LANDSAT de Mayo-2007 (sector Golfo de Guayaquil). Ikonos de Marzo-2006  (sector Chanduy) , Ikonos de abril-2003 (sector Playas), Ikonos de abril-2003 (sector Chanduy). Cartografía temática escala 1:25.000 de Manglares, camaroneras y áreas salinas al año 1999. Comprobación de campo - noviembre 2007.
 
-5. Periodo de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
+5. Período de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
 2007
 
 6. Unidad en la cual vienen los valores.
@@ -81,7 +80,7 @@ Para el estudio global, los datos fueron calificados de acuerdo a un modelo comb
 Para el estudio local, los datos fueron tomados de una misma fuente (CLIRSEN, estudios elaborados con base en fotografias satelitales), sin necesidad de combinar modelos. 
 
 9. Significado y explicación de las columnas que se incluirán en el archivo, si son diferentes de las que se especifican en OHI-ecu o si la capa de datos es nueva, creada ad hoc para este estudio regional. 
-En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categotría que en este caso corresponde a manglar. En la cuarta columna están los datos expresados en km2. La región 6, Santa Elena, no tiene datos porqué carece de manglar.
+En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categoría que en este caso corresponde a manglar ( 1km costa afuera y 1km costa adentro) . En la cuarta columna están los datos expresados en km2 para extensión 1km costa afuera y 1km costa adentro. La región 6, Santa Elena, no tiene datos porque carece de manglar.
 
 ====================================================================================================================================================================================================================================================================
 
@@ -108,7 +107,7 @@ Para la zona marino-costera del Ecuador continental se han identificado cuatro s
 y ocho sistemas submareales principales: fondos blandos, fondo de roca, fondo de arrecife de coral, fondo de grava, bajo de roca y bajo de arena y fondos blandos y de roca con influencia de agua dulce. 
 Estos sistemas fueron subclasificados considerando su distribución dentro de cada Unidad Ecológica Marina
 
-5. Periodo de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
+5. Período de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
 No aplica
 
 6. Unidad en la cual vienen los valores.
@@ -120,15 +119,8 @@ Capa de datos con el área actual total de cada hábitat para región del Golfo de 
 8. Observación o comentario adicional sobre los datos.
 
 9. Significado y explicación de las columnas que se incluirán en el archivo, si son diferentes de las que se especifican en OHI-ecu o si la capa de datos es nueva, creada para este estudio regional.
-En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna están la categoría. En la cuarta columna están los valores en km2.
+En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna están la categoría. En la tercera columna están los valores en km2.
 
-
-1	El Oro	           fondos duros	          1.8269
-2	Guayas	           fondos duros	          47.3900
-6	Santa Elena	   fondos duros	          8.1566
-1	El Oro	           fondos suaves	  4469.784
-2	Guayas	           fondos suaves	  6269.924
-6	Santa Elena	   fondos suaves	  1312.241
 
 
 
