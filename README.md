@@ -39,4 +39,3 @@ jekyll serve --baseurl ''
 # Ctrl-C to stop
 htmlproof ./_site
 ```
-
