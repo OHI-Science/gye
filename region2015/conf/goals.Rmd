@@ -98,10 +98,10 @@ $$
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{k=1}^{N} \frac{C_{k,s}}{C_{k,r}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{s,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
 $$
 
-- $C_{k,s}$ = condition of habitat $k$, current [$c$] or reference[$r$]
+- $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference[$r$]
 
 - $A_{k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
 
@@ -115,7 +115,7 @@ habitats: seagrass beds, salt marshes, mangroves
 Protection from inundation or erosion compared to the local natural potential
 
 $$
-x_{CP} =  \sum_{k}^{n} \alpha_{k} * \frac{C_{c,k}}{C_{r,k}}
+x_{CP} =  \sum_{k=1}^{N} \alpha_{k} * \frac{C_{c,k}}{C_{r,k}}
 $$
 
 $$
@@ -126,13 +126,15 @@ $$
 w_{k} = \frac{r_{k}}{\sum{r_{k}}}
 $$
 
-- $C$ = condition of habitat $k$, current [$c$] and reference [$r$]
+- $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference [$r$]
 
 - $\alpha$ = weighted area of habitat $k$  
 
-- $A$ = area of habitat $k$ 
+- $A_{k}$ = area of habitat $k$ 
 
 - $r$ = habitat protective ability rank weight 
+
+- $N$ = number of habitats
 
 habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 
