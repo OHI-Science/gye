@@ -59,7 +59,7 @@ $$
 
 - $O_{AO}$ = access to artisanal fishing
 
-- $NBI$ = unsatisfied Basic Needs
+- $NBI$ = unsatisfied basic needs
 
 
 ## Natural Products
@@ -143,7 +143,7 @@ habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 Tourism & recreation value, independent of monetary exchange
 
 $$
-x_{TR} = E_{t} * S_{t} 
+x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
 $$
 
 $$
