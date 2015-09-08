@@ -9,9 +9,9 @@ $$
 x_{FIS} =  (\prod_{g=1}^{6} SS_{i,g}^{C_{i,g}})^\frac{1}{\sum{C_{i,g}}}
 $$
 
-- $SS$ stock status score, based on B/Bmsy (biomass / maximum sustainable yield of biomass) and an underharvest penalty adjustment
+- $SS_{i,g}$ stock status score, based on B/Bmsy (biomass / maximum sustainable yield of biomass) and an underharvest penalty adjustment for reporting region $i$ and taxonomic level $g$
 
-- $C$ total catch
+- $C_{i,g}$ total catch for reporting region $i$ and taxonomic level $g$
 
 - $i$ OHI reporting region
 
@@ -26,7 +26,7 @@ x_{MAR} =  \frac{Y_{c}}{Y_{r}}
 $$
 
 $$
-Y_{c} = \frac{\sum{1}^{k} Y_{k} * S_{M,k}}{P_{c}}
+Y_{c} = \frac{\sum{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
 $$
 
 - $Y$ = current sustainably harvested total yield, current [$c$] or reference [$r$] 
@@ -36,6 +36,10 @@ $$
 - $P_{c}$ = Coastal population within 100km
 
 - $Y_{r} = max(Y_{c})$
+
+- $N$ = Number of Mariculture species
+
+
 
 
 ## Artisanal Fishing Opportunity 
