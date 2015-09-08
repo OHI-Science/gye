@@ -50,7 +50,7 @@ x_{AO} = (1 - D_{U}) * S_{AO}
 $$
 
 $$
-D_{U} = (1 - P) * (1 - O_{AO})
+D_{U} = (1 - NBI) * (1 - O_{AO})
 $$
 
 - $D_{U}$ = unmet demand
@@ -59,11 +59,11 @@ $$
 
 - $O_{AO}$ = access to artisanal fishing
 
-- $P$ = gross domestic product (GDP) per capita, adjusted by purchasing power parity (PPP)
+- $NBI$ = Unsatisfied Basic Needs
 
 
 ## Natural Products
-Level of protection of the coast from inundation and erosion compared to the local natural potential
+People access to coastal resources, whether or not they do actually fish in coastal waters
 
 $$
 x_{NP} = \frac{\sum_{p=1}^{N} w_p * x_p}{N}  
@@ -89,7 +89,9 @@ $$
 
 - $R$ = risk term
 
-￼products:aquaria fishes, corals, sponges, shells, seaweeds, fish oil
+- $N$ = Number of Natural Products
+
+￼products:aquaria fishes, corals, seaweeds, fish oil
 
 
 ## Carbon Storage
