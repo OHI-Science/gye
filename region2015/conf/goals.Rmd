@@ -59,7 +59,7 @@ $$
 
 - $O_{AO}$ = access to artisanal fishing
 
-- $NBI$ = Unsatisfied Basic Needs
+- $NBI$ = unsatisfied Basic Needs
 
 
 ## Natural Products
@@ -91,19 +91,22 @@ $$
 
 - $N$ = Number of Natural Products
 
-￼products:aquaria fishes, corals, seaweeds, fish oil
+￼products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
 
 
 ## Carbon Storage
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{1}^{k} \frac{C_{s}}{C_{r}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{k,s}}{C_{k,r}} * \frac{A_{k}}{A_{T}}
 $$
 
-- $C$ = condition of habitat $k$, current [$c$] or reference[$r$]
+- $C_{k,s}$ = condition of habitat $k$, current [$c$] or reference[$r$]
 
-- $A$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+- $A_{k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+
+- $N$ = number of habitats
+
 
 habitats: seagrass beds, salt marshes, mangroves
 
