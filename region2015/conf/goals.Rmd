@@ -58,7 +58,7 @@ $$
 
 - $O_{AO}$ = access to artisanal fishing
 
-- $NBI$ = unsatisfied basic needs
+- $NBI$ = unsatisfied basic needs as a percentage
 
 
 ## Natural Products
