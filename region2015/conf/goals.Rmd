@@ -37,8 +37,7 @@ $$
 
 - $Y_{r} = max(Y_{c})$
 
-- $N$ = Number of Mariculture species
-
+- $N$ = number of mariculture species
 
 
 
