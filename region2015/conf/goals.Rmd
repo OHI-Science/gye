@@ -146,19 +146,16 @@ $$
 x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
 $$
 
-$$
-E_{t} = E_{W} / (L_{t} - L_{t} * U_{t})
-$$
 
-- $E$ = tourism employment proportion
+- $VL_{.}$ = total number of local visitors, current [$c$] or reference [$r$]
 
-- $S$ = sustainability measure
+- $%VL$ = percentage of local visitors for each region
 
-- $E_{W}$ = number of employees in travel and tourism sectors
+- $VI_{.}$ = total number of international visitors, current [$c$] or reference [$r$]
 
-- $L$ = total labor force
+- $%VL$ = percentage of international visitors for each region
 
-- $U$ = percent unemployment
+- $S_{t}$ = sustainability measure
 
 - $t$ = current year
 
@@ -170,9 +167,9 @@ $$
 x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\sum_{i=1}^{k} g_{m,k}}{\sum_{i=1}^{k} g_{r,k}}}{2}
 $$
 
-- $j$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
+- $j_{.,k}$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
 
-- $g$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
+- $g_{.,k}$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
 
@@ -181,12 +178,12 @@ $$
 Revenue from marine associated sectors
 
 $$
-x_{ECO} = \sum_{i=1}^{k} \frac{e_{c,k}}{e_{r,k}} 
+x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,k}}{vab_{r,k}} 
 $$
 
-- $e$ = total adjusted revenue generated from each sector $k$ at current [$c$] or reference [$r$] time
+- $vab_{.,k}$ = aggregate gross value from each sector $k$ at current [$c$] or reference [$r$] time
 
-- sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
+- sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding, sea salt extraction
 
 
 ## Sense of Place: Iconic Species
@@ -214,9 +211,9 @@ $$
 x_{LSP} = \frac{(\frac{M}{M_{r}} + \frac{C}{C_{r}})}{2} 
 $$
 
-- $M$ = percent protected marine coastal area compared to reference [$r$] $C$ = percent protected coastline compared to reference [$r$]
+- $M$ = percent protected marine coastal area compared to reference [$r$.] $C$ = percent protected coastline compared to reference [$r$]
 
-- $C$ = managed area on coastal land (0-1mi)
+- $C$ = managed area on coastal land (0-1km)
 
 - $C_{t}$ = total coastal land area 
 
@@ -241,12 +238,14 @@ $$
 Existence values people hold for biodiversity measured through the status of key habitats
 
 $$
-x_{HAB} =  \sum_{i=1}^{k} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
+x_{HAB} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 $$
 
-- $C$ = condition of habitat k, current [$c$] or reference[$r$]
+- $C_{.,k}$ = condition of habitat k, current [$c$] or reference[$r$]
 
-- $A$ = area of habitat k, current [$c$] or total of all habitats [T]
+- $A_{.,k}$ = area of habitat k, current [$c$] or total of all habitats [T]
+
+- $N$ = number of habitats
 
 habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs, sea ice edge
 
@@ -255,14 +254,14 @@ habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves,
 Existence values people hold for biodiversity measured through the status of native species
 
 $$
-x_{SPP} = \frac{\sum_{k=1}^{M} (\frac{\sum_{i=1}^{N} w_{i}}{N}) * A_{C}}{A_{T}} 
+x_{SPP} = \frac{\sum_{k=1}^{M} (\frac{\sum_{i=1}^{N_{k}} w_{i}}{N_{k}}) * A_{k}}{A_{T}} 
 $$
 
-- $M$ = number of grid cells in the assessment region
+- $M$ = number of habitats in the assessment region
 
-- $N$ = number species in a grid cell $c$
+- $N_{k}$ = number species in a habitat $k$
 
-- $A$ = total area of a grid cell [$c$] the assessment region [T]
+- $A_{.}$ = total area of habitat [$k$] or the assessment region [T]
 
 - $w_{i}$ = status weight assigned per threat 
 
