@@ -20,7 +20,7 @@
 
 
 # install packages to render goals.Rmd
-devtools:install_github("rmarkdown", "rstudio")
+devtools::install_github("rstudio/rmarkdown")
 
 # setup for dopying WebApp template files
 library(httr)
