@@ -1,0 +1,35 @@
+fp_art_hb: Pesca artesanal: alta captura incidental 
+
+1.	Institución recolectora original (cuál institución hizo la recolección de los datos de su fuente).
+NCEAS, Artículo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems
+
+2.	Institución que provee los datos a este proyecto (si es distinta de la recolectora).
+National Center for Ecological Analysis and Synthesis
+
+3.	Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
+Pew Oceans Commission (POC), America's Living Oceans: Charting a Course for Sea Change (POC, Arlington, VA, 2003). 2. U.S. Commission on Ocean Policy, An Ocean Blueprint for the 21st Century: Final Report to the President and Congress (U.S. Commission on Ocean Policy, Washington, DC, 2004). 3. R. A. Myers, B. Worm, Nature 423, 280 (2003). 4. J. B. C. Jackson et al., Science 293, 629 (2001). 5. H. K. Lotze et al., Science 312, 1806 (2006). 6. J. P. M. Syvitski, C. J. Vorosmarty, A. J. Kettner, P. Green, Science 308, 376 (2005). 7. P. M. Vitousek et al., Ecol. Appl. 7, 737 (1997). 8. D. Pauly, R. Watson, J. Alder, Philos. Trans. R. Soc. London Ser. B 360, 5 (2005). 9. B. S. Halpern, K. A. Selkoe, F. Micheli, C. V. Kappel, Conserv. Biol. 21, 1301 (2007). 10. W. V. Reid et al., Millennium Ecosystem Assessment: Ecosystems and Human Well-Being—Synthesis Report (World Resources Institute, Washington, DC, 2005). 11. L. B. Crowder et al., Science 313, 617 (2006). 12. E. W. Sanderson et al., Bioscience 52, 891 (2002). 13. D. Bryant, L. Burke, J. McManus, M. Spalding, Reefs at Risk: A Map-Based Indicator of Threats to the World's Coral Reefs (World Resources Institute, Washington, DC, 1998). 14. N. Ban, J. Alder, Aquat. Conserv.: Mar. Freshwat. Ecosyst. 16, 10.1002/aqc (2007). 15. M. W. Beck, M. Odaya, Aquat. Conserv.: Mar. Freshwat. Ecosyst. 11, 235 (2001). 16. D. Vander Schaaf et al., A Conservation Assessment of the Pacific Northwest Coast Ecoregion (The Nature Conservancy of Canada, Victoria, BC, and Washington Department of Fish and Wildlife, Olympia, WA, 2006). 17. Materials and methods are available as supporting material on Science Online. 18. J. M. Pandolfi et al., Science 307, 1725 (2005). 19. M. D. Spalding et al., Bioscience 57, 573 (2007). 20. U. R. Sumaila, J. Alder, H. Keith, Mar. Policy 30, 696 (2006). 21. A. Clarke, C. M. Harris, Environ. Conserv. 30, 1 (2003). 22. J. E. Overland, M. Y. Wang, Geophys. Res. Lett. 34, L17705 (2007). 23. J. M. Pandolfi et al., Science 301, 955 (2003). 24. B. S. Halpern, K. L. McLeod, A. A. Rosenberg, L. B. Crowder, Ocean Coast. Manage. 10.1016/j.ocecoaman.2007.08.002 (2008). 25. D. Witherell, C. Pautzke, D. Fluharty, ICES J. Mar. Sci. 57, 771 (2000). 26. S. D. Kraus et al., Science 309, 561 (2005). 27. F. C. Coleman, W. F. Figueira, J. S. Ueland, L. B. Crowder, Science 305, 1958 (2004). 28. R. L. Naylor et al., Nature 405, 1017 (2000). 29. R. Dalton, Nature 431, 502 (2004). 30. K. D. Lafferty, J. W. Porter, S. E. Ford, Annu. Rev. Ecol. Evol. Systemat. 35, 31 (2004). 31. M. Shahidul Islam, M. Tanaka, Mar. Pollut. Bull. 48, 624 (2004). 32. L. Airoldi, M. W. Beck, Annu. Rev. Oceanogr. Mar. Biol. 45, 347 (2007). 33. A. P. Kerswell, Ecology 87, 2479 (2006). 34. A. R. G. Price, Mar. Ecol. Prog. Ser. 241, 23 (2002). 35. C. M. Roberts et al., Science 295, 1280 (2002). 36. This work was funded by the National Center for Ecological Analysis and Synthesis (NCEAS) and supported by the National Science Foundation and a grant from the David and Lucile Packard Foundation to NCEAS to evaluate ecosystem-based management in coastal oceans. Thanks to J. Hutton at U.N. Environmental Programme World Conservation Monitoring Centre for sharing coral reef, mangrove, and seagrass ecosystem data, J. Guinotte and the Marine Conservation Biology Institute for providing ocean acidification data, E. Sanderson for comments on earlier drafts, and support from the Pew Charitable Trusts to the Sea Around Us Project for development of mapped fisheries data. R. Myers participated in this project but passed away before it was completed; we are grateful for his contributions.
+
+4.	Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cuál método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc.
+
+1. Se creó mapas (con cobertura global) de todos los tipos de actividades humanas que directa o indirectamente tienen un impacto en las comunidades ecológicas en los ecosistemas del océano. En total, se utilizaron mapas para 17 actividades diferentes en categorías como la pesca, el cambio climático y la contaminación. También nos reunimos mapas para 14 ecosistemas marinos distintos y modelamos la distribución de otros 6.
+
+2. Para la estimación de las consecuencias ecológicas de estas actividades, se creó un enfoque para cuantificar la vulnerabilidad de los diferentes ecosistemas marinos (por ejemplo, manglares, arrecifes de coral, o montes submarinos) a cada una de estas actividades, publicado en Biología de la Conservación, de octubre de 2007. Por ejemplo , la escorrentía de fertilizantes se ha demostrado que tiene un gran efecto sobre los arrecifes de coral, sino una mucho más pequeña en los bosques de algas.
+
+3. A continuación, creamos el mapa impacto acumulativo mediante la superposición de la amenaza 17 mapas en los ecosistemas, y el uso de las puntuaciones de vulnerabilidad para traducir las amenazas en una métrica de impacto ecológico.
+
+4. Por último, el uso de las estimaciones globales de la condición de los ecosistemas marinos de los estudios anteriores, hemos sido capaces de fundamentar verdad sus puntuaciones de impacto
+
+5.	Período de tiempo que cubren los datos (año desde y año hasta). O enumeración de años si no son consecutivos.
+2008
+
+6.	Unidad en la cual vienen los valores.
+Score
+
+7.	Significado o explicación de qué significan los valores.
+Impacto humano por zonas 
+
+8.	Observación o comentario sobre los datos.
+Ninguna
+
+9.	Significado y explicación de las columnas que se incluyen en el archivos, solo si son diferentes de las que se especifican en la aplicación OHI-ecu o si la capa de datos es nueva, creada ad hoc para este estudio regional. 
+Impacto humano de la Pesca artesanal: alta captura incidental en los ecosistemas marinos por provincias.

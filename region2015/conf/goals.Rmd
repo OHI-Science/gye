@@ -9,9 +9,9 @@ $$
 x_{FIS} =  (\prod_{g=1}^{6} SS_{i,g}^{C_{i,g}})^\frac{1}{\sum{C_{i,g}}}
 $$
 
-- $SS$ stock status score, based on B/Bmsy (biomass / maximum sustainable yield of biomass) and an underharvest penalty adjustment
+- $SS_{i,g}$ stock status score, based on B/Bmsy (biomass / maximum sustainable yield of biomass) and an underharvest penalty adjustment for reporting region $i$ and taxonomic level $g$
 
-- $C$ total catch
+- $C_{i,g}$ total catch for reporting region $i$ and taxonomic level $g$
 
 - $i$ OHI reporting region
 
@@ -26,7 +26,7 @@ x_{MAR} =  \frac{Y_{c}}{Y_{r}}
 $$
 
 $$
-Y_{c} = \frac{\sum{1}^{k} Y_{k} * S_{M,k}}{P_{c}}
+Y_{c} = \frac{\sum{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
 $$
 
 - $Y$ = current sustainably harvested total yield, current [$c$] or reference [$r$] 
@@ -37,6 +37,9 @@ $$
 
 - $Y_{r} = max(Y_{c})$
 
+- $N$ = number of mariculture species
+
+
 
 ## Artisanal Fishing Opportunity 
 the opportunity to fish artisanally, independent of how many fish are caught
@@ -46,7 +49,7 @@ x_{AO} = (1 - D_{U}) * S_{AO}
 $$
 
 $$
-D_{U} = (1 - P) * (1 - O_{AO})
+D_{U} = (1 - NBI) * (1 - O_{AO})
 $$
 
 - $D_{U}$ = unmet demand
@@ -55,11 +58,11 @@ $$
 
 - $O_{AO}$ = access to artisanal fishing
 
-- $P$ = gross domestic product (GDP) per capita, adjusted by purchasing power parity (PPP)
+- $NBI$ = unsatisfied basic needs as a percentage
 
 
 ## Natural Products
-Level of protection of the coast from inundation and erosion compared to the local natural potential
+People access to coastal resources, whether or not they do actually fish in coastal waters
 
 $$
 x_{NP} = \frac{\sum_{p=1}^{N} w_p * x_p}{N}  
@@ -85,19 +88,24 @@ $$
 
 - $R$ = risk term
 
-￼products:aquaria fishes, corals, sponges, shells, seaweeds, fish oil
+- $N$ = Number of Natural Products
+
+￼products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
 
 
 ## Carbon Storage
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{1}^{k} \frac{C_{s}}{C_{r}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{s,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
 $$
 
-- $C$ = condition of habitat $k$, current [$c$] or reference[$r$]
+- $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference[$r$]
 
-- $A$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+- $A_{k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+
+- $N$ = number of habitats
+
 
 habitats: seagrass beds, salt marshes, mangroves
 
@@ -106,7 +114,7 @@ habitats: seagrass beds, salt marshes, mangroves
 Protection from inundation or erosion compared to the local natural potential
 
 $$
-x_{CP} =  \sum_{k}^{n} \alpha_{k} * \frac{C_{c,k}}{C_{r,k}}
+x_{CP} =  \sum_{k=1}^{N} \alpha_{k} * \frac{C_{c,k}}{C_{r,k}}
 $$
 
 $$
@@ -117,13 +125,15 @@ $$
 w_{k} = \frac{r_{k}}{\sum{r_{k}}}
 $$
 
-- $C$ = condition of habitat $k$, current [$c$] and reference [$r$]
+- $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference [$r$]
 
 - $\alpha$ = weighted area of habitat $k$  
 
-- $A$ = area of habitat $k$ 
+- $A_{k}$ = area of habitat $k$ 
 
 - $r$ = habitat protective ability rank weight 
+
+- $N$ = number of habitats
 
 habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 
@@ -132,22 +142,19 @@ habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 Tourism & recreation value, independent of monetary exchange
 
 $$
-x_{TR} = E_{t} * S_{t} 
+x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
 $$
 
-$$
-E_{t} = E_{W} / (L_{t} - L_{t} * U_{t})
-$$
 
-- $E$ = tourism employment proportion
+- $VL_{.}$ = total number of local visitors, current [$c$] or reference [$r$]
 
-- $S$ = sustainability measure
+- $%VL$ = percentage of local visitors for each region
 
-- $E_{W}$ = number of employees in travel and tourism sectors
+- $VI_{.}$ = total number of international visitors, current [$c$] or reference [$r$]
 
-- $L$ = total labor force
+- $%VL$ = percentage of international visitors for each region
 
-- $U$ = percent unemployment
+- $S_{t}$ = sustainability measure
 
 - $t$ = current year
 
@@ -159,9 +166,9 @@ $$
 x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\sum_{i=1}^{k} g_{m,k}}{\sum_{i=1}^{k} g_{r,k}}}{2}
 $$
 
-- $j$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
+- $j_{.,k}$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
 
-- $g$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
+- $g_{.,k}$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
 
@@ -170,12 +177,12 @@ $$
 Revenue from marine associated sectors
 
 $$
-x_{ECO} = \sum_{i=1}^{k} \frac{e_{c,k}}{e_{r,k}} 
+x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,k}}{vab_{r,k}} 
 $$
 
-- $e$ = total adjusted revenue generated from each sector $k$ at current [$c$] or reference [$r$] time
+- $vab_{.,k}$ = aggregate gross value from each sector $k$ at current [$c$] or reference [$r$] time
 
-- sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
+- sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding, sea salt extraction
 
 
 ## Sense of Place: Iconic Species
@@ -203,9 +210,9 @@ $$
 x_{LSP} = \frac{(\frac{M}{M_{r}} + \frac{C}{C_{r}})}{2} 
 $$
 
-- $M$ = percent protected marine coastal area compared to reference [$r$] $C$ = percent protected coastline compared to reference [$r$]
+- $M$ = percent protected marine coastal area compared to reference [$r$.] $C$ = percent protected coastline compared to reference [$r$]
 
-- $C$ = managed area on coastal land (0-1mi)
+- $C$ = managed area on coastal land (0-1km)
 
 - $C_{t}$ = total coastal land area 
 
@@ -230,12 +237,14 @@ $$
 Existence values people hold for biodiversity measured through the status of key habitats
 
 $$
-x_{HAB} =  \sum_{i=1}^{k} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
+x_{HAB} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 $$
 
-- $C$ = condition of habitat k, current [$c$] or reference[$r$]
+- $C_{.,k}$ = condition of habitat k, current [$c$] or reference[$r$]
 
-- $A$ = area of habitat k, current [$c$] or total of all habitats [T]
+- $A_{.,k}$ = area of habitat k, current [$c$] or total of all habitats [T]
+
+- $N$ = number of habitats
 
 habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs, sea ice edge
 
@@ -244,14 +253,14 @@ habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves,
 Existence values people hold for biodiversity measured through the status of native species
 
 $$
-x_{SPP} = \frac{\sum_{k=1}^{M} (\frac{\sum_{i=1}^{N} w_{i}}{N}) * A_{C}}{A_{T}} 
+x_{SPP} = \frac{\sum_{k=1}^{M} (\frac{\sum_{i=1}^{N_{k}} w_{i}}{N_{k}}) * A_{k}}{A_{T}} 
 $$
 
-- $M$ = number of grid cells in the assessment region
+- $M$ = number of habitats in the assessment region
 
-- $N$ = number species in a grid cell $c$
+- $N_{k}$ = number species in a habitat $k$
 
-- $A$ = total area of a grid cell [$c$] the assessment region [T]
+- $A_{.}$ = total area of habitat [$k$] or the assessment region [T]
 
 - $w_{i}$ = status weight assigned per threat 
 

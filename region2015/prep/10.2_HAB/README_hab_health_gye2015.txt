@@ -1,0 +1,93 @@
+CAPA: hab_health
+
+HABITAT: MANGROVE
+
+1. Institución recolectora original (cuál institución que hizo la recolección de los datos de su fuente).
+Instituto Geográfico Militar (IGM), Cartografía Básica.
+
+Instituto Oceanográfico de la Armada (INOCAR), Cartas Náuticas, Línea de Batimetría IOA.
+
+Secretaria Técnica del Mar, Área de estudio.
+
+Instituto Nacional de Estadísticas y Censos (INEC), División Política. 
+
+CLIRSEN - Centro de Levantamientos Integrados de Recursos Naturales (entidad pública que en el año 2012 fue absorbida por el Instituto Espacial Ecuatoriano, IEE)
+
+2. Institución que provee los datos a este proyecto (si es distinta de la recolectora).
+Consulsua - Biótica
+
+3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
+CLIRSEN (Centro de Levantamientos Integrados de Recursos Naturales por Sensores Remotos) (1991). Estudio multitemporal de manglares, camaroneras y áreas salinas en la costa ecuatoriana mediante el empleo de la información de sensores remotos. Memoria Técnica. Convenio de cooperacióm técnica entre la DIGMER, PMRC, SRP y CLIRSEN.
+CLIRSEN (Centro de Levantamientos Integrados de Recursos Naturales por Sensores Remotos) (2006). Actualización del estudio multitemporal de manglares, camaroneras y áreas salinas en la costa continental ecuatoriana. Convenio de cooperación técnica entre el CLIRSEN y el PROGRAMA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
+
+4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cual método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc
+CLIRSEN, 1991: Imágenes del satélite LANDSAT de 1990 y 1991 así como en la cartografía básica del IGM, vuelos de reconocimiento y trabajos de campo de febrero y abril de 1991
+CLIRSEN, 2006: Cartografía básica del Instituto Geográfico Militar a escala 1:25.000 y 1:50.000. Análisis digital e interpretación visual de imágenes de satélite LANDSAT de Mayo-2007 (sector Golfo de Guayaquil). Ikonos de Marzo-2006  (sector Chanduy) , Ikonos de abril-2003 (sector Playas), Ikonos de abril-2003 (sector Chanduy). Cartografía temática escala 1:25.000 de Manglares, camaroneras y áreas salinas al año 1999. Comprobación de campo - noviembre 2007.
+
+5. Periodo de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
+1991 y 2007
+
+6. Unidad en la cual vienen los valores.
+Score
+
+7. Significado, explicación de cómo se deben interpretar los valores.
+Esa capa de datos calcula el estado de salud del hábitat. 
+El valor de la meta es alcanzado dividiendo la cobertura del manglar en el estado actual por la cobertura del manglar del año de referencia. 
+Para el año actual fue considerado el año de 2006 donde había 157,72 km2 para El Oro y 963,81 Km2 para Guayas. 
+El año de referencia fue considerado el año de 1991 de acuerdo a la base legal de la Ley Nº91 del 7 de Agosto del 1990, Artículo 1 de la Ley Forestal y de Conservación de Áreas Naturales y Vida Silvestre
+que estipula "Los manglares, se consideran bienes del Estado y están fuera del  comercio, no son susceptibles de posesión o cualquier otro medio de apropiación y solamente podrán ser explotados mediante concesión otorgada, de conformidad con esta ley y su reglamento”.
+Para ese año la cobertura del manglar para El Oro era de 205,17 km2 y para Guayas 1013,53km2. 
+Para el año de referencia la cobertura del manglar en El Oro era de 205,17 km2 y para el Guayas 1013,53 km2. 
+8. Observación o comentario adicional sobre los datos.
+
+9. Significado y explicación de las columnas que se incluirán en el archivo, si son diferentes de las que se especifican en OHI-ecu o si la capa de datos es nueva, creada para este estudio regional. 
+En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categoría que en este caso corresponde a manglar. En la cuarta columna están los valores del score. La región 6, Santa Elena, no tiene datos porqué carece de manglar.
+
+
+=================================================================================================================================================================================================================================================================================================================
+
+HABITAT: SOFT BOTTOM
+
+
+1. Institución recolectora original (cuál institución que hizo la recolección de los datos de su fuente).
+Ministerio del Medio Ambiente
+
+Instituto Nazca de Investigaciones Marinas
+
+2. Institución que provee los datos a este proyecto (si es distinta de la recolectora).
+Consulsua - Biótica
+
+3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
+Terán, M.C., Clark, K., Suárez, C., Campos, F., Denkinger, J., Ruiz, D. y Jiménez, P. 2006. Análisis de Vacíos e
+Identificación de Áreas Prioritarias para la Conservación de la Biodiversidad Marino-Costera en el Ecuador Continental. Resumen Ejecutivo. Ministerio del Ambiente. Quito, Ecuador. Ministerio del Ambiente 2006
+
+Instituto Nazca de Investigaciones Marinas, EcoCiencia, Ministerio del Ambiente,The Nature Conservancy, Conservación Internacional, 2007, Prioridades para la conservación de la biodiversidad en el Ecuador continental,
+Instituto Nazca de Investigaciones Marinas, EcoCiencia, Ministerio del Ambiente, The Nature Conservancy, Conservación Internacional, Proyecto GEF: Sistema Nacional de Áreas Protegidas Ecuador
+(SNAP-GEF), BirdLife internacional y Aves & Conservación, Quito, Ecuador. 
+
+4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cual método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc
+Para la zona marino-costera del Ecuador continental se han identificado cuatro sistemas intermareales: playas de lodo, playas de arena, playas de roca y manglares; 
+y ocho sistemas submareales principales: fondos blandos, fondo de roca, fondo de arrecife de coral, fondo de grava, bajo de roca y bajo de arena y fondos blandos y de roca con influencia de agua dulce. 
+Estos sistemas fueron subclasificados considerando su distribución dentro de cada Unidad Ecológica Marina
+
+5. Periodo de tiempo que cubren los datos (año, mes, día desde y año, mes, día hasta).
+No aplica
+
+6. Unidad en la cual vienen los valores.
+Score
+
+7. Significado, explicación de cómo se deben interpretar los valores.
+Capa de datos con el estado de salud del hábitat, considerando datos la densidad de pesca de arrastre (captura por unidad de área) como una variable proxy para estimar la condición (status) de los fondos suaves presentes en el Golfo de Guayaquil.  
+
+8. Observación o comentario adicional sobre los datos.
+
+9. Significado y explicación de las columnas que se incluirán en el archivo, si son diferentes de las que se especifican en OHI-ecu o si la capa de datos es nueva, creada para este estudio regional.
+En la primera columna de la capa de datos están los identificadores de cada región. En la segunda columna está el nombre de cada región. En la tercera columna está la categoría. En la cuarta columna están los valores del score.
+
+
+1	El Oro	          fondos suaves     0.76
+2	Guayas	          fondos suaves	    0.78
+6	Santa Elena	  fondos suaves     0.67
+
+
+ 
