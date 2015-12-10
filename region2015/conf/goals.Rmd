@@ -97,12 +97,12 @@ products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 $$
 
 - $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference[$r$]
 
-- $A_{k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+- $A_{.,k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
 
 - $N$ = number of habitats
 
@@ -258,7 +258,7 @@ $$
 
 - $N_{k}$ = number species in a habitat $k$
 
-- $A_{.}$ = total area of habitat [$k$] or the assessment region [T]
+- $A_{.}$ = total area of habitat [$k$] or total assessment region area [T]
 
 - $w_{i}$ = status weight assigned per threat 
 
