@@ -177,10 +177,10 @@ $$
 Revenue from marine associated sectors
 
 $$
-x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,k}}{vab_{r,k}} 
+x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,i}}{vab_{r,i}} 
 $$
 
-- $vab_{.,k}$ = aggregate gross value from each sector $k$ at current [$c$] or reference [$r$] time
+- $vab_{.,i}$ = aggregate gross value from each sector $i$ at current [$c$] or reference [$r$] time
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding, sea salt extraction
 
@@ -192,9 +192,9 @@ $$
 x_{ICO} = \frac{\sum_{i=1}^{N} S_{i} * w_{i}}{\sum_{i=1}^{N} S_{i}} 
 $$
 
-- $S$ = number of assessed species in each threat category $i$ 
+- $S_{i}$ = number of assessed species in each threat category $i$ 
 
-- $w$ = status weight assigned per threat category $i$ 
+- $w_{i}$ = status weight assigned per threat category $i$ 
 
 - $N$ = 6 threat categories 
 
@@ -210,11 +210,9 @@ $$
 x_{LSP} = \frac{(\frac{M}{M_{r}} + \frac{C}{C_{r}})}{2} 
 $$
 
-- $M$ = percent protected marine coastal area compared to reference [$r$.] $C$ = percent protected coastline compared to reference [$r$]
+- $M$ = percent protected marine coastal area compared to reference [$r$]
 
-- $C$ = managed area on coastal land (0-1km)
-
-- $C_{t}$ = total coastal land area 
+- $C$ = percent protected coastline compared to reference [$r$]
 
 
 ## Clean Waters
