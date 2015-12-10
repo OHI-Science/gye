@@ -97,7 +97,7 @@ products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{k=1}^{N} \frac{C_{s,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
 $$
 
 - $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference[$r$]
@@ -142,17 +142,17 @@ habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 Tourism & recreation value, independent of monetary exchange
 
 $$
-x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
+x_{TR} = \frac{VL_{c}*PVL + VI_{c}* PVI}{VL_{r}+VI_{r}} * S_{t} 
 $$
 
 
 - $VL_{.}$ = total number of local visitors, current [$c$] or reference [$r$]
 
-- $%VL$ = percentage of local visitors for each region
+- $PVL$ = percentage of local visitors for each region
 
 - $VI_{.}$ = total number of international visitors, current [$c$] or reference [$r$]
 
-- $%VL$ = percentage of international visitors for each region
+- $PVL$ = percentage of international visitors for each region
 
 - $S_{t}$ = sustainability measure
 
