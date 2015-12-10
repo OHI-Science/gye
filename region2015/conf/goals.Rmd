@@ -163,12 +163,12 @@ $$
 Number of jobs and job quality from marine-associated sectors
 
 $$
-x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\sum_{i=1}^{k} g_{m,k}}{\sum_{i=1}^{k} g_{r,k}}}{2}
+x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,i}}{\sum_{i=1}^{k} j_{r,i}} + \frac{\sum_{i=1}^{k} g_{m,i}}{\sum_{i=1}^{k} g_{r,i}}}{2}
 $$
 
-- $j_{.,k}$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
+- $j_{.,i}$ = number of jobs within sector $i$ at current [$c$] or reference [$r$] time
 
-- $g_{.,k}$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
+- $g_{.,i}$ = average wages per job for sector $i$  at current [$m$] or reference [$r$] region
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
 
