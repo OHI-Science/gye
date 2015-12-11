@@ -37,7 +37,7 @@ x_{MAR} =  \frac{Y_{c}}{Y_{r}}
 \]</p>
 
 <p>\[
-Y_{c} = \frac{\sum{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
+Y_{c} = \frac{\sum_{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
 \]</p>
 
 <ul>
@@ -93,19 +93,19 @@ S_p = 1 - (\frac{E + R}{N})
 <li><p>\(N\) = Number of Natural Products</p></li>
 </ul>
 
-<p>￼products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil</p>
+<p>products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil</p>
 
 <h2>Carbon Storage</h2>
 
 <p>Extent and condition of coastal habitats that store and sequester atmospheric carbon </p>
 
 <p>\[
-x_{CS} =  \sum_{k=1}^{N} \frac{C_{s,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 \]</p>
 
 <ul>
 <li><p>\(C_{.,k}\) = condition of habitat \(k\), current [\(c\)] or reference[\(r\)]</p></li>
-<li><p>\(A_{k}\) = area of habitat \(k\), current [\(c\)] or total area covered by all habitats assessed [T]</p></li>
+<li><p>\(A_{.,k}\) = area of habitat \(k\), current [\(c\)] or total area covered by all habitats assessed [T]</p></li>
 <li><p>\(N\) = number of habitats</p></li>
 </ul>
 
@@ -142,14 +142,14 @@ w_{k} = \frac{r_{k}}{\sum{r_{k}}}
 <p>Tourism &amp; recreation value, independent of monetary exchange</p>
 
 <p>\[
-x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
+x_{TR} = \frac{VL_{c}*PVL + VI_{c}* PVI}{VL_{r}+VI_{r}} * S_{t} 
 \]</p>
 
 <ul>
 <li><p>\(VL_{.}\) = total number of local visitors, current [\(c\)] or reference [\(r\)]</p></li>
-<li><p>\(%VL\) = percentage of local visitors for each region</p></li>
+<li><p>\(PVL\) = percentage of local visitors for each region</p></li>
 <li><p>\(VI_{.}\) = total number of international visitors, current [\(c\)] or reference [\(r\)]</p></li>
-<li><p>\(%VL\) = percentage of international visitors for each region</p></li>
+<li><p>\(PVL\) = percentage of international visitors for each region</p></li>
 <li><p>\(S_{t}\) = sustainability measure</p></li>
 <li><p>\(t\) = current year</p></li>
 </ul>
@@ -159,12 +159,12 @@ x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t}
 <p>Number of jobs and job quality from marine-associated sectors</p>
 
 <p>\[
-x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\sum_{i=1}^{k} g_{m,k}}{\sum_{i=1}^{k} g_{r,k}}}{2}
+x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,i}}{\sum_{i=1}^{k} j_{r,i}} + \frac{\sum_{i=1}^{k} g_{m,i}}{\sum_{i=1}^{k} g_{r,i}}}{2}
 \]</p>
 
 <ul>
-<li><p>\(j_{.,k}\) = number of jobs within sector \(k\) at current [\(c\)] or reference [\(r\)] time</p></li>
-<li><p>\(g_{.,k}\) = average wages per job for sector \(k\)  at current [\(m\)] or reference [\(r\)] region</p></li>
+<li><p>\(j_{.,i}\) = number of jobs within sector \(i\) at current [\(c\)] or reference [\(r\)] time</p></li>
+<li><p>\(g_{.,i}\) = average wages per job for sector \(i\)  at current [\(m\)] or reference [\(r\)] region</p></li>
 <li><p>sectors (\(k\)): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave &amp; tidal energy, mariculture, transportation &amp; shipping, ports &amp; harbors, ship &amp; boatbuilding</p></li>
 </ul>
 
@@ -173,11 +173,11 @@ x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\s
 <p>Revenue from marine associated sectors</p>
 
 <p>\[
-x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,k}}{vab_{r,k}} 
+x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,i}}{vab_{r,i}} 
 \]</p>
 
 <ul>
-<li><p>\(vab_{.,k}\) = aggregate gross value from each sector \(k\) at current [\(c\)] or reference [\(r\)] time</p></li>
+<li><p>\(vab_{.,i}\) = aggregate gross value from each sector \(i\) at current [\(c\)] or reference [\(r\)] time</p></li>
 <li><p>sectors (\(k\)): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave &amp; tidal energy, mariculture, transportation &amp; shipping, ports &amp; harbors, ship &amp; boatbuilding, sea salt extraction</p></li>
 </ul>
 
@@ -190,8 +190,8 @@ x_{ICO} = \frac{\sum_{i=1}^{N} S_{i} * w_{i}}{\sum_{i=1}^{N} S_{i}}
 \]</p>
 
 <ul>
-<li><p>\(S\) = number of assessed species in each threat category \(i\) </p></li>
-<li><p>\(w\) = status weight assigned per threat category \(i\) </p></li>
+<li><p>\(S_{i}\) = number of assessed species in each threat category \(i\) </p></li>
+<li><p>\(w_{i}\) = status weight assigned per threat category \(i\) </p></li>
 <li><p>\(N\) = 6 threat categories </p></li>
 </ul>
 
@@ -208,9 +208,8 @@ x_{LSP} = \frac{(\frac{M}{M_{r}} + \frac{C}{C_{r}})}{2}
 \]</p>
 
 <ul>
-<li><p>\(M\) = percent protected marine coastal area compared to reference [\(r\).] \(C\) = percent protected coastline compared to reference [\(r\)]</p></li>
-<li><p>\(C\) = managed area on coastal land (0-1km)</p></li>
-<li><p>\(C_{t}\) = total coastal land area </p></li>
+<li><p>\(M\) = percent protected marine coastal area compared to reference [\(r\)]</p></li>
+<li><p>\(C\) = percent protected coastline compared to reference [\(r\)]</p></li>
 </ul>
 
 <h2>Clean Waters</h2>
@@ -242,7 +241,7 @@ x_{HAB} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 <li><p>\(N\) = number of habitats</p></li>
 </ul>
 
-<p>habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs, sea ice edge</p>
+<p>habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs</p>
 
 <h2>Biodiversity: Species</h2>
 
@@ -255,7 +254,7 @@ x_{SPP} = \frac{\sum_{k=1}^{M} (\frac{\sum_{i=1}^{N_{k}} w_{i}}{N_{k}}) * A_{k}}
 <ul>
 <li><p>\(M\) = number of habitats in the assessment region</p></li>
 <li><p>\(N_{k}\) = number species in a habitat \(k\)</p></li>
-<li><p>\(A_{.}\) = total area of habitat [\(k\)] or the assessment region [T]</p></li>
+<li><p>\(A_{.}\) = total area of habitat [\(k\)] or total assessment region area [T]</p></li>
 <li><p>\(w_{i}\) = status weight assigned per threat </p></li>
 </ul>
 
