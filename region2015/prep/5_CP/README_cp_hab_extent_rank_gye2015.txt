@@ -16,7 +16,7 @@ Consulsua - Biótica
 
 3. Citas detalladas de la fuente, si se trata de uno o más artículos científicos.
 CLIRSEN (Centro de Levantamientos Integrados de Recursos Naturales por Sensores Remotos) (2006). Actualización del estudio multitemporal de manglares, camaroneras y áreas salinas en la costa continental ecuatoriana. 
-Convenio de cooperación técnica entre el CLIRSEN y el PROGRAA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
+Convenio de cooperación técnica entre el CLIRSEN y el PROGRAMA DE MANEJO DE RECURSOS COSTEROS (PMRC). 
 
 4. Método de captura de los datos. Si fue un estudio realizado para obtener esos datos, si se hizo utilizando algún instrumento de medición, cual método se aplicó, si se utilizó una encuesta o formulario para recogerlos, etc
 Estudio 2007: imágenes de los satélites Ikonos de 2003, Aster de 2007, SPOT del año 2006 y  Landsat del año 2007, así como el procesamiento digital de imágenes y sistemas de información geográfica y también en apoyo de la cartografía básica del IGM y trabajos de campo de noviembre de 2007.

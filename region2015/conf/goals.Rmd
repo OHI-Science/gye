@@ -26,7 +26,7 @@ x_{MAR} =  \frac{Y_{c}}{Y_{r}}
 $$
 
 $$
-Y_{c} = \frac{\sum{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
+Y_{c} = \frac{\sum_{k=1}^{N} Y_{k} * S_{M,k}}{P_{c}}
 $$
 
 - $Y$ = current sustainably harvested total yield, current [$c$] or reference [$r$] 
@@ -90,19 +90,19 @@ $$
 
 - $N$ = Number of Natural Products
 
-￼products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
+products:aquaria fishes, corals, shells, sponges, seaweeds, fish oil
 
 
 ## Carbon Storage
 Extent and condition of coastal habitats that store and sequester atmospheric carbon 
 
 $$
-x_{CS} =  \sum_{k=1}^{N} \frac{C_{s,k}}{C_{r,k}} * \frac{A_{k}}{A_{T}}
+x_{CS} =  \sum_{k=1}^{N} \frac{C_{c,k}}{C_{r,k}} * \frac{A_{c,k}}{A_{T}}
 $$
 
 - $C_{.,k}$ = condition of habitat $k$, current [$c$] or reference[$r$]
 
-- $A_{k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
+- $A_{.,k}$ = area of habitat $k$, current [$c$] or total area covered by all habitats assessed [T]
 
 - $N$ = number of habitats
 
@@ -142,17 +142,17 @@ habitats: salt marshes, seagrass beds, mangroves, coral reefs, sea ice
 Tourism & recreation value, independent of monetary exchange
 
 $$
-x_{TR} = \frac{VL_{c}*  %VL + VI_{c}* %VI}{VL_{r}+VI_{r}} * S_{t} 
+x_{TR} = \frac{VL_{c}*PVL + VI_{c}* PVI}{VL_{r}+VI_{r}} * S_{t} 
 $$
 
 
 - $VL_{.}$ = total number of local visitors, current [$c$] or reference [$r$]
 
-- $%VL$ = percentage of local visitors for each region
+- $PVL$ = percentage of local visitors for each region
 
 - $VI_{.}$ = total number of international visitors, current [$c$] or reference [$r$]
 
-- $%VL$ = percentage of international visitors for each region
+- $PVL$ = percentage of international visitors for each region
 
 - $S_{t}$ = sustainability measure
 
@@ -163,12 +163,12 @@ $$
 Number of jobs and job quality from marine-associated sectors
 
 $$
-x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,k}}{\sum_{i=1}^{k} j_{r,k}} + \frac{\sum_{i=1}^{k} g_{m,k}}{\sum_{i=1}^{k} g_{r,k}}}{2}
+x_{LIV} = \frac{\frac{\sum_{i=1}^{k} j_{c,i}}{\sum_{i=1}^{k} j_{r,i}} + \frac{\sum_{i=1}^{k} g_{m,i}}{\sum_{i=1}^{k} g_{r,i}}}{2}
 $$
 
-- $j_{.,k}$ = number of jobs within sector $k$ at current [$c$] or reference [$r$] time
+- $j_{.,i}$ = number of jobs within sector $i$ at current [$c$] or reference [$r$] time
 
-- $g_{.,k}$ = average wages per job for sector $k$  at current [$m$] or reference [$r$] region
+- $g_{.,i}$ = average wages per job for sector $i$  at current [$m$] or reference [$r$] region
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding
 
@@ -177,10 +177,10 @@ $$
 Revenue from marine associated sectors
 
 $$
-x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,k}}{vab_{r,k}} 
+x_{ECO} = \sum_{i=1}^{k} \frac{vab_{c,i}}{vab_{r,i}} 
 $$
 
-- $vab_{.,k}$ = aggregate gross value from each sector $k$ at current [$c$] or reference [$r$] time
+- $vab_{.,i}$ = aggregate gross value from each sector $i$ at current [$c$] or reference [$r$] time
 
 - sectors ($k$): tourism, commercial fishing, marine mammal watching, aquarium fishing, wave & tidal energy, mariculture, transportation & shipping, ports & harbors, ship & boatbuilding, sea salt extraction
 
@@ -192,9 +192,9 @@ $$
 x_{ICO} = \frac{\sum_{i=1}^{N} S_{i} * w_{i}}{\sum_{i=1}^{N} S_{i}} 
 $$
 
-- $S$ = number of assessed species in each threat category $i$ 
+- $S_{i}$ = number of assessed species in each threat category $i$ 
 
-- $w$ = status weight assigned per threat category $i$ 
+- $w_{i}$ = status weight assigned per threat category $i$ 
 
 - $N$ = 6 threat categories 
 
@@ -210,11 +210,9 @@ $$
 x_{LSP} = \frac{(\frac{M}{M_{r}} + \frac{C}{C_{r}})}{2} 
 $$
 
-- $M$ = percent protected marine coastal area compared to reference [$r$.] $C$ = percent protected coastline compared to reference [$r$]
+- $M$ = percent protected marine coastal area compared to reference [$r$]
 
-- $C$ = managed area on coastal land (0-1km)
-
-- $C_{t}$ = total coastal land area 
+- $C$ = percent protected coastline compared to reference [$r$]
 
 
 ## Clean Waters
@@ -246,7 +244,7 @@ $$
 
 - $N$ = number of habitats
 
-habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs, sea ice edge
+habitats: seagrass beds, salt marshes, subtidal soft-bottom habitats, mangroves, coral reefs
 
 
 ## Biodiversity: Species
@@ -260,7 +258,7 @@ $$
 
 - $N_{k}$ = number species in a habitat $k$
 
-- $A_{.}$ = total area of habitat [$k$] or the assessment region [T]
+- $A_{.}$ = total area of habitat [$k$] or total assessment region area [T]
 
 - $w_{i}$ = status weight assigned per threat 
 
