@@ -22,8 +22,8 @@ Alien species
 | value range       | 0.68 to 0.68                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
+<p>The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008).
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -98,7 +98,7 @@ Ocean acidification
 <p>Data sources:</p>
 
 <ul>
-<li>Updated with local information. @andres 1/6/2015. Con los Datos de los mapas del  art<d5>culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
+<li>Updated with local information. @andres 1/6/2015. Con los Datos de los mapas del  art?culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
 <li>Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D&#39;Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) <strong>A global map of human impact on marine ecosystems</strong>. <em>Science</em>, 3199(5865): 948-952. <a href="http://dx.doi.org/10.1126/science.1149345">doi:10.1126/science.1149345</a></li>
 </ul>
 
@@ -120,8 +120,8 @@ Sea level rise
 <p>Data sources:</p>
 
 <ul>
-<li>Datos de la Administraci<d1>n Nacional Oce<e0>nica y Atmosf_rica (NOAA) @andres 1/6/2015</li>
-<li>Nicholls R.J. and Cazenave A. (2010). <strong>Sea-level rise and its impact on coastal zones</strong>. <em>Science</em> 328: 1517-1520. <a href="http://dx.doi.org/10.1126/science.1185782">doi:10.1126/science.1185782</a>. </li>
+<li>Datos de la Administraci?n Nacional Oce?nica y Atmosf_rica (NOAA) @andres 1/6/2015</li>
+<li>Nicholls R.J. and Cazenave A. (2010). <strong>Sea-level rise and its impact on coastal zones</strong>. <em>Science</em> 328: 1517-1520. <a href="http://dx.doi.org/10.1126/science.1185782">doi:10.1126/science.1185782</a>.</li>
 <li><a href="http://www.aviso.oceanobs.com/en/news/ocean-indicators/mean-sea-level/processing-corrections.html">AVISO Satellite Altimetry Data</a></li>
 </ul>
 
@@ -144,7 +144,7 @@ Sea surface temperature (SST) anomalies
 
 <ul>
 <li>Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D&#39;Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) <strong>A global map of human impact on marine ecosystems</strong>. <em>Science</em>, 3199(5865): 948-952. <a href="http://dx.doi.org/10.1126/science.1149345">doi:10.1126/science.1149345</a></li>
-<li><a href="http://pathfinder.nodc.noaa.gov">AVHRR Pathfinder Version 5.0 SST data</a> </li>
+<li><a href="http://pathfinder.nodc.noaa.gov">AVHRR Pathfinder Version 5.0 SST data</a></li>
 <li>Casey, K.S., Brandon, T.B., Cornillon, P., and Evans, R. (2010). <strong>The Past, Present and Future of the AVHRR Pathfinder SST Program</strong>, <em>Oceanography from Space: Revisited</em>, eds. V. Barale, J.F.R. Gower, and L. Alberotanza, Springer. <a href="http://dx.doi.org/10.1007/978-90-481-8681-5_16">doi:10.1007/978-90-481-8681-5_16</a> </li>
 </ul>
 
@@ -166,7 +166,7 @@ UV radiation
 <p>Data sources:</p>
 
 <ul>
-<li>Updated with local information. @andres 1/6/2015 Del mapa &ldquo;Cambio clim<e0>tico (UV)&rdquo; presentado en el art<d5>culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
+<li>Updated with local information. @andres 1/6/2015 Del mapa &ldquo;Cambio clim?tico (UV)&rdquo; presentado en el art?culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
 <li>Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D&#39;Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) <strong>A global map of human impact on marine ecosystems</strong>. <em>Science</em>, 3199(5865): 948-952. <a href="http://dx.doi.org/10.1126/science.1149345">doi:10.1126/science.1149345</a></li>
 <li><a href="http://disc.sci.gsfc.nasa.gov/data-holdings/PIP/erythemal_uv_irradiance.shtml">Goddard Earth Sciences Data and Information Services Center (GES DISC)</a></li>
 </ul>
@@ -185,7 +185,7 @@ Resilience from commitment to CITES
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) signatories.
-Se verific<d1> que Ecuador sigue estando en la lista de partes contratantes de este convenio por lo tanto continua la puntuaci<d1>n de 1 para todo el pa<d5>s
+Se verific? que Ecuador sigue estando en la lista de partes contratantes de este convenio por lo tanto continua la puntuaci?n de 1 para todo el pa?s
 Data sources:</p>
 
 <ul>
@@ -205,7 +205,7 @@ Habitat extent * rank, per Coastal Protection habitats
 | value range       | 1.8269 to 6269.924                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass. Updated with local data. Duplicate from hab_extent_gye2015.csv layer. @andres. Para cada h<e0>bitat considerado en la meta, se multiplica la extensi<d1>n del h<e0>bitat (km2) por un &ldquo;rank&rdquo; que ordena los h<e0>bitats; hay un solo habitat en esta meta, por lo cual el rank es 1 y la capa queda con los mismos valores que hab_extent para manglar.</p>
+<p>Habitat extent * habitat rank for Coastal Protection habitats: coral, mangrove offshore 1km, mangrove inland 1km, saltmarsh, seaice_shoreline and seagrass. Updated with local data. Duplicate from hab_extent_gye2015.csv layer. @andres. Para cada h?bitat considerado en la meta, se multiplica la extensi?n del h?bitat (km2) por un &ldquo;rank&rdquo; que ordena los h?bitats; hay un solo habitat en esta meta, por lo cual el rank es 1 y la capa queda con los mismos valores que hab_extent para manglar.</p>
 
 
 
@@ -220,7 +220,7 @@ Habitat extent * rank, per Carbon Storage habitats
 | value range       | 1.8269 to 6269.924                               |
 | global extraction | area_offshore_3nm: global habitat extent was applied to each region after weighting by each region's offshore area to 3nm.  |
 
-<p>Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass. @andres: updated with local data. Src: pre-proc/CS/ Para cada h<e0>bitat considerado en la meta, se multiplica la extensi<d1>n del h<e0>bitat (km2) por un &ldquo;rank&rdquo; que ordena los h<e0>bitats, pero como hay uno solo en esta meta, el rank es 1 y la capa queda con los mismos valores que hab_extent para el manglar total.</p>
+<p>Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass. @andres: updated with local data. Src: pre-proc/CS/ Para cada h?bitat considerado en la meta, se multiplica la extensi?n del h?bitat (km2) por un &ldquo;rank&rdquo; que ordena los h?bitats, pero como hay uno solo en esta meta, el rank es 1 y la capa queda con los mismos valores que hab_extent para el manglar total.</p>
 
 
 
@@ -236,7 +236,7 @@ Coastal human population as a proxy for trend in trash
 | global extraction | equal: global trends were applied equally to all regions. |
 
 <p>Coastal population, defined as the total population inland of 25 miles.
-@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y) Utilizando las series de tiempo de la poblaci<d1>n costera obtenidas de la fuente: Instituto Nacional de Estad<92>sticas y Censos (INEC) se calcul<d1> la tendencia de la poblaci<d1>n siguiendo el m_todo sugerido por Halpern en la metodolog<d5>a global implementado en R por el equipo de gesti<d1>n de la informaci<d1>n de este proyecto.</p>
+@andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y) Utilizando las series de tiempo de la poblaci?n costera obtenidas de la fuente: Instituto Nacional de Estad?sticas y Censos (INEC) se calcul? la tendencia de la poblaci?n siguiendo el m_todo sugerido por Halpern en la metodolog?a global implementado en R por el equipo de gesti?n de la informaci?n de este proyecto.</p>
 
 
 
@@ -251,15 +251,15 @@ Fertilizer consumption as a proxy for trend in nutrient pollution
 | value range       | -0.01984815 to 1                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
-<p>Statistics on fertilizer consumption from the Food and Agricultural Organization (FAO). 
+<p>Statistics on fertilizer consumption from the Food and Agricultural Organization (FAO).
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y) Se utilizaron las series de tiempo del consumo de fertilizantes \
-como un indicador de la contaminaci<d1>n por nutrientes provenientes de las fuentes: Organizaci<97>n de las Naciones Unidas para l\
-a Alimentaci<97>n y la Agricultura (FAO) e Instituto Nacional de Estad<92>stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog<d5>a global se implement<d1> en R y se ejecut<d1> sobre los datos indicados para calcular la tendencia almacenada en esta capa.
+como un indicador de la contaminaci?n por nutrientes provenientes de las fuentes: Organizaci?n de las Naciones Unidas para l\
+a Alimentaci?n y la Agricultura (FAO) e Instituto Nacional de Estad?stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog?a global se implement? en R y se ejecut? sobre los datos indicados para calcular la tendencia almacenada en esta capa.
 Data sources:</p>
 
 <ul>
 <li>Datos INEC</li>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO<ed>ëŒ¢<ed><ab><ed>_í«Œ<c8>s statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -278,7 +278,7 @@ Trends in access to improved sanitation as a proxy for pathogen pollution trend
 <p>Trends in percent of population with access to improved sanitation facilities.
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y)</p>
 
-<p>Se utiizaron las series de tiempo del acceso a facilidades sanitarias como un indicador de la contaminaci<d1>n por pat<d1>genos provenientes de la fuente: Instituto Nacional de Estad<92>stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog<d5>a global se implement<d1> en R y se ejecut<d1> sobre los datos indicados para calcular la tendencia almacenada en esta capa.</p>
+<p>Se utiizaron las series de tiempo del acceso a facilidades sanitarias como un indicador de la contaminaci?n por pat?genos provenientes de la fuente: Instituto Nacional de Estad?stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog?a global se implement? en R y se ejecut? sobre los datos indicados para calcular la tendencia almacenada en esta capa.</p>
 
 
 
@@ -293,15 +293,15 @@ Pesticide consumption as a proxy for trend in chemical pollution
 | value range       | -0.1609471 to 0.5705161                               |
 | global extraction | equal: global trends were applied equally to all regions. |
 
-<p>Statistics on pesticide consumption from the Food and Agricultural Organization (FAO). 
+<p>Statistics on pesticide consumption from the Food and Agricultural Organization (FAO).
 @andres, 31/05/2015. Updated with local information, trend is adjusted via sd(x)/sd(y) Se utiizaron las series de tiempo del consumo de pesticida\
-s como un indicador de la contaminaci<d1>n qu<d5>mica provenientes de las fuentes: Organizaci<97>n de las Naciones Unidas para la Ali\
-mentaci<97>n y la Agricultura (FAO) e Instituto Nacional de Estad<92>stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog<d5>a global se implement<d1> en R y se ejecut<d1> sobre los datos indicados para calcular la tendencia almacenada en esta capa.
+s como un indicador de la contaminaci?n qu?mica provenientes de las fuentes: Organizaci?n de las Naciones Unidas para la Ali\
+mentaci?n y la Agricultura (FAO) e Instituto Nacional de Estad?stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog?a global se implement? en R y se ejecut? sobre los datos indicados para calcular la tendencia almacenada en esta capa.
 Data sources:</p>
 
 <ul>
 <li>INEC</li>
-<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO<ed>ëŒ¢<ed><ab><ed>_í«Œ<c8>s statistical database FAOSTAT</a>.</li>
+<li><a href="http://faostat3.fao.org/faostat-gateway/go/to/browse/R/*/E">FAO statistical database FAOSTAT</a>.</li>
 </ul>
 
 
@@ -319,9 +319,9 @@ B/Bmsy estimates obtained using the catch-MSY method
 
 <p>The ratio of population abundance compared to the abundance required to deliver maximum sustainable yield, obtained from the catch-MSY model (Martell &amp; Froese, 2013).
 Updated with local data. @andres. 18/06/2015.Se utiizaron las series de tiempo del consumo de pesticida\
-s como un indicador de la contaminaci<d1>n qu<d5>mica provenientes de las fuentes: Organizaci<97>n de las Naciones Unidas para la Ali\
-mentaci<97>n y la Agricultura (FAO) e Instituto Nacional de Estad<92>stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog<d5>a global se implement<d1> en R y se ejecut<d1> sobre los datos indicados para calcular la tendencia almacenada en esta capa.
-Datos del INP y ejecuci<d1>n del modelo de Martin y Froese implementado por investigadoras de UC Santa Barbara.Data sources:</p>
+s como un indicador de la contaminaci?n qu?mica provenientes de las fuentes: Organizaci?n de las Naciones Unidas para la Ali\
+mentaci?n y la Agricultura (FAO) e Instituto Nacional de Estad?stica y Censos (INEC). El m_todo sugerido por Halpern en la metodolog?a global se implement? en R y se ejecut? sobre los datos indicados para calcular la tendencia almacenada en esta capa.
+Datos del INP y ejecuci?n del modelo de Martin y Froese implementado por investigadoras de UC Santa Barbara.Data sources:</p>
 
 <ul>
 <li>Martell, S., &amp; Froese, R. (2013). <strong>A simple method for estimating MSY from catch and resilience</strong>. <em>Fish and Fisheries</em> 14(4): 504-514. <a href="https://dx/doi/org/10.1111/j.1467-2979.2012.00485.x">doi:10.1111/j.1467-2979.2012.00485.x</a></li>
@@ -362,7 +362,7 @@ area of each saup/total OHI reporting region
 | global extraction | area_offshore: global proportional area were applied to each region after weighting by each region's offshore area. |
 
 <p>Lookup table of Sea Around Us Project regions to Ocean Health Index region identifiers.
-Updated with local data. @andres. 18/06/2015. Datos del c<d1>digo de pa<d5>s disponibles en http://w\
+Updated with local data. @andres. 18/06/2015. Datos del c?digo de pa?s disponibles en http://w\
 ww.codeofcountry.com/country-codes
 Data sources:</p>
 
@@ -383,8 +383,8 @@ CBD survey: coastal fishing v1
 | value range       | 0.62 to 0.62                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -404,8 +404,8 @@ CBD survey: ocean fishing v1
 | value range       | 0.17 to 0.17                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -425,8 +425,8 @@ CBD survey: ocean fishing v2
 | value range       | 0.59 to 0.59                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan siete (7) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan siete (7) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -446,8 +446,8 @@ CBD survey: coastal fishing v3
 | value range       | 0.65 to 0.65                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -467,8 +467,8 @@ CBD survey: ocean fishing v3
 | value range       | 0.17 to 0.17                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan seis (6) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -489,7 +489,7 @@ High bycatch caused by artisanal fishing
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
 <p>The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
-Updated with local information. @andres, 29/06/2015 Se precisaron los datos del Golfo de Guayaquil en mapas de la misma fuente global utilizada en el estudio de Ecuador. Esta fuente fue: art<d5>culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems
+Updated with local information. @andres, 29/06/2015 Se precisaron los datos del Golfo de Guayaquil en mapas de la misma fuente global utilizada en el estudio de Ecuador. Esta fuente fue: art?culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems
 Data sources:</p>
 
 <ul>
@@ -616,11 +616,11 @@ Habitat extent
 | value range       | 1.8269 to 6269.924                               |
 | global extraction | raster | area_offshore:  |
 
-<p>Modeled combined habitat extent. @andres: updated with local data. Src: pre-proc/CS/ Data Sources: Instituto Geogr<e0>fico Militar (IGM), Cartograf<d5>a B<e0>sica.
-Instituto Oceanogr<e0>fico de la Armada (INOCAR), Cartas N<e0>uticas, L<d5>nea de Batimetr<d5>a IOA.
-Secretaria T_cnica del Mar, <8d>rea de estudio.
-Instituto Nacional de Estad<d5>sticas y Censos (INEC), Divisi<d1>n Pol<d5>tica.
-CLIRSEN - Centro de Levantamientos Integrados de Recursos Naturales (entidad p<cf>blica que en el a<d0>o 2012 fue absorbida por el Instituto Espacial Ecuatoriano, IEE) Ministerio del Medio Ambiente
+<p>Modeled combined habitat extent. @andres: updated with local data. Src: pre-proc/CS/ Data Sources: Instituto Geogr?fico Militar (IGM), Cartograf?a B?sica.
+Instituto Oceanogr?fico de la Armada (INOCAR), Cartas N?uticas, L?nea de Batimetr?a IOA.
+Secretaria T_cnica del Mar, ?rea de estudio.
+Instituto Nacional de Estad?sticas y Censos (INEC), Divisi?n Pol?tica.
+CLIRSEN - Centro de Levantamientos Integrados de Recursos Naturales (entidad p?blica que en el a?o 2012 fue absorbida por el Instituto Espacial Ecuatoriano, IEE) Ministerio del Medio Ambiente
 Instituto Nazca de Investigaciones Marinas</p>
 
 
@@ -636,11 +636,11 @@ Habitat health
 | value range       | 0.6706 to 0.95                               |
 | global extraction | equal: global habitat health was applied equally to all regions.  |
 
-<p>Data Sources: Instituto Geogr<e0>fico Militar (IGM), Cartograf<d5>a B<e0>sica.
-Instituto Oceanogr<e0>fico de la Armada (INOCAR), Cartas N<e0>uticas, L<d5>nea de Batimetr<d5>a IOA.
-Secretaria T_cnica del Mar, <8d>rea de estudio.
-Instituto Nacional de Estad<d5>sticas y Censos (INEC), Divisi<d1>n Pol<d5>tica.
-CLIRSEN - Centro de Levantamientos Integrados de Recursos Naturales (entidad p<cf>blica que en el a<d0>o 2012 fue absorbida por el Instituto Espacial Ecuatoriano, IEE)</p>
+<p>Data Sources: Instituto Geogr?fico Militar (IGM), Cartograf?a B?sica.
+Instituto Oceanogr?fico de la Armada (INOCAR), Cartas N?uticas, L?nea de Batimetr?a IOA.
+Secretaria T_cnica del Mar, ?rea de estudio.
+Instituto Nacional de Estad?sticas y Censos (INEC), Divisi?n Pol?tica.
+CLIRSEN - Centro de Levantamientos Integrados de Recursos Naturales (entidad p?blica que en el a?o 2012 fue absorbida por el Instituto Espacial Ecuatoriano, IEE)</p>
 
 
 
@@ -685,8 +685,8 @@ CBD survey: habitat
 | value range       | 0.875 to 0.875                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -706,8 +706,8 @@ CBD survey: coastal habitat
 | value range       | 0.76 to 0.76                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -727,8 +727,8 @@ CBD survey: ocean habitat
 | value range       | 0.2 to 0.2                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015.En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015.En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cinco (5) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -753,8 +753,8 @@ Coastal population density as a proxy for intertidal habitat destruction
 <p>Data sources:</p>
 
 <ul>
-<li>Updated with local information. @andres 1/6/2015 Instituto Nacional de Estad<d5>sticas y Censos <a href="http://www.ecuadorencifras.gob.ec/">http://www.ecuadorencifras.gob.ec/</a> Se incluy<d1> la parroquia La Libertad su justificaci<d1>n est<e0> en el README de esta capa</li>
-<li>Center for International Earth Science Information Network (CIESIN)/Columbia University </li>
+<li>Updated with local information. @andres 1/6/2015 Instituto Nacional de Estad?sticas y Censos <a href="http://www.ecuadorencifras.gob.ec/">http://www.ecuadorencifras.gob.ec/</a> Se incluy? la parroquia La Libertad su justificaci?n est? en el README de esta capa</li>
+<li>Center for International Earth Science Information Network (CIESIN)/Columbia University</li>
 <li>CIESIN &amp; CIAT (Center for International Earth Science Information Network (CIESIN)/Columbia University, &amp; Centro Internacional de Agricultura Tropical (CIAT)) (2005). <strong>Gridded Population of the World, Version 3 (GPWv3): Population Density Grid, Future Estimates</strong>. Palisades, NY. <a href="http://sedac.ciesin.columbia.edu/data/set/gpw-v3-population-density-future-estimates">NASA Socioeconomic Data and Applications Center (SEDAC)</a></li>
 </ul>
 
@@ -773,7 +773,7 @@ High bycatch artisanal fishing practices as a proxy for subtidal hard bottom hab
 
 <p>The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
 Updated with local information. @andres 29/06/2015Se observaron los datos del Golfo en una fuente de datos global: World Re\
-sources Institute (<a href="http://www.wri.org/publication/reefs-risk-revisited">http://www.wri.org/publication/reefs-risk-revisited</a>) que es la misma utilizada en el estudio de ohi-science.org para Ecuador y el mundo, pero se precis<d1> en esos datos el <e0>rea del Golfo de Guayaquil
+sources Institute (<a href="http://www.wri.org/publication/reefs-risk-revisited">http://www.wri.org/publication/reefs-risk-revisited</a>) que es la misma utilizada en el estudio de ohi-science.org para Ecuador y el mundo, pero se precis? en esos datos el ?rea del Golfo de Guayaquil
 Data sources:</p>
 
 <ul>
@@ -816,7 +816,7 @@ IUCN extinction risk category for iconic species
 | global extraction | equal: global status was applied equally to all regions.  |
 
 <p>Updated with local layer. @andres 28/04/2015 Datos\
- de la IUCN con las especies que realmente son ic<d1>nicas al Golfo de Guayaquil. Se eliminaron 3 especies del estudio global y se incluyeron 13.</p>
+ de la IUCN con las especies que realmente son ic?nicas al Golfo de Guayaquil. Se eliminaron 3 especies del estudio global y se incluyeron 13.</p>
 
 
 
@@ -846,7 +846,7 @@ Jobs
 | value range       | 9 to 21980.51                               |
 | global extraction | equal: global trends were applied equally to each region.  |
 
-<p>gapfilled. Updated with local data @andres, 04/06/2015  Nueve sectores econ<d1>micos apropiados para el Golfo de Guayaquil. Data sources: Instituto Nacional de Estad<92>sticas y Censos (INEC) <a href="http://www.ecuadorencifras.gob.ec/empleo-marzo-2015/">http://www.ecuadorencifras.gob.ec/empleo-marzo-2015/</a></p>
+<p>gapfilled. Updated with local data @andres, 04/06/2015  Nueve sectores econ?micos apropiados para el Golfo de Guayaquil. Data sources: Instituto Nacional de Estad?sticas y Censos (INEC) <a href="http://www.ecuadorencifras.gob.ec/empleo-marzo-2015/">http://www.ecuadorencifras.gob.ec/empleo-marzo-2015/</a></p>
 
 
 
@@ -861,7 +861,7 @@ Total population by subregion
 | value range       | 318247 to 4024929                               |
 | global extraction | equal:  |
 
-<p>Population data. Updated with local data. @andres 04/05/2015 Instituto Nacional de Estad<92>sticas y Censo (INEC) <a href="http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/">http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/</a></p>
+<p>Population data. Updated with local data. @andres 04/05/2015 Instituto Nacional de Estad?sticas y Censo (INEC) <a href="http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/">http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/</a></p>
 
 
 
@@ -876,7 +876,7 @@ Jobs weighting
 | value range       | 1 to 1.97                               |
 | global extraction | equal:  |
 
-<p>Jobs weighting by sector. Using local information. @andres 1/6/2015 Nueve sectores econ<d1>micos apropiados para el Golfo de Guayaquil,  Multiplicador sectorial dado por Halpern et al. en su art<d5>culo del 2012</p>
+<p>Jobs weighting by sector. Using local information. @andres 1/6/2015 Nueve sectores econ?micos apropiados para el Golfo de Guayaquil,  Multiplicador sectorial dado por Halpern et al. en su art?culo del 2012</p>
 
 
 
@@ -891,7 +891,7 @@ Unemployment
 | value range       | 6.065547 to 10.34244                               |
 | global extraction | equal: global unemployment percentages were applied equally to each region.  |
 
-<p>gapfilled. Updated with local data @andres, 04/06/2015. Instituto Nacional de Estad<92>sticas y Censos (INEC) <a href="http://www.ecuadorencifras.gob.ec/empleo-encuesta-nacional-de-empleo-desempleo-y-subempleo-enemdu/">http://www.ecuadorencifras.gob.ec/empleo-encuesta-nacional-de-empleo-desempleo-y-subempleo-enemdu/</a></p>
+<p>gapfilled. Updated with local data @andres, 04/06/2015. Instituto Nacional de Estad?sticas y Censos (INEC) <a href="http://www.ecuadorencifras.gob.ec/empleo-encuesta-nacional-de-empleo-desempleo-y-subempleo-enemdu/">http://www.ecuadorencifras.gob.ec/empleo-encuesta-nacional-de-empleo-desempleo-y-subempleo-enemdu/</a></p>
 
 
 
@@ -906,8 +906,8 @@ VAB
 | value range       | 86451173 to 2007522352                               |
 | global extraction | population_inland25km: global GDP data were applied to each region after weighting by each region's coastal population. |
 
-<p>Nueva capa.  Sustituye a la capa le_gdp. El vab es una medida equivalente que captura la importancia de las econom<d5>as a nivel regional y donde se puede discriminar por provincias en el est\
-udio del Golfo de Guayaquil. El gdp es m<e0>s apropiado para describir la econom<d5>a a nivel nacional.- Updated with local data @andres, 04/06/2015 GDP pases to VAB</p>
+<p>Nueva capa.  Sustituye a la capa le_gdp. El vab es una medida equivalente que captura la importancia de las econom?as a nivel regional y donde se puede discriminar por provincias en el est\
+udio del Golfo de Guayaquil. El gdp es m?s apropiado para describir la econom?a a nivel nacional.- Updated with local data @andres, 04/06/2015 GDP pases to VAB</p>
 
 
 
@@ -922,7 +922,7 @@ Wages
 | value range       | 539 to 637                               |
 | global extraction | equal: global wages were applied equally to each region.  |
 
-<p>gapfilled. Updated with local data @andres, 04/06/2015.  Nueve sectores econ<d1>micos apropiados para el Golfo de Guayaquil, Instituto Ecuatoriano de Estad<92>sticas y Censos <a href="http://www.ecuadorencifras.gob.ec/base-censo-2010/">http://www.ecuadorencifras.gob.ec/base-censo-2010/</a></p>
+<p>gapfilled. Updated with local data @andres, 04/06/2015.  Nueve sectores econ?micos apropiados para el Golfo de Guayaquil, Instituto Ecuatoriano de Estad?sticas y Censos <a href="http://www.ecuadorencifras.gob.ec/base-censo-2010/">http://www.ecuadorencifras.gob.ec/base-censo-2010/</a></p>
 
 
 
@@ -953,7 +953,7 @@ GCI: competitiveness in achieving sustained economic prosperity
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>Global Competitiveness Index (GCI) scores from the World Economic Forum.
-Updated @andres. 29/06/2015. Datos Nacionales pero actualizados, Foro Econ<d1>mico Mundial. Se actualizaron los datos nacionales para el per<d5>odo 2013-2014
+Updated @andres. 29/06/2015. Datos Nacionales pero actualizados, Foro Econ?mico Mundial. Se actualizaron los datos nacionales para el per?odo 2013-2014
 Data sources:</p>
 
 <ul>
@@ -988,7 +988,7 @@ Coastal protected areas inland 1km
 | value range       | 0 to 37.86                               |
 | global extraction | raster | area_inland1km:  |
 
-<p>Coastal protected areas inland to 1km. Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx Ministerio del Ambiente Fundaci<d1>n Natura. Se consideraron las <e0>reas dentro del SNAP.</p>
+<p>Coastal protected areas inland to 1km. Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx Ministerio del Ambiente Fundaci?n Natura. Se consideraron las ?reas dentro del SNAP.</p>
 
 
 
@@ -1003,7 +1003,7 @@ Coastal marine protected areas offshore 3nm
 | value range       | 0 to 126.12                               |
 | global extraction | raster | area_offshore3nm:  |
 
-<p>Coastal protected areas offshore to 3nm.  Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx Ministerio del Ambiente y Fundaci<d1>n Natura. Se consideraron las <e0>reas dentro del SNAP.</p>
+<p>Coastal protected areas offshore to 3nm.  Updated with local layer. @andres, 28/04/2015 source: AMCPs 3MN Y 1 KM INCREMENTO_UTF8.xlsx Ministerio del Ambiente y Fundaci?n Natura. Se consideraron las ?reas dentro del SNAP.</p>
 
 
 
@@ -1022,7 +1022,7 @@ Coastal population inland 25 kilometers
 Updated with local data. @andres. 19/06/2015.
 Data sources:</p>
 
-<p>Instituto Nacional de Estad<d5>sticas y Censo(INEC) <a href="http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/">http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/</a></p>
+<p>Instituto Nacional de Estad?sticas y Censo(INEC) <a href="http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/">http://www.ecuadorencifras.gob.ec/proyecciones-poblacionales/</a></p>
 
 
 
@@ -1038,7 +1038,7 @@ Mariculture species harvested
 | global extraction | equal: global mariculture species were applied equally to each region. |
 
 <p>Lookup table for mariculture: species Latin names and species code. (FAO) <a href="http://www.fao.org/fishery/collection/asfis/es">http://www.fao.org/fishery/collection/asfis/es</a>
-Updated with local data. @andres. 19/06/2015. C<d1>digos de las especies existentes en el Golfo de Guayaquil, la tilapia no tiene c<d1>digo FAO.
+Updated with local data. @andres. 19/06/2015. C?digos de las especies existentes en el Golfo de Guayaquil, la tilapia no tiene c?digo FAO.
 Data sources:</p>
 
 <ul>
@@ -1059,7 +1059,7 @@ Mariculture harvest
 | global extraction | area_offshore_3nm: global mariculture harvest (tonnes) data were applied to each region after weighting by each region's offshore area to 3nm.  |
 
 <p>Mariculture harvest.
-Updated with local data. @andres. 19/06/2015. Data sources:Datos de la C<e0>mara Nacional de Acuacultura (CNA). Subsecretar<d5>a de Acuacultura</p>
+Updated with local data. @andres. 19/06/2015. Data sources:Datos de la C?mara Nacional de Acuacultura (CNA). Subsecretar?a de Acuacultura</p>
 
 
 
@@ -1074,12 +1074,12 @@ Mariculture sustainability score
 | value range       | 0 to 0.775                               |
 | global extraction | equal: global mariculture sustainability scores were applied equally to each region. |
 
-<p>Mariculture sustainability and mariculture regulations indicated by the Mariculture Sustainability Index (MSI). 
+<p>Mariculture sustainability and mariculture regulations indicated by the Mariculture Sustainability Index (MSI).
 Updated with local data. @andres. 19/06/2015.
 Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries<ed>ëŒ¢<ed><ab><ed>_í«Œ<c8> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries<ed>ëŒ¢<ed><ab><ed><em>í«Œ<c8> Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28<ed>ëŒ¢<ed><ab><ed>_<ed><ab><ed><cd>56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries?ëŒ¢???_ï¿½ï¿½ï¿½? performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries?ëŒ¢???<em>ï¿½ï¿½ï¿½? Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28?ëŒ¢???_????56.</li>
 </ul>
 
 
@@ -1110,8 +1110,8 @@ CBD survey: mariculture
 | value range       | 0.9166667 to 0.9166667                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -1131,12 +1131,12 @@ Data sources:</p>
 | value range       | 0.8208333 to 0.8208333                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Mariculture practice assessment criteria from the Mariculture Sustainability Index (MSI). 
-Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
+<p>Mariculture practice assessment criteria from the Mariculture Sustainability Index (MSI).
+Updated with local information. @andres. 29/06/2015. En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries<ed>ëŒ¢<ed><ab><ed>_í«Œ<c8> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries<ed>ëŒ¢<ed><ab><ed><em>í«Œ<c8> Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28<ed>ëŒ¢<ed><ab><ed>_<ed><ab><ed><cd>56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries?ëŒ¢???_ï¿½ï¿½ï¿½? performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries?ëŒ¢???<em>ï¿½ï¿½ï¿½? Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28?ëŒ¢???_????56.</li>
 </ul>
 
 
@@ -1157,7 +1157,7 @@ Updated with local data. @andres, 20/06/2015.
 Data sources:</p>
 
 <ul>
-<li><a href="http://www.wri.org/publication/reefs-at-risk-revisited">Reefs at Risk Revisited</a> Burke et al. (2011). Map 3.1 - Global Observations of Blast and Poison Fishing.  P<e0>g. 27, usando el mapa 3.1</li>
+<li><a href="http://www.wri.org/publication/reefs-at-risk-revisited">Reefs at Risk Revisited</a> Burke et al. (2011). Map 3.1 - Global Observations of Blast and Poison Fishing.  P?g. 27, usando el mapa 3.1</li>
 </ul>
 
 
@@ -1178,7 +1178,7 @@ Updated with local data. @andres, 20/06/2015.
 Data sources:</p>
 
 <ul>
-<li><a href="www.wri.org/publication/reefs-at-risk-revisited">Reefs at Risk Revisited</a> Burke et al. (2011). Map 3.1 - Global Observations of Blast and Poison Fishing.  P<e0>g. 27, usando el mapa 3.1</li>
+<li><a href="www.wri.org/publication/reefs-at-risk-revisited">Reefs at Risk Revisited</a> Burke et al. (2011). Map 3.1 - Global Observations of Blast and Poison Fishing.  P?g. 27, usando el mapa 3.1</li>
 </ul>
 
 
@@ -1257,7 +1257,7 @@ Harvest value of marine natural products, smoothed
 | value range       | 0 to 35081000                               |
 | global extraction | equal: global harvest (usd), used as a weighting score, was applied equally to all regions.  |
 
-<p>Value in 2010 US dollars of six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.Estimaci<d1>n en base a precios del d<d1>lar en el 2010. Al ser signatario de CITES la exportaci<d1>n de corales est<e0> prohibida.
+<p>Value in 2010 US dollars of six marine products (coral, fish oil, seaweed and plants, shells, sponges, ornamental fish) from FAO.Estimaci?n en base a precios del d?lar en el 2010. Al ser signatario de CITES la exportaci?n de corales est? prohibida.
 Updated with local data. @andres, 20/06/2015.
 Data sources:</p>
 
@@ -1326,7 +1326,7 @@ Land-based chemical pollution
 <p>Data sources:</p>
 
 <ul>
-<li>Updated @andres 1/6/2015 Con los Datos de los mapas del  art<d5>culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
+<li>Updated @andres 1/6/2015 Con los Datos de los mapas del  art?culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
 <li>Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D&#39;Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) <strong>A global map of human impact on marine ecosystems</strong>. <em>Science</em>, 3199(5865): 948-952. <a href="http://dx.doi.org/10.1126/science.1149345">doi:10.1126/science.1149345</a></li>
 </ul>
 
@@ -1370,7 +1370,7 @@ Coastal nutrient pollution
 <p>Data sources:</p>
 
 <ul>
-<li>Updated  @andres 1/6/2015 Con los Datos de los mapas del  art<d5>culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
+<li>Updated  @andres 1/6/2015 Con los Datos de los mapas del  art?culo de Halpern et al. (2008): A Global Map of Human Impact on Marine Ecosystems se precisaron los datos de las provincias del Golfo de Guayaquil</li>
 <li>Halpern, B.S., Walbridge S., Selkoe, K.A., Kappel, C.V., Micheli, F., D&#39;Agrosa, C., Bruno, J.F., Casey, K.S., Ebert, C., Fox, H.E., Fujita, R., Heinemann, D., Lenihan, H.S., Madin, E.M.P., Perry, M.T., Selig, E.R., Spalding, M., Steneck, R., Watson, R. (2008) <strong>A global map of human impact on marine ecosystems</strong>. <em>Science</em>, 3199(5865): 948-952. <a href="http://dx.doi.org/10.1126/science.1149345">doi:10.1126/science.1149345</a></li>
 </ul>
 
@@ -1387,13 +1387,13 @@ Access to improved sanitation as a proxy for pathogen pollution
 | value range       | 0.089855 to 0.1064947                               |
 | global extraction | raster: spatial data was extracted for each region.  |
 
-<p>Percent of population with access to improved sanitation facilities. 
-Cuando se usa como presi<d1>n es 1-po_pathogens usado para determinar el estado \
+<p>Percent of population with access to improved sanitation facilities.
+Cuando se usa como presi?n es 1-po_pathogens usado para determinar el estado \
 de la meta de Aguas Limpias
 Data sources:</p>
 
 <ul>
-<li>Updated with local information. @andres 1/6/2015 Sistema de Indicadores Sociales del Ecuador (SIISE) <a href="http://www.siise.gob.ec/siiseweb/">http://www.siise.gob.ec/siiseweb/</a> Instituto Nacional de Estad<d5>sticas y Censos (INEC) y Direcci<d1>n de Informaci<d1>n Cartogr<e0>fica Estad<d5>stica (DICE) <a href="http://www.inec.gob.ec/estadisticas/">http://www.inec.gob.ec/estadisticas/</a></li>
+<li>Updated with local information. @andres 1/6/2015 Sistema de Indicadores Sociales del Ecuador (SIISE) <a href="http://www.siise.gob.ec/siiseweb/">http://www.siise.gob.ec/siiseweb/</a> Instituto Nacional de Estad?sticas y Censos (INEC) y Direcci?n de Informaci?n Cartogr?fica Estad?stica (DICE) <a href="http://www.inec.gob.ec/estadisticas/">http://www.inec.gob.ec/estadisticas/</a></li>
 </ul>
 
 
@@ -1409,13 +1409,13 @@ Trash pollution
 | value range       | 0.4440443 to 0.9090909                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>Density of trash from coastal land and sea (Ocean Conservancy). 
-Cuando se usa como presi<d1>n es 1-po_trash usado para determinar el estado de la \
+<p>Density of trash from coastal land and sea (Ocean Conservancy).
+Cuando se usa como presi?n es 1-po_trash usado para determinar el estado de la \
 meta de Aguas Limpias.</p>
 
 <ul>
 <li>Updated with local information. @andres 1/6/2015</li>
-<li>Datos de las siguientes instituciones: Instituto Nacional de Estad<d5>sticas y Censos (INEC). Ministerio del Ambiente (MAE). Comisi<d1>n Permanente del Pac<d5>fico Sur (CPPS).</li>
+<li>Datos de las siguientes instituciones: Instituto Nacional de Estad?sticas y Censos (INEC). Ministerio del Ambiente (MAE). Comisi?n Permanente del Pac?fico Sur (CPPS).</li>
 </ul>
 
 
@@ -1431,7 +1431,7 @@ Region area of total EEZ ocean
 | value range       | 2643.545 to 15384.93                               |
 | global extraction | raster: spatial data was extracted for each region. |
 
-<p>Area of Ocean Health Index regions based on exclusive economic zones (VLIZ 2012). </p>
+<p>Area of Ocean Health Index regions based on exclusive economic zones (VLIZ 2012).</p>
 
 <p>Data sources:</p>
 
@@ -1560,12 +1560,12 @@ Alien species
 | value range       | 0.06079027 to 0.06079027                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008). </p>
+<p>The number and type of invasive and harmful invasive species in each marine ecoregion (Molnar et al. 2008).</p>
 
 <p>Data sources:</p>
 
 <ul>
-<li>Updated with local information. @andres 1/6/2015 IUCN/SSC Invasive Species Specialist Group (ISSG) y Art<d5>culos de: Molnar et al. y Gladys Torres, &ldquo;Estrategias preventivas a especies invasoras acuaticas en el Interior del Golfo de Guayaquil en el 2011. Center for Operational Oceanographic Products and Services.</li>
+<li>Updated with local information. @andres 1/6/2015 IUCN/SSC Invasive Species Specialist Group (ISSG) y Art?culos de: Molnar et al. y Gladys Torres, &ldquo;Estrategias preventivas a especies invasoras acuaticas en el Interior del Golfo de Guayaquil en el 2011. Center for Operational Oceanographic Products and Services.</li>
 <li>Molnar, J.L., Gamboa, R.L., Revenga C., Spalding, M. (2008). <strong>Assessing the global threat of invasive species to marine biodiversity</strong>. <em>Frontiers in Ecology and the Environment</em> 6(485). <a href="http://dx.doi.org/10.1890/070064">doi:10.1890/070064</a></li>
 </ul>
 
@@ -1582,13 +1582,13 @@ Introduced species as a proxy for genetic escapes
 | value range       | 0 to 0.99                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>Statistics on native or introduced species from the Mariculture Sustainibility Index (MSI). </p>
+<p>Statistics on native or introduced species from the Mariculture Sustainibility Index (MSI).</p>
 
 <p>Data sources:</p>
 
 <ul>
 <li>Updated with local information. @andres 1/6/2015 Usando la misma fuente global: Trujillo P. (2008) se precisaron los datos para las provincias del Golfo de Guayaquil</li>
-<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries<ed>ëŒ¢<ed><ab><ed>_í«Œ<c8> performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries<ed>ëŒ¢<ed><ab><ed><em>í«Œ<c8> Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28<ed>ëŒ¢<ed><ab><ed>_<ed><ab><ed><cd>56.</li>
+<li>Trujillo P. (2008). <strong>Using a mariculture sustainability index to rank countries?ëŒ¢???_ï¿½ï¿½ï¿½? performances</strong>. In: A comparative assessment of biodiversity, fisheries and aquaculture in 53 countries?ëŒ¢???<em>ï¿½ï¿½ï¿½? Exclusive Economic Zones, Alder J, Pauly D, editors. _Fisheries Centre Research Report</em>, vol. 16(7) p. 28?ëŒ¢???_????56.</li>
 </ul>
 
 
@@ -1646,7 +1646,7 @@ Species lists and IUCN threat categories as a proxy for iconic species status
 | value range       | 0.9650558 to 0.9650558                               |
 | global extraction | equal: global scores were applied equally to each region.  |
 
-<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists y 112 otras citas de fuentes espec<d5>ficas.
+<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists y 112 otras citas de fuentes espec?ficas.
 Updated with local data. Layer is still not regionalized. @andres 13/06/2015.
 Data sources:</p>
 
@@ -1667,7 +1667,7 @@ Species lists and IUCN threat categories as a proxy for iconic species trend
 | value range       | -0.1942 to -0.1942                               |
 | global extraction | equal: global trends were applied equally to each region.  |
 
-<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists y 112 otras citas de fuentes espec<d5>ficas.
+<p>International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists y 112 otras citas de fuentes espec?ficas.
 Updated with local data. Layer is still not regionalized. @andres 13/06/2015.
 Data sources:</p>
 
@@ -1688,7 +1688,7 @@ Weakness of governance indicated with the WGI
 | value range       | 0.6432828 to 0.6432828                               |
 | global extraction | equal: global pressures data were applied equally to all regions. |
 
-<p>Inverse of World Governance Indicators (WGI) six combined scores. Est<e0> directamente asociada con la capa de datos de resiliencia wgi_all. Se obtiene haciendo 1-wgi_all.</p>
+<p>Inverse of World Governance Indicators (WGI) six combined scores. Est? directamente asociada con la capa de datos de resiliencia wgi_all. Se obtiene haciendo 1-wgi_all.</p>
 
 <p>Data sources:</p>
 
@@ -1709,7 +1709,7 @@ CBD survey: tourism
 | value range       | 0.6875 to 0.6875                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
 Updated with local information. @andres. 29/06/2015.
 Data sources:</p>
 
@@ -1817,7 +1817,7 @@ Alien tourist target for 2019
 | value range       | 158673 to 1032458                               |
 | global extraction | :  |
 
-<p>Projected cound based on country total by % of each region. Nueva capa, Plan Integral de Marketing Tur<92>stico (PIMTE) 2014</p>
+<p>Projected cound based on country total by % of each region. Nueva capa, Plan Integral de Marketing Tur?stico (PIMTE) 2014</p>
 
 
 
@@ -1832,7 +1832,7 @@ Local tourist target for 2019
 | value range       | 117888 to 926259                               |
 | global extraction | :  |
 
-<p>Projected cound based on country total by % of each region. Nueva capa, Plan Integral de Marketing Tur<92>stico (PIMTE) 2014</p>
+<p>Projected cound based on country total by % of each region. Nueva capa, Plan Integral de Marketing Tur?stico (PIMTE) 2014</p>
 
 
 
@@ -1898,8 +1898,8 @@ CBD survey: water
 | value range       | 0.6875 to 0.6875                               |
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
-<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005) 
-Updated with local information. @andres. 29/06/2015.En base a los criterios sugeridos por la metodolog<d5>a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
+<p>Survey responses by country to the Convention on Biological Diversity (CBD) Third National Report (2005)
+Updated with local information. @andres. 29/06/2015.En base a los criterios sugeridos por la metodolog?a de Halpern se utilizan cuatro (4) criterios con el mismo peso cada uno.
 Data sources:</p>
 
 <ul>
@@ -1920,7 +1920,7 @@ Strength of governance indicated with the WGI
 | global extraction | equal: global resilience data were applied equally to all regions. |
 
 <p>World Governance Indicators (WGI) six combined scores.
-Updated with local information. @andres. 29/06/2015. Datos Nacionales pero actualizados, Datos del Banco Mundial con su actuaizaci<d1>n al 2013.
+Updated with local information. @andres. 29/06/2015. Datos Nacionales pero actualizados, Datos del Banco Mundial con su actuaizaci?n al 2013.
 Data sources:</p>
 
 <ul>
