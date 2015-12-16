@@ -20,7 +20,7 @@ write.csv(scores, 'scores.csv', na='', row.names=F)
 
 
 
-# merge to published branch (to display on app)
+# merge to published branch (to display on app) after committing/pushing in draft branch
 
 merge_branches = F
 if (merge_branches) {
@@ -28,7 +28,7 @@ if (merge_branches) {
   system('git checkout draft; git pull')
 
   # merge published with the draft branch
-  system('git checkout published')
+  system('git checkout published; git pull')
   system('git merge draft')
   system('git push origin published')
 
