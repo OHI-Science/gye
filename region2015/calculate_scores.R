@@ -1,5 +1,9 @@
 # load required libraries
+library(tidyr) # install.packages('tidyr)
 library(ohicore) # assumes you have already run install_ohicore.r
+
+# debug
+# devtools::load_all('~/github/ohicore')
 
 # set working directory to the scenario directory, ie containing conf and layers directories
 setwd('~/github/gye/region2015')
@@ -14,7 +18,7 @@ CheckLayers('layers.csv', 'layers', flds_id=conf$config$layers_id_fields)
 layers = Layers('layers.csv', 'layers')
 
 # calculate scenario scores
-scores = CalculateAll(conf, layers, debug=F)
+scores = CalculateAll(conf, layers)
 View(scores)
 write.csv(scores, 'scores.csv', na='', row.names=F)
 
